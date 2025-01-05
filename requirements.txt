@@ -1,5 +1,5 @@
 requests==2.32.3
-beautifulsoup4==4.2.0
+beautifulsoup4==4.12.3
 pydantic-settings==2.6.1
 loguru==0.7.2
 zhipuai==2.1.4.20230814
