@@ -1,0 +1,12 @@
+requests==2.32.3
+beautifulsoup4==4.2.0
+pydantic-settings==2.6.1
+loguru==0.7.2
+zhipuai==2.1.4.20230814
+llama-index-core==0.10.65
+llama-index-agent-openai==0.2.9
+ipython==8.30.0
+uvicorn==0.32.1
+pydantic==2.9.2
+scikit-learn==1.5.2
+sse-starlette==2.1.3

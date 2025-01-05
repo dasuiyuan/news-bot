@@ -1,0 +1,92 @@
+2024-12-16T21:50:28.438796+0800 - INFO - span enter NodeParser.__call__-c44c11e2-2ea8-48c2-bafd-8ef3aa60c9e7
+2024-12-16T21:50:28.439798+0800 - INFO - span enter MetadataAwareTextSplitter._parse_nodes-c72435cd-1675-41eb-9e40-dee9b8ff79ce
+2024-12-16T21:50:28.445301+0800 - INFO - span enter SentenceSplitter.split_text_metadata_aware-6324c0c5-455f-416a-8fe9-f5763a9f24c9
+2024-12-16T21:50:28.445301+0800 - INFO - span exit  SentenceSplitter.split_text_metadata_aware-6324c0c5-455f-416a-8fe9-f5763a9f24c9 cost 【0.0】 秒
+2024-12-16T21:50:28.446307+0800 - INFO - span exit  MetadataAwareTextSplitter._parse_nodes-c72435cd-1675-41eb-9e40-dee9b8ff79ce cost 【0.006509】 秒
+2024-12-16T21:50:28.446307+0800 - INFO - span exit  NodeParser.__call__-c44c11e2-2ea8-48c2-bafd-8ef3aa60c9e7 cost 【0.006509】 秒
+2024-12-16T21:50:28.447306+0800 - INFO - span enter BaseEmbedding.get_text_embedding_batch-319ec7d9-e28d-4496-95e2-bc342d99a602
+2024-12-16T21:50:29.015722+0800 - INFO - span exit  BaseEmbedding.get_text_embedding_batch-319ec7d9-e28d-4496-95e2-bc342d99a602 cost 【0.568416】 秒
+2024-12-16T21:50:29.018348+0800 - INFO - span enter BaseQueryEngine.query-0617391f-d008-49d3-9d0a-6fe97fd7dc87
+2024-12-16T21:50:29.018348+0800 - INFO - query start...
+2024-12-16T21:50:29.018348+0800 - INFO - span enter RetrieverQueryEngine._query-0f503152-c406-458c-89d8-8020a726430b
+2024-12-16T21:50:29.018348+0800 - INFO - span enter BaseRetriever.retrieve-42651c2e-7bea-4166-9ebe-681ea984ef91
+2024-12-16T21:50:29.018348+0800 - INFO - retrieval start...
+2024-12-16T21:50:29.018348+0800 - INFO - span enter VectorIndexRetriever._retrieve-767a52e0-9439-4e79-b4ed-39700e63d739
+2024-12-16T21:50:29.018348+0800 - INFO - span enter BaseEmbedding.get_query_embedding-33e6c7e4-4cd3-4145-87de-5e12b20a344a
+2024-12-16T21:50:29.019354+0800 - INFO - span enter XinferenceEmbedding._get_query_embedding-ce1c5ac8-3c5e-43db-965d-9f034033e2d1
+2024-12-16T21:50:29.357506+0800 - INFO - span exit  XinferenceEmbedding._get_query_embedding-ce1c5ac8-3c5e-43db-965d-9f034033e2d1 cost 【0.338152】 秒
+2024-12-16T21:50:29.358010+0800 - INFO - span exit  BaseEmbedding.get_query_embedding-33e6c7e4-4cd3-4145-87de-5e12b20a344a cost 【0.339662】 秒
+2024-12-16T21:50:29.359015+0800 - INFO - span exit  VectorIndexRetriever._retrieve-767a52e0-9439-4e79-b4ed-39700e63d739 cost 【0.340667】 秒
+2024-12-16T21:50:29.359015+0800 - INFO - retrieval end...
+2024-12-16T21:50:29.359015+0800 - INFO - span exit  BaseRetriever.retrieve-42651c2e-7bea-4166-9ebe-681ea984ef91 cost 【0.340667】 秒
+2024-12-16T21:50:29.359015+0800 - INFO - span enter BaseSynthesizer.synthesize-20b70caf-b5c4-4579-acb8-de698bb78a06
+2024-12-16T21:50:29.360013+0800 - INFO - span enter CompactAndRefine.get_response-fde2a08f-93e9-44cb-a2c0-bfaedb156a78
+2024-12-16T21:50:29.372499+0800 - INFO - span enter TokenTextSplitter.split_text-5c1e8f4f-8dae-4f6c-bc0d-62743034ef4d
+2024-12-16T21:50:29.372499+0800 - INFO - span exit  TokenTextSplitter.split_text-5c1e8f4f-8dae-4f6c-bc0d-62743034ef4d cost 【0.0】 秒
+2024-12-16T21:50:29.372499+0800 - INFO - span enter Refine.get_response-8e36b87c-e97b-47a4-ba75-fcedd6ed96f9
+2024-12-16T21:50:29.372499+0800 - INFO - span enter TokenTextSplitter.split_text-5bb57cbe-e796-4d17-8035-f16f2bee756f
+2024-12-16T21:50:29.373993+0800 - INFO - span exit  TokenTextSplitter.split_text-5bb57cbe-e796-4d17-8035-f16f2bee756f cost 【0.001494】 秒
+2024-12-16T21:50:29.373993+0800 - INFO - span enter DefaultRefineProgram.__call__-273b6246-ea48-4654-8b0c-77f34f15b19e
+2024-12-16T21:50:29.373993+0800 - INFO - span enter LLM.predict-bc73978b-ee4b-46bb-aabb-de4af230ea04
+2024-12-16T21:50:29.373993+0800 - INFO - span enter ChatQwen.complete-39517be8-a538-4b4c-ad8a-303add945538
+2024-12-16T21:50:30.437651+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-16T21:50:30.442639+0800 - INFO - span exit  ChatQwen.complete-39517be8-a538-4b4c-ad8a-303add945538 cost 【1.068646】 秒
+2024-12-16T21:50:30.442639+0800 - INFO - span exit  LLM.predict-bc73978b-ee4b-46bb-aabb-de4af230ea04 cost 【1.068646】 秒
+2024-12-16T21:50:30.442639+0800 - INFO - span exit  DefaultRefineProgram.__call__-273b6246-ea48-4654-8b0c-77f34f15b19e cost 【1.068646】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - span exit  Refine.get_response-8e36b87c-e97b-47a4-ba75-fcedd6ed96f9 cost 【1.071139】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - span exit  CompactAndRefine.get_response-fde2a08f-93e9-44cb-a2c0-bfaedb156a78 cost 【1.083625】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - span exit  BaseSynthesizer.synthesize-20b70caf-b5c4-4579-acb8-de698bb78a06 cost 【1.083625】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - span exit  RetrieverQueryEngine._query-0f503152-c406-458c-89d8-8020a726430b cost 【1.42529】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - query end...
+2024-12-16T21:50:30.443638+0800 - INFO - span exit  BaseQueryEngine.query-0617391f-d008-49d3-9d0a-6fe97fd7dc87 cost 【1.42529】 秒
+2024-12-16T21:50:30.443638+0800 - INFO - 税务BP是苏筱，电子邮件地址为suxiao7@jd.com。
+2024-12-16T21:51:00.529422+0800 - INFO - span enter NodeParser.__call__-032d66d6-cd30-4b02-9bcb-2a427094d068
+2024-12-16T21:51:00.529422+0800 - INFO - span enter MetadataAwareTextSplitter._parse_nodes-6a898e48-eb34-4525-a82d-11125684d092
+2024-12-16T21:51:00.533422+0800 - INFO - span enter SentenceSplitter.split_text_metadata_aware-457ac8ad-9002-4e51-b157-accf158592f7
+2024-12-16T21:51:00.534422+0800 - INFO - span exit  SentenceSplitter.split_text_metadata_aware-457ac8ad-9002-4e51-b157-accf158592f7 cost 【0.001】 秒
+2024-12-16T21:51:00.534422+0800 - INFO - span exit  MetadataAwareTextSplitter._parse_nodes-6a898e48-eb34-4525-a82d-11125684d092 cost 【0.005】 秒
+2024-12-16T21:51:00.534422+0800 - INFO - span exit  NodeParser.__call__-032d66d6-cd30-4b02-9bcb-2a427094d068 cost 【0.005】 秒
+2024-12-16T21:51:00.534422+0800 - INFO - span enter BaseEmbedding.get_text_embedding_batch-59a5d492-f23b-45b5-a895-46087397706a
+2024-12-16T21:51:01.320982+0800 - INFO - span exit  BaseEmbedding.get_text_embedding_batch-59a5d492-f23b-45b5-a895-46087397706a cost 【0.78656】 秒
+2024-12-16T21:51:01.321989+0800 - INFO - span enter BaseQueryEngine.query-2ce241de-d16e-4cd0-8a4e-153c3c7eaa17
+2024-12-16T21:51:01.321989+0800 - INFO - query start...
+2024-12-16T21:51:01.321989+0800 - INFO - span enter RetrieverQueryEngine._query-57170a16-612e-4078-bac7-5421ea61d565
+2024-12-16T21:51:01.321989+0800 - INFO - span enter BaseRetriever.retrieve-67fc5439-3f7e-4a3e-ac0b-b6e99088f7a8
+2024-12-16T21:51:01.321989+0800 - INFO - retrieval start...
+2024-12-16T21:51:01.322989+0800 - INFO - span enter VectorIndexRetriever._retrieve-9da67623-71a5-4610-9368-c727cdd63eac
+2024-12-16T21:51:01.322989+0800 - INFO - span enter BaseEmbedding.get_query_embedding-3a8cbbfa-6b77-4736-a916-80e05ec94861
+2024-12-16T21:51:01.322989+0800 - INFO - span enter XinferenceEmbedding._get_query_embedding-cbfc7986-62bd-4d53-a0d8-00aa0737a935
+2024-12-16T21:51:01.658760+0800 - INFO - span exit  XinferenceEmbedding._get_query_embedding-cbfc7986-62bd-4d53-a0d8-00aa0737a935 cost 【0.335771】 秒
+2024-12-16T21:51:01.658760+0800 - INFO - span exit  BaseEmbedding.get_query_embedding-3a8cbbfa-6b77-4736-a916-80e05ec94861 cost 【0.335771】 秒
+2024-12-16T21:51:01.659767+0800 - INFO - span exit  VectorIndexRetriever._retrieve-9da67623-71a5-4610-9368-c727cdd63eac cost 【0.336778】 秒
+2024-12-16T21:51:01.659767+0800 - INFO - retrieval end...
+2024-12-16T21:51:01.659767+0800 - INFO - span exit  BaseRetriever.retrieve-67fc5439-3f7e-4a3e-ac0b-b6e99088f7a8 cost 【0.337778】 秒
+2024-12-16T21:51:01.659767+0800 - INFO - span enter BaseSynthesizer.synthesize-d626ac64-f71f-480c-99ad-e81a2aac97aa
+2024-12-16T21:51:01.659767+0800 - INFO - span enter CompactAndRefine.get_response-dcf437cf-5291-4eac-a7fe-24db22b85e67
+2024-12-16T21:51:01.670065+0800 - INFO - span enter TokenTextSplitter.split_text-89c5ef83-516a-4c64-b2b8-d1a1e44aa5d2
+2024-12-16T21:51:01.670065+0800 - INFO - span exit  TokenTextSplitter.split_text-89c5ef83-516a-4c64-b2b8-d1a1e44aa5d2 cost 【0.0】 秒
+2024-12-16T21:51:01.670065+0800 - INFO - span enter Refine.get_response-8de52d74-fe8a-4d39-b69b-349899ff8eec
+2024-12-16T21:51:01.671065+0800 - INFO - span enter TokenTextSplitter.split_text-780b3c4a-55b2-4c05-affe-fa739f457688
+2024-12-16T21:51:01.671065+0800 - INFO - span exit  TokenTextSplitter.split_text-780b3c4a-55b2-4c05-affe-fa739f457688 cost 【0.0】 秒
+2024-12-16T21:51:01.671065+0800 - INFO - span enter DefaultRefineProgram.__call__-704750f5-8fbe-4cab-a0b0-b92da72a82de
+2024-12-16T21:51:01.671065+0800 - INFO - span enter LLM.predict-b5c15389-7fac-4ac7-9bef-604d7e0cc518
+2024-12-16T21:51:01.671065+0800 - INFO - span enter ChatQwen.complete-bad4e1fe-d195-4c2f-8f8a-f4717dab9961
+2024-12-16T21:51:02.594974+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-16T21:51:02.598980+0800 - INFO - span exit  ChatQwen.complete-bad4e1fe-d195-4c2f-8f8a-f4717dab9961 cost 【0.926915】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  LLM.predict-b5c15389-7fac-4ac7-9bef-604d7e0cc518 cost 【0.928915】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  DefaultRefineProgram.__call__-704750f5-8fbe-4cab-a0b0-b92da72a82de cost 【0.928915】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  Refine.get_response-8de52d74-fe8a-4d39-b69b-349899ff8eec cost 【0.928915】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  CompactAndRefine.get_response-dcf437cf-5291-4eac-a7fe-24db22b85e67 cost 【0.940213】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  BaseSynthesizer.synthesize-d626ac64-f71f-480c-99ad-e81a2aac97aa cost 【0.940213】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  RetrieverQueryEngine._query-57170a16-612e-4078-bac7-5421ea61d565 cost 【1.277991】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - query end...
+2024-12-16T21:51:02.599980+0800 - INFO - span exit  BaseQueryEngine.query-2ce241de-d16e-4cd0-8a4e-153c3c7eaa17 cost 【1.277991】 秒
+2024-12-16T21:51:02.599980+0800 - INFO - 税务BP是苏筱 <suxiao7@jd.com>。
+2024-12-22T16:34:27.288618+0800 - INFO - span enter NodeParser.__call__-b6eb8718-e123-4e37-ba4b-e09666d1a536
+2024-12-22T16:34:27.289524+0800 - INFO - span enter MetadataAwareTextSplitter._parse_nodes-6cdb74ec-a9b1-4fee-98dc-49d5b5f469c9
+2024-12-22T16:34:27.291520+0800 - INFO - span enter SentenceSplitter.split_text_metadata_aware-f178c81b-5c65-401f-be83-b1790c9864a0
+2024-12-22T16:34:27.292519+0800 - INFO - span exit  SentenceSplitter.split_text_metadata_aware-f178c81b-5c65-401f-be83-b1790c9864a0 cost 【0.000999】 秒
+2024-12-22T16:34:27.292519+0800 - INFO - span exit  MetadataAwareTextSplitter._parse_nodes-6cdb74ec-a9b1-4fee-98dc-49d5b5f469c9 cost 【0.002995】 秒
+2024-12-22T16:34:27.293522+0800 - INFO - span exit  NodeParser.__call__-b6eb8718-e123-4e37-ba4b-e09666d1a536 cost 【0.003998】 秒
+2024-12-22T16:34:27.293522+0800 - INFO - span enter BaseEmbedding.get_text_embedding_batch-dea3b7ed-b484-4e72-b48b-ff030b9593c4
+2024-12-22T16:42:31.294001+0800 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
