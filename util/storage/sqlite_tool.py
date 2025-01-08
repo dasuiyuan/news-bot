@@ -1,6 +1,8 @@
 import sqlite3
 import threading
 from queue import Queue, Empty
+from settings import geoi_settings
+
 
 class SQLiteConnectionPool:
     def __init__(self, db_name, pool_size=5):
@@ -55,6 +57,8 @@ class SQLiteConnectionPool:
             conn = self.pool.get_nowait()
             conn.close()
 
+
+global_pool = SQLiteConnectionPool(geoi_settings.DB_PATH, pool_size=5)
 
 # 使用示例
 if __name__ == "__main__":

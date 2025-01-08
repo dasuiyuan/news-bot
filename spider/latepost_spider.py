@@ -1,10 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
+
+from settings import geoi_settings
 from util.log_util import logger
+from util.storage import sqlite_tool
 
 # URL to scrape
 ROOT_URL = "https://www.latepost.com"
-
+TABLE_NAME = "t_latepost"
 
 # Custom headers to mimic a browser request
 HEADERS = {
@@ -71,9 +74,11 @@ def get_news_letter() -> dict:
 
 
 if __name__ == "__main__":
+    pool = sqlite_tool.global_pool
+    print(pool.execute_query(f"SELECT count(1) FROM {TABLE_NAME}"))
     # 晚点-新闻早知道
-    all_news = get_news_letter()
-    for title, content in all_news.items():
-        print(f"【{title}】")
-        for line in content:
-            print(line)
+    # all_news = get_news_letter()
+    # for title, content in all_news.items():
+    #     print(f"【{title}】")
+    #     for line in content:
+    #         print(line)

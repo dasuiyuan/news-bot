@@ -34,7 +34,7 @@ class Settings(BaseSettings):
     XINFERENCE_EMBEDDING_MODEL: str = "bge-m3"
     XINFERENCE_API_URL: str = "http://11.51.202.60:9997"
 
-    DB_PATH: str = NEWS_BOT_ROOT / "data" / "news_bot.db"
+    DB_PATH: str = str(NEWS_BOT_ROOT / "data" / "news_bot.db")
 
     model_config = SettingsConfigDict(
         env_file=NEWS_BOT_ROOT / "config" / "application_{}.env".format(os.environ.get("ENV")),
@@ -45,7 +45,6 @@ class Settings(BaseSettings):
 
 
 geoi_settings = Settings()
-
 print(f"NEWS_BOT_ROOT：{NEWS_BOT_ROOT.resolve()}")
 print(f"QWEN_API_KEY:【{geoi_settings.QWEN_API_KEY}】")
 print(f"QWEN_API_URL:【{geoi_settings.QWEN_API_URL}】")
