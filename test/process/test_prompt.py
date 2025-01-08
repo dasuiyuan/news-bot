@@ -1,4 +1,4 @@
-from util.llm_util import chat_deepseek
+from util.llm_util import chat_deepseek,chat_qwen
 from process import prompt
 
 NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国商务部、科技部等部门将汽车动力电池领域中的磷酸铁锂材料制造工艺技术列入《中国禁止出口限制出口技术目录》调整征求意见稿中。
@@ -7,7 +7,7 @@ NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国
 按照定义 ，技术出口包含海外投资建厂、技术 / 专利授权或转让等。目前宁德时代、亿纬锂能等电池公司都在海外推广转让、授权部分电池技术的业务模式，与海外车企合作生产电池。目前尚未确定限制电池技术出口对上述公司海外业务的影响。
 根据历史文件，字节跳动等公司使用的推荐算法技术也曾出现在该目录中。"""}
 
-
 if __name__ == '__main__':
-    for title,content in NEWS.items():
-        response = chat_deepseek().complete(prompt.format(news=content))
+    for title, content in NEWS.items():
+        response = chat_qwen().complete(prompt.PROMPT_NEWS_CLASSIFY.format(title=title, content=content))
+        print(response)
