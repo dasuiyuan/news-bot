@@ -19,10 +19,10 @@ def get_news_flashes() -> dict:
     all_news = {}
     try:
         # Send GET request
-        response = requests.get(ROOT_URL, headers=HEADERS)
+        response = requests.get(f"{ROOT_URL}/newsflashes", headers=HEADERS)
         # Check if request was successful
         if response.status_code != 200:
-            logger.warning("访问latepost失败")
+            logger.warning("访问36kr失败")
             return None
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -33,18 +33,19 @@ def get_news_flashes() -> dict:
             return None
         flow_item_list = newsflash_list.find_all('div', class_='flow-item')
         for item in flow_item_list:
-            pass
-
+            title = item.find('div', class_='newsflash-item').find('a').text.strip()
+            content = item.find('div', class_='item-desc').find('span').text.strip()
+            all_news[title] = content
     except Exception as e:
-        logger.warning(f"访问latepost失败: {e}")
+        logger.warning(f"访问36kr失败: {e}")
 
     return all_news
 
 
 if __name__ == "__main__":
     # 晚点-新闻早知道
-    all_news = get_latepost_brief_news()
-    for title, content in all_news.items():
-        print(f"【{title}】")
-        for line in content:
-            print(line)
+    all_news = get_news_flashes()
+    if all_news is not None:
+        for title, content in all_news.items():
+            print(f"【{title}】")
+            print(content)
