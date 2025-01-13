@@ -109,4 +109,4 @@ class SQLiteDB:
                 session.commit()
 
 
-globle_db = SQLiteDB(geoi_settings.DB_PATH)
+globle_db = SQLiteDB(f"sqlite:///{geoi_settings.DB_PATH}")

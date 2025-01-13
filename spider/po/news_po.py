@@ -7,9 +7,9 @@ class BriefNews(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String, nullable=False)
     content = Column(Text, nullable=False)
-    web_site = Column(String, nullable=False)
+    web_site = Column(String, nullable=True)
     source = Column(String, nullable=True)
-    url = Column(String, nullable=False)
+    url = Column(String, nullable=True)
     time = Column(BigInteger, nullable=False)
 
 
