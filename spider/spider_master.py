@@ -6,7 +6,6 @@ from apscheduler.schedulers.background import BackgroundScheduler, BlockingSched
 from apscheduler.triggers.interval import IntervalTrigger
 from apscheduler.triggers.cron import CronTrigger
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore, BaseJobStore
-from settings import geoi_settings
 from util.log_util import logger
 
 jobstores = {
@@ -19,7 +18,7 @@ def get_latepost_brief_news():
     每天早上9:00执行，get_news_letter，然后插入到表t_brief_news内
     """
     logger.info('开始爬取最新晚点早知道...')
-    all_brief_news = get_news_letter()
+    get_news_letter()
     logger.info('最新晚点早爬取结束...')
 
 

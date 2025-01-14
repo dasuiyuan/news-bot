@@ -66,7 +66,8 @@ def get_news_flashes() -> list[BriefNews]:
                 url=news_url,
                 time=timestamp,
                 content=content,
-                source=WEB_SITE
+                source=WEB_SITE,
+                create_time=int(datetime.now().timestamp())
             )
             all_news.append(brief_news)
 

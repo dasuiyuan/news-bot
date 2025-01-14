@@ -11,6 +11,7 @@ class BriefNews(Base):
     source = Column(String, nullable=True)
     url = Column(String, nullable=True)
     time = Column(BigInteger, nullable=False)
+    create_time = Column(BigInteger, nullable=False)
 
 
 if __name__ == '__main__':

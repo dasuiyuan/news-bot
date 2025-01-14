@@ -79,7 +79,7 @@ def get_news_letter() -> list[BriefNews]:
                         if brief_news is not None:
                             all_news.append(brief_news)
                         brief_news = BriefNews(title=p.get_text(strip=True), content="", time=timestamp,
-                                               web_site=WEB_SITE, url=url)
+                                               web_site=WEB_SITE, url=url, create_time=int(datetime.now().timestamp()))
                         continue
                     content = p.get_text(strip=True)
                     if content != "":
