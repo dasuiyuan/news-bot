@@ -8,6 +8,8 @@ class BriefNews(Base):
     title = Column(String, nullable=False)
     content = Column(Text, nullable=False)
     web_site = Column(String, nullable=True)
+    type = Column(String, nullable=False)
+    popularity = Column(Integer, nullable=True)
     source = Column(String, nullable=True)
     url = Column(String, nullable=True)
     time = Column(BigInteger, nullable=False)

@@ -1,3 +1,4 @@
+from datetime import datetime
 from util.storage.sqlite_sqlalchemy import globle_db
 from spider.po.news_po import BriefNews
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -11,15 +12,9 @@ jobstores = {
 
 
 def brief_news_synthesis(news_list):
-    with globle_db.get_session() as session:
-        for news in news_list:
-            brief_news = session.query(BriefNews).filter(BriefNews.url == news.url,
-                                                         BriefNews.web_site == news.web_site).first()
-            if brief_news is None:
-                session.add(news)
-            else:
-                brief_news.title = news.title
-                brief_news.time = news.time
+    # 从t_brief_news中获取所有create_time大于昨天9:10分的brief_news
+    brief_news_list = globle_db.get_after_time(BriefNews, int(datetime.now().timestamp()) - 86400 * 2)
+    # 遍历所有brief_news，先进行分类，
 
 
 if __name__ == '__main__':

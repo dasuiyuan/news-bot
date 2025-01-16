@@ -1,7 +1,7 @@
 from spider.spider_latepost import get_news_letter
 from spider.spider_36kr import get_news_flashes
-from spider.po.news_po import BriefNews
-from util.storage.sqlite_sqlalchemy import SQLiteDB, globle_db
+from spider.spider_aibase import get_latest_news
+from util.storage.sqlite_sqlalchemy import globle_db
 from apscheduler.schedulers.background import BackgroundScheduler, BlockingScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 from apscheduler.triggers.cron import CronTrigger
@@ -26,8 +26,18 @@ def get_36kr_brief_news():
     """
     每隔3个小时执行，get_news_flashes，然后插入到表t_brief_news内
     """
-    all_brief_news = get_news_flashes()
-    globle_db.add_all(all_brief_news)
+    logger.info('开始爬取最新36kr快讯...')
+    get_news_flashes()
+    logger.info('最新36kr快讯爬取结束...')
+
+
+def get_aibase_brief_news():
+    """
+    每隔3个小时执行，get_news_flashes，然后插入到表t_brief_news内
+    """
+    logger.info('开始爬取最新aibase快讯...')
+    get_latest_news()
+    logger.info('最新aibase快讯爬取结束...')
 
 
 if __name__ == '__main__':

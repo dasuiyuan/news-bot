@@ -70,6 +70,16 @@ class SQLiteDB:
         with self.get_session() as session:
             return session.query(model).get(obj_id)
 
+    def get_after_time(self, model: Type[Base], timestamp: int) -> List[Base]:
+        """
+        根据时间戳获取所有记录
+        :param model: 数据库模型类
+        :param timestamp: 时间戳
+        :return: 所有记录的列表
+        """
+        with self.get_session() as session:
+            return session.query(model).filter(model.create_time >= timestamp).all()
+
     def get_all(self, model: Type[Base]) -> List[Base]:
         """
         获取所有记录
