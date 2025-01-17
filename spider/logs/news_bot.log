@@ -1,3 +1,73 @@
+2025-01-12T22:45:44.341619+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-12T22:45:44.341741+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-12T22:45:44.342182+0800 - INFO - Added job "fack_job_1" to job store "default"
+2025-01-12T22:45:44.342250+0800 - INFO - Added job "fack_job_2" to job store "default"
+2025-01-12T22:45:44.342292+0800 - INFO - Scheduler started
+2025-01-12T22:45:49.347718+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:45:49 CST)" (scheduled at 2025-01-12 22:45:49.341572+08:00)
+2025-01-12T22:45:49.349143+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:45:54 CST)" executed successfully
+2025-01-12T22:45:52.347445+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:00 CST)" (scheduled at 2025-01-12 22:45:52.341714+08:00)
+2025-01-12T22:45:52.347956+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:00 CST)" executed successfully
+2025-01-12T22:45:54.344571+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:45:59 CST)" (scheduled at 2025-01-12 22:45:54.341572+08:00)
+2025-01-12T22:45:54.344962+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:45:59 CST)" executed successfully
+2025-01-12T22:45:59.345154+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:04 CST)" (scheduled at 2025-01-12 22:45:59.341572+08:00)
+2025-01-12T22:45:59.345597+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:04 CST)" executed successfully
+2025-01-12T22:46:00.345668+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:08 CST)" (scheduled at 2025-01-12 22:46:00.341714+08:00)
+2025-01-12T22:46:00.346350+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:08 CST)" executed successfully
+2025-01-12T22:46:04.346765+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:09 CST)" (scheduled at 2025-01-12 22:46:04.341572+08:00)
+2025-01-12T22:46:04.346860+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:09 CST)" executed successfully
+2025-01-12T22:46:08.348573+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:16 CST)" (scheduled at 2025-01-12 22:46:08.341714+08:00)
+2025-01-12T22:46:08.349220+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:16 CST)" executed successfully
+2025-01-12T22:46:09.343989+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:14 CST)" (scheduled at 2025-01-12 22:46:09.341572+08:00)
+2025-01-12T22:46:09.344625+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:14 CST)" executed successfully
+2025-01-12T22:46:14.343875+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:19 CST)" (scheduled at 2025-01-12 22:46:14.341572+08:00)
+2025-01-12T22:46:14.344337+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:19 CST)" executed successfully
+2025-01-12T22:46:16.347611+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:24 CST)" (scheduled at 2025-01-12 22:46:16.341714+08:00)
+2025-01-12T22:46:16.348063+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:46:24 CST)" executed successfully
+2025-01-12T22:46:19.343093+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:24 CST)" (scheduled at 2025-01-12 22:46:19.341572+08:00)
+2025-01-12T22:46:19.343833+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:46:24 CST)" executed successfully
+2025-01-12T22:56:48.319241+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-12T22:56:48.319439+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-12T22:56:48.322856+0800 - INFO - Added job "fack_job_1" to job store "default"
+2025-01-12T22:56:48.323265+0800 - INFO - Added job "fack_job_2" to job store "default"
+2025-01-12T22:56:48.323311+0800 - INFO - Scheduler started
+2025-01-12T22:56:53.328135+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:56:53 CST)" (scheduled at 2025-01-12 22:56:53.319196+08:00)
+2025-01-12T22:56:53.330875+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:56:58 CST)" executed successfully
+2025-01-12T22:56:56.325323+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:04 CST)" (scheduled at 2025-01-12 22:56:56.319413+08:00)
+2025-01-12T22:56:56.325903+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:04 CST)" executed successfully
+2025-01-12T22:56:58.321166+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:03 CST)" (scheduled at 2025-01-12 22:56:58.319196+08:00)
+2025-01-12T22:56:58.321472+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:03 CST)" executed successfully
+2025-01-12T22:57:03.327224+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:08 CST)" (scheduled at 2025-01-12 22:57:03.319196+08:00)
+2025-01-12T22:57:03.327830+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:08 CST)" executed successfully
+2025-01-12T22:57:04.326615+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:12 CST)" (scheduled at 2025-01-12 22:57:04.319413+08:00)
+2025-01-12T22:57:04.327166+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:12 CST)" executed successfully
+2025-01-12T22:57:08.327674+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:13 CST)" (scheduled at 2025-01-12 22:57:08.319196+08:00)
+2025-01-12T22:57:08.328075+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:13 CST)" executed successfully
+2025-01-12T22:57:12.326664+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:20 CST)" (scheduled at 2025-01-12 22:57:12.319413+08:00)
+2025-01-12T22:57:12.327110+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:20 CST)" executed successfully
+2025-01-12T22:57:13.323066+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:18 CST)" (scheduled at 2025-01-12 22:57:13.319196+08:00)
+2025-01-12T22:57:13.323476+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:18 CST)" executed successfully
+2025-01-12T22:57:18.327728+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:23 CST)" (scheduled at 2025-01-12 22:57:18.319196+08:00)
+2025-01-12T22:57:18.328315+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:23 CST)" executed successfully
+2025-01-12T22:57:20.325011+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:28 CST)" (scheduled at 2025-01-12 22:57:20.319413+08:00)
+2025-01-12T22:57:20.325552+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:28 CST)" executed successfully
+2025-01-12T22:57:23.322742+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:28 CST)" (scheduled at 2025-01-12 22:57:23.319196+08:00)
+2025-01-12T22:57:23.322987+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:28 CST)" executed successfully
+2025-01-12T22:57:28.326968+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:33 CST)" (scheduled at 2025-01-12 22:57:28.319196+08:00)
+2025-01-12T22:57:28.327435+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:33 CST)" executed successfully
+2025-01-12T22:57:28.330676+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:36 CST)" (scheduled at 2025-01-12 22:57:28.319413+08:00)
+2025-01-12T22:57:28.330956+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:36 CST)" executed successfully
+2025-01-12T22:57:33.323949+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:38 CST)" (scheduled at 2025-01-12 22:57:33.319196+08:00)
+2025-01-12T22:57:33.324246+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:38 CST)" executed successfully
+2025-01-12T22:57:36.325897+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:44 CST)" (scheduled at 2025-01-12 22:57:36.319413+08:00)
+2025-01-12T22:57:36.326348+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:44 CST)" executed successfully
+2025-01-12T22:57:38.327069+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:43 CST)" (scheduled at 2025-01-12 22:57:38.319196+08:00)
+2025-01-12T22:57:38.327698+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:43 CST)" executed successfully
+2025-01-12T22:57:43.327688+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:48 CST)" (scheduled at 2025-01-12 22:57:43.319196+08:00)
+2025-01-12T22:57:43.328098+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:48 CST)" executed successfully
+2025-01-12T22:57:44.325905+0800 - INFO - Running job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:52 CST)" (scheduled at 2025-01-12 22:57:44.319413+08:00)
+2025-01-12T22:57:44.326416+0800 - INFO - Job "fack_job_2 (trigger: interval[0:00:08], next run at: 2025-01-12 22:57:52 CST)" executed successfully
+2025-01-12T22:57:48.326986+0800 - INFO - Running job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:53 CST)" (scheduled at 2025-01-12 22:57:48.319196+08:00)
+2025-01-12T22:57:48.327499+0800 - INFO - Job "fack_job_1 (trigger: interval[0:00:05], next run at: 2025-01-12 22:57:53 CST)" executed successfully
 2025-01-13T18:51:55.558859+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
 2025-01-13T18:51:55.559861+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
 2025-01-13T18:51:55.677681+0800 - INFO - Added job "task_1" to job store "default"
@@ -1705,3 +1775,5 @@ LookupError: Error resolving reference __main__:fack_job_1: error looking up obj
 2025-01-13T19:32:34.577043+0800 - INFO - Running job "task_2 (trigger: interval[0:00:08], next run at: 2025-01-13 19:32:42 CST)" (scheduled at 2025-01-13 19:32:34.559757+08:00)
 2025-01-13T19:32:34.578043+0800 - INFO - Job "task_2 (trigger: interval[0:00:08], next run at: 2025-01-13 19:32:42 CST)" executed successfully
 2025-01-13T20:14:11.500865+0800 - WARNING - 访问latepost失败: module 'datetime' has no attribute 'now'
+2025-01-14T13:31:40.388407+0800 - WARNING - 访问latepost失败: 'NoneType' object has no attribute 'text'
+2025-01-14T13:38:11.813937+0800 - WARNING - 已爬取过该新闻:腾讯游戏整合天美工作室；TikTok电商将上线墨西哥；普拉达考虑收购范思哲丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2732 01月11日 12:01

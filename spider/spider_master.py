@@ -1,3 +1,6 @@
+from . import init_env
+
+init_env()
 from spider.spider_latepost import get_news_letter
 from spider.spider_36kr import get_news_flashes
 from spider.spider_aibase import get_latest_news

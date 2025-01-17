@@ -1,3 +1,7 @@
+from . import init_env
+
+init_env()
+
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
