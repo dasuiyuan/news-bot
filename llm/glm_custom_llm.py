@@ -93,6 +93,7 @@ class ChatGLM(CustomLLM):
         response = self._get_client().chat.completions.create(
             model=self.model,  # 填写需要调用的模型名称
             messages=messages,
+            temperature=0.01,
             stream=stream
         )
         return response

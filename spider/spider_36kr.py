@@ -7,8 +7,10 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from util.log_util import logger
 from spider.po.news_po import BriefNews
+from spider.classify import classify
 from util.storage.sqlite_sqlalchemy import globle_db
 from util.spider_util import get_user_agent
+from spider.constant import NEWS_TYPE_SKIPPED
 
 # URL to scrape
 ROOT_URL = "https://www.36kr.com"
@@ -65,12 +67,18 @@ def get_news_flashes() -> list[BriefNews]:
             # timestamp = int(dt_object.timestamp())
             # content = brief_soup.find('div', class_='item-desc').find('pre', class_='pre-item-des').get_text(strip=True)
 
+            # 类型检查
+            news_type = classify(title, content)
+            if news_type in NEWS_TYPE_SKIPPED:
+                continue
+
             brief_news = BriefNews(
                 title=title,
                 url=news_url,
                 time=timestamp,
                 content=content,
-                source=WEB_SITE,
+                type=news_type,
+                web_site=WEB_SITE,
                 create_time=int(datetime.now().timestamp())
             )
             all_news.append(brief_news)

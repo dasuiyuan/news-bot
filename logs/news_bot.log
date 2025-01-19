@@ -1,0 +1,495 @@
+2025-01-18T07:29:33.367435+0800 - WARNING - 访问latepost失败: time data '2025年昨天 23:01' does not match format '%Y年%m月%d日 %H:%M'
+2025-01-18T07:38:25.574648+0800 - WARNING - 访问latepost失败: time data '2025年昨天 23:01' does not match format '%Y年%m月%d日 %H:%M'
+2025-01-18T07:39:15.306138+0800 - WARNING - 访问latepost失败: time data '2025年17' does not match format '%Y年%m月%d日 %H:%M'
+2025-01-18T07:44:04.701001+0800 - INFO - 已爬取到12条新闻
+2025-01-18T07:46:49.071579+0800 - WARNING - 已爬取过该新闻:拜登政府决定不在本周日关停TikTok，但它的麻烦没有结束；支付宝接受事故损失；星巴克中国董事长王静瑛将退休丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2749 01月17日 23:01
+2025-01-18T15:42:33.805380+0800 - INFO - 开始爬取晚点...
+2025-01-18T15:42:33.805888+0800 - INFO - 开始爬取最新晚点早知道...
+2025-01-18T15:42:34.037838+0800 - WARNING - 已爬取过该新闻:拜登政府决定不在本周日关停TikTok，但它的麻烦没有结束；支付宝接受事故损失；星巴克中国董事长王静瑛将退休丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2749 01月17日 23:01
+2025-01-18T15:42:34.039110+0800 - INFO - 最新晚点早爬取结束...
+2025-01-18T15:42:34.039110+0800 - INFO - 开始爬取36kr...
+2025-01-18T15:42:34.039110+0800 - INFO - 开始爬取最新36kr快讯...
+2025-01-18T15:42:34.385517+0800 - INFO - 开始分类
+2025-01-18T15:42:36.359204+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:36.365206+0800 - INFO - 云南：全省初一在校女生可免费接种国产HPV疫苗->其他类
+2025-01-18T15:42:36.367829+0800 - INFO - 开始分类
+2025-01-18T15:42:37.251296+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:37.256231+0800 - INFO - 商务部副部长一行赴北京喜隆多店调研指导永辉超市调改工作->其他类
+2025-01-18T15:42:37.258598+0800 - INFO - 开始分类
+2025-01-18T15:42:37.927480+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:37.931478+0800 - INFO - 浙江进出口规模首次突破5万亿元->其他类
+2025-01-18T15:42:37.932478+0800 - INFO - 开始分类
+2025-01-18T15:42:38.905596+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:38.908595+0800 - INFO - 第三届链博会海外路演活动将于本月启动 首站将设在泰国->其他类
+2025-01-18T15:42:38.910598+0800 - INFO - 开始分类
+2025-01-18T15:42:39.669773+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:39.673283+0800 - INFO - 兆龙互连：预计未来800G、1.6T高速率产品市场需求量会持续增加->其他科技类
+2025-01-18T15:42:39.675282+0800 - INFO - 开始分类
+2025-01-18T15:42:40.406827+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:40.410831+0800 - INFO - 格力电器回应“董明珠被停职审查”传闻：“无中生有、恶意中伤的谣言”->其他类
+2025-01-18T15:42:40.412832+0800 - INFO - 开始分类
+2025-01-18T15:42:41.111061+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:41.114064+0800 - INFO - 去年以旧换新拉动家电消费2700亿元->其他类
+2025-01-18T15:42:41.116063+0800 - INFO - 开始分类
+2025-01-18T15:42:41.959900+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:41.965044+0800 - INFO - 广东宏大：宏大爆破连中四标 合计中标金额20.32亿元->其他类
+2025-01-18T15:42:41.967048+0800 - INFO - 开始分类
+2025-01-18T15:42:42.699366+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:42.702751+0800 - INFO - 2025年云南将引进亿元以上项目500个->其他类
+2025-01-18T15:42:42.705752+0800 - INFO - 开始分类
+2025-01-18T15:42:43.331484+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:43.334483+0800 - INFO - 春运第5日 全社会跨区域人员流动量预计超2亿人次->其他类
+2025-01-18T15:42:43.336483+0800 - INFO - 开始分类
+2025-01-18T15:42:43.939563+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:43.943557+0800 - INFO - 南方五省区2024年新能源总装机容量突破1.9亿千瓦->其他科技类
+2025-01-18T15:42:43.945559+0800 - INFO - 开始分类
+2025-01-18T15:42:44.671806+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:44.674806+0800 - INFO - 上交所：将持续跟进思科瑞被立案调查情况并采取纪律处分措施->其他类
+2025-01-18T15:42:44.677888+0800 - INFO - 开始分类
+2025-01-18T15:42:45.546058+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:45.549058+0800 - INFO - 浙商证券副总裁辞职 下一站去向明确->其他类
+2025-01-18T15:42:45.551058+0800 - INFO - 开始分类
+2025-01-18T15:42:46.489915+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:46.494804+0800 - INFO - 山东立法调整婚假：登记可享15天 参加婚检再加3天->其他类
+2025-01-18T15:42:46.496801+0800 - INFO - 开始分类
+2025-01-18T15:42:47.233388+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:47.238844+0800 - INFO - 深信服：琥珀安云基金持有宇树科技0.6279%股权->AI商业类
+2025-01-18T15:42:47.240851+0800 - INFO - 开始分类
+2025-01-18T15:42:48.269517+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:48.274516+0800 - INFO - 完美世界预告2024年业绩承压，积极调整布局谋发展->其他类
+2025-01-18T15:42:48.275518+0800 - INFO - 开始分类
+2025-01-18T15:42:49.025320+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:49.030322+0800 - INFO - 今天全国铁路预计发送旅客1355万人次->其他类
+2025-01-18T15:42:49.032320+0800 - INFO - 开始分类
+2025-01-18T15:42:49.833743+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:49.838318+0800 - INFO - TikTok发表声明：拜登政府需就禁令提供更多明确信息->AI商业类
+2025-01-18T15:42:49.840318+0800 - INFO - 开始分类
+2025-01-18T15:42:50.565423+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:50.569430+0800 - INFO - 美国重要肉鸡生产州的商业家禽养殖场首次检出H5N1型禽流感病毒->其他类
+2025-01-18T15:42:50.571429+0800 - INFO - 开始分类
+2025-01-18T15:42:51.296045+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:42:51.300053+0800 - INFO - 长三角铁路迎春运首个周末客流高峰 此前4天已发送近1000万人次->其他类
+2025-01-18T15:42:51.308052+0800 - WARNING - 访问36kr失败: (sqlite3.IntegrityError) NOT NULL constraint failed: t_brief_news.web_site
+[SQL: INSERT INTO t_brief_news (title, content, web_site, type, popularity, source, url, time, create_time) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: ('云南：全省初一在校女生可免费接种国产HPV疫苗', '2025年云南省政府工作报告把实施“儿童健康护佑和生物疫苗惠民工程”列为2025年要办的10件惠民实事之一，明确提出建设1个具有儿童（含新生儿）重症救治Ⅲ级水平的省级儿童医学救治中心，5个具有Ⅱ级水平的州（市）级儿童急诊或重症学科，70个具有Ⅰ级及以上水平的县级儿童急救点，建立覆盖全省的儿童救治网络；按照知情、自愿原则，为全省符合条件的初一在校女生免费接种国产HPV疫苗。（财联社）', None, '其他类', None, '36kr', 'https://www.36kr.com/newsflashes/3127937102452737', 1737186152, 1737186156)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-18T15:42:51.308052+0800 - INFO - 最新36kr快讯爬取结束...
+2025-01-18T15:42:51.308052+0800 - INFO - 开始爬取aibase...
+2025-01-18T15:42:51.308052+0800 - INFO - 开始爬取最新aibase快讯...
+2025-01-18T15:42:58.738027+0800 - INFO - 开始分类
+2025-01-18T15:43:00.069966+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:00.073975+0800 - INFO - Sam Altman 收到参议院信件 OpenAI 面临监管调查->AI商业类
+2025-01-18T15:43:00.611334+0800 - INFO - 开始分类
+2025-01-18T15:43:02.052435+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:02.056431+0800 - INFO - ​Runway推全新AI图像生成器Frames，打造电影级视觉表现->AI产品类
+2025-01-18T15:43:02.473562+0800 - INFO - 开始分类
+2025-01-18T15:43:03.653898+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:03.658835+0800 - INFO - Perplexity 收购职业社交平台 Read.cv，用户数据迁移期限曝光->AI商业类
+2025-01-18T15:43:04.002234+0800 - INFO - 开始分类
+2025-01-18T15:43:05.130321+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:05.133832+0800 - INFO - Character.AI 人突然出现怪异 “性玩具” 言论引发用户困惑->AI技术类
+2025-01-18T15:43:05.599639+0800 - INFO - 开始分类
+2025-01-18T15:43:06.567577+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:06.571573+0800 - INFO - 全新研究项目推动人工智能的 “土著化” 进程->AI技术类
+2025-01-18T15:43:06.928249+0800 - INFO - 开始分类
+2025-01-18T15:43:07.920508+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:07.923515+0800 - INFO - DeepSeek V3的成功证明了国内的人工智能正在飞速发展->AI技术类
+2025-01-18T15:43:08.449495+0800 - INFO - 开始分类
+2025-01-18T15:43:09.452901+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:09.456914+0800 - INFO - 印度AI初创公司NeuralGarage利用AI实现影视配音完美同步->AI技术类
+2025-01-18T15:43:09.833341+0800 - INFO - 开始分类
+2025-01-18T15:43:10.668030+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:10.672029+0800 - INFO - 科大讯飞申请注册烟火大模型等多个大模型商标，布局未来科技市场->AI商业类
+2025-01-18T15:43:11.180579+0800 - INFO - 开始分类
+2025-01-18T15:43:12.204647+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:12.208652+0800 - INFO - 谷歌推出 Vertex AI RAG 引擎，助力开发者构建智能应用->AI技术类
+2025-01-18T15:43:12.742469+0800 - INFO - 开始分类
+2025-01-18T15:43:13.505115+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:13.508659+0800 - INFO - 理想汽车申请 “理想 AI Talk” 商标->AI商业类
+2025-01-18T15:43:13.992334+0800 - INFO - 开始分类
+2025-01-18T15:43:15.296866+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:15.299900+0800 - INFO - 微软发布创新AI模型MatterGen，根据特定需求生成新材料->AI技术类
+2025-01-18T15:43:15.813713+0800 - INFO - 开始分类
+2025-01-18T15:43:16.818154+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:16.822634+0800 - INFO - 数据显示：ChatGPT Plus成为AI订阅服务留存率冠军->AI商业类
+2025-01-18T15:43:17.228238+0800 - INFO - 开始分类
+2025-01-18T15:43:18.138904+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:18.143911+0800 - INFO - 腾讯推出 AI 生成内容检测工具，打击虚假信息->AI技术类
+2025-01-18T15:43:18.687088+0800 - INFO - 开始分类
+2025-01-18T15:43:19.623719+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:19.628727+0800 - INFO - 中国​2024年度十大科技名词出炉，“人工智能 +”入选->AI技术类
+2025-01-18T15:43:20.218894+0800 - INFO - 开始分类
+2025-01-18T15:43:22.071165+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:22.074171+0800 - INFO - 腾讯朱雀大模型检测上线「鉴别工具」可鉴别图片、文章是否由AI生成->AI技术类
+2025-01-18T15:43:22.486358+0800 - INFO - 开始分类
+2025-01-18T15:43:23.448670+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:23.451668+0800 - INFO - 前OpenAI CTO的AI初创公司招聘首批员工 前OpenAI高管加入->AI商业类
+2025-01-18T15:43:23.948706+0800 - INFO - 开始分类
+2025-01-18T15:43:24.724600+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:24.729075+0800 - INFO - 腾讯AI助手“元宝”团队重组，调整至CSIG、腾讯会议负责人接手->AI产品类
+2025-01-18T15:43:25.351234+0800 - INFO - 开始分类
+2025-01-18T15:43:26.242844+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:26.245842+0800 - INFO - 三星拟携手OpenAI研发智能电视：将支持实时对话及内容推荐->AI产品类
+2025-01-18T15:43:26.583781+0800 - INFO - 开始分类
+2025-01-18T15:43:27.577486+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:27.580822+0800 - INFO - 字节跳动豆包全新上线AI编程功能，引入 GitHub 开源仓库->AI技术类
+2025-01-18T15:43:27.992024+0800 - INFO - 开始分类
+2025-01-18T15:43:28.879780+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:28.884739+0800 - INFO - 阿里智能互联并入夸克:布局AI眼镜 整合通义能力->AI产品类
+2025-01-18T15:43:29.255137+0800 - INFO - 开始分类
+2025-01-18T15:43:30.667830+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:30.671917+0800 - INFO - 360集团发布鸿蒙原生AI应用，纳米搜索月访问量破3.5亿->AI产品类
+2025-01-18T15:43:31.247459+0800 - INFO - 开始分类
+2025-01-18T15:43:32.152486+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:32.156814+0800 - INFO - 海螺AI海外版发布新语音模型T2A-01-HD 生成音频质量更高->AI技术类
+2025-01-18T15:43:32.708484+0800 - INFO - 开始分类
+2025-01-18T15:43:33.649393+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:33.652398+0800 - INFO - 微软打击恶意使用生成式 AI 的网络犯罪行为->AI商业类
+2025-01-18T15:43:34.022580+0800 - INFO - 开始分类
+2025-01-18T15:43:34.884669+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:34.888678+0800 - INFO - 百度发布升级版生物计算模型工具 HelixFold 3 助力生命科学研究->AI技术类
+2025-01-18T15:43:35.280227+0800 - INFO - 开始分类
+2025-01-18T15:43:36.157123+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:36.161917+0800 - INFO - Nvidia重磅推出三大AI安全工具，以控制AI聊天机器人->AI技术类
+2025-01-18T15:43:36.551087+0800 - INFO - 开始分类
+2025-01-18T15:43:37.394187+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:37.397936+0800 - INFO - 谷歌CEO皮查伊认为Gemini已是市面最强，目标吸引五亿用户->AI商业类
+2025-01-18T15:43:37.818392+0800 - INFO - 开始分类
+2025-01-18T15:43:38.876618+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:38.879625+0800 - INFO - 华硕推出搭载彩色 E Ink 显示屏的 NUC AI 迷你电脑->AI产品类
+2025-01-18T15:43:39.393298+0800 - INFO - 开始分类
+2025-01-18T15:43:40.425345+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:40.428838+0800 - INFO - ​微软将AI功能整合进Microsoft 365，接着提高订阅价格->AI商业类
+2025-01-18T15:43:40.933787+0800 - INFO - 开始分类
+2025-01-18T15:43:41.883930+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:41.887936+0800 - INFO - Mistral 与法新社达成内容合作 升级 Le Chat 聊天机器人性能->AI产品类
+2025-01-18T15:43:42.262536+0800 - INFO - 开始分类
+2025-01-18T15:43:43.579832+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:43:43.583348+0800 - INFO - ​Borderless AI获3200万美元融资，用AI技术革新HR管理->AI商业类
+2025-01-18T15:43:43.598529+0800 - INFO - 已爬取到30条新闻
+2025-01-18T15:43:43.600150+0800 - INFO - 最新aibase快讯爬取结束...
+2025-01-18T15:43:43.600654+0800 - INFO - 爬取结束...
+2025-01-18T15:46:39.426421+0800 - INFO - 开始爬取36kr...
+2025-01-18T15:46:39.426926+0800 - INFO - 开始爬取最新36kr快讯...
+2025-01-18T15:46:41.039524+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:41.042531+0800 - INFO - 云南：全省初一在校女生可免费接种国产HPV疫苗->其他类
+2025-01-18T15:46:41.743816+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:41.745824+0800 - INFO - 商务部副部长一行赴北京喜隆多店调研指导永辉超市调改工作->其他类
+2025-01-18T15:46:42.530642+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:42.531652+0800 - INFO - 浙江进出口规模首次突破5万亿元->其他类
+2025-01-18T15:46:43.529720+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:43.531728+0800 - INFO - 第三届链博会海外路演活动将于本月启动 首站将设在泰国->其他类
+2025-01-18T15:46:45.030014+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:45.032021+0800 - INFO - 兆龙互连：预计未来800G、1.6T高速率产品市场需求量会持续增加->其他科技类
+2025-01-18T15:46:45.943998+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:45.947609+0800 - INFO - 格力电器回应“董明珠被停职审查”传闻：“无中生有、恶意中伤的谣言”->其他类
+2025-01-18T15:46:46.531175+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:46.533183+0800 - INFO - 去年以旧换新拉动家电消费2700亿元->其他类
+2025-01-18T15:46:47.260503+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:47.262514+0800 - INFO - 广东宏大：宏大爆破连中四标 合计中标金额20.32亿元->其他类
+2025-01-18T15:46:48.118535+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:48.119541+0800 - INFO - 2025年云南将引进亿元以上项目500个->其他类
+2025-01-18T15:46:48.855733+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:48.857872+0800 - INFO - 春运第5日 全社会跨区域人员流动量预计超2亿人次->其他类
+2025-01-18T15:46:49.636783+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:49.638791+0800 - INFO - 南方五省区2024年新能源总装机容量突破1.9亿千瓦->其他科技类
+2025-01-18T15:46:50.336042+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:50.339049+0800 - INFO - 上交所：将持续跟进思科瑞被立案调查情况并采取纪律处分措施->其他类
+2025-01-18T15:46:51.035330+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:51.037338+0800 - INFO - 浙商证券副总裁辞职 下一站去向明确->其他类
+2025-01-18T15:46:52.031246+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:52.033252+0800 - INFO - 山东立法调整婚假：登记可享15天 参加婚检再加3天->其他类
+2025-01-18T15:46:54.125745+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:54.128361+0800 - INFO - 深信服：琥珀安云基金持有宇树科技0.6279%股权->AI商业类
+2025-01-18T15:46:54.934976+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:54.937484+0800 - INFO - 完美世界预告2024年业绩承压，积极调整布局谋发展->其他类
+2025-01-18T15:46:56.933611+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:56.936352+0800 - INFO - 今天全国铁路预计发送旅客1355万人次->其他类
+2025-01-18T15:46:57.710367+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:57.711886+0800 - INFO - TikTok发表声明：拜登政府需就禁令提供更多明确信息->AI商业类
+2025-01-18T15:46:58.368960+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:58.370969+0800 - INFO - 美国重要肉鸡生产州的商业家禽养殖场首次检出H5N1型禽流感病毒->其他类
+2025-01-18T15:46:59.136805+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T15:46:59.137992+0800 - INFO - 长三角铁路迎春运首个周末客流高峰 此前4天已发送近1000万人次->其他类
+2025-01-18T15:46:59.150798+0800 - INFO - 已爬取到20条新闻
+2025-01-18T15:46:59.150798+0800 - INFO - 最新36kr快讯爬取结束...
+2025-01-18T15:46:59.150798+0800 - INFO - 爬取结束...
+2025-01-18T16:18:06.480371+0800 - INFO - 开始爬取晚点...
+2025-01-18T16:18:06.480371+0800 - INFO - 开始爬取最新晚点早知道...
+2025-01-18T16:18:08.100326+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:08.104330+0800 - INFO - SpaceX 星舰在发射中爆炸，迫使飞机改道。->其他科技类
+2025-01-18T16:18:08.115843+0800 - INFO - 已爬取到12条新闻
+2025-01-18T16:18:08.116348+0800 - INFO - 最新晚点早爬取结束...
+2025-01-18T16:18:08.116348+0800 - INFO - 开始爬取36kr...
+2025-01-18T16:18:08.116707+0800 - INFO - 开始爬取最新36kr快讯...
+2025-01-18T16:18:09.237443+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:09.239959+0800 - INFO - 崔东树：2024年宁德时代、比亚迪动力电池份额合计仍保持70%->其他科技类
+2025-01-18T16:18:09.912680+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:09.914192+0800 - INFO - 浙江省政府与正泰集团签署战略合作协议->AI商业类
+2025-01-18T16:18:12.056505+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:12.059127+0800 - INFO - 云南：全省初一在校女生可免费接种国产HPV疫苗->其他类
+2025-01-18T16:18:12.727420+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:12.729086+0800 - INFO - 商务部副部长一行赴北京喜隆多店调研指导永辉超市调改工作->其他类
+2025-01-18T16:18:13.333926+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:13.335438+0800 - INFO - 浙江进出口规模首次突破5万亿元->其他类
+2025-01-18T16:18:13.996557+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:13.998560+0800 - INFO - 第三届链博会海外路演活动将于本月启动 首站将设在泰国->其他类
+2025-01-18T16:18:15.021275+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:15.023448+0800 - INFO - 兆龙互连：预计未来800G、1.6T高速率产品市场需求量会持续增加->其他科技类
+2025-01-18T16:18:15.845854+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:15.847473+0800 - INFO - 格力电器回应“董明珠被停职审查”传闻：“无中生有、恶意中伤的谣言”->其他类
+2025-01-18T16:18:16.644239+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:16.646753+0800 - INFO - 去年以旧换新拉动家电消费2700亿元->其他类
+2025-01-18T16:18:17.484968+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:17.487676+0800 - INFO - 广东宏大：宏大爆破连中四标 合计中标金额20.32亿元->其他类
+2025-01-18T16:18:18.307380+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:18.308849+0800 - INFO - 2025年云南将引进亿元以上项目500个->其他类
+2025-01-18T16:18:19.089574+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:19.090584+0800 - INFO - 春运第5日 全社会跨区域人员流动量预计超2亿人次->其他类
+2025-01-18T16:18:19.898741+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:19.900752+0800 - INFO - 南方五省区2024年新能源总装机容量突破1.9亿千瓦->其他科技类
+2025-01-18T16:18:20.841789+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:20.844665+0800 - INFO - 上交所：将持续跟进思科瑞被立案调查情况并采取纪律处分措施->其他类
+2025-01-18T16:18:21.652216+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:21.654222+0800 - INFO - 浙商证券副总裁辞职 下一站去向明确->其他类
+2025-01-18T16:18:22.676410+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:22.678416+0800 - INFO - 山东立法调整婚假：登记可享15天 参加婚检再加3天->其他类
+2025-01-18T16:18:23.444520+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:23.445527+0800 - INFO - 深信服：琥珀安云基金持有宇树科技0.6279%股权->AI商业类
+2025-01-18T16:18:24.259084+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:24.261250+0800 - INFO - 完美世界预告2024年业绩承压，积极调整布局谋发展->其他类
+2025-01-18T16:18:24.938948+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:24.939956+0800 - INFO - 今天全国铁路预计发送旅客1355万人次->其他类
+2025-01-18T16:18:25.705196+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:25.707716+0800 - INFO - TikTok发表声明：拜登政府需就禁令提供更多明确信息->AI商业类
+2025-01-18T16:18:25.713711+0800 - INFO - 已爬取到6条新闻
+2025-01-18T16:18:25.713711+0800 - INFO - 最新36kr快讯爬取结束...
+2025-01-18T16:18:25.713711+0800 - INFO - 开始爬取aibase...
+2025-01-18T16:18:25.714770+0800 - INFO - 开始爬取最新aibase快讯...
+2025-01-18T16:18:27.517462+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:27.520469+0800 - INFO - Sam Altman 收到参议院信件 OpenAI 面临监管调查->AI商业类
+2025-01-18T16:18:28.321781+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:28.322622+0800 - INFO - Sam Altman 收到参议院信件 OpenAI 面临监管调查->AI商业类
+2025-01-18T16:18:30.154908+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:30.155712+0800 - INFO - ​Runway推全新AI图像生成器Frames，打造电影级视觉表现->AI产品类
+2025-01-18T16:18:31.448698+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:31.451138+0800 - INFO - ​Runway推全新AI图像生成器Frames，打造电影级视觉表现->AI产品类
+2025-01-18T16:18:33.148086+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:33.149094+0800 - INFO - Perplexity 收购职业社交平台 Read.cv，用户数据迁移期限曝光->AI商业类
+2025-01-18T16:18:34.344649+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:34.346663+0800 - INFO - Perplexity 收购职业社交平台 Read.cv，用户数据迁移期限曝光->AI商业类
+2025-01-18T16:18:35.958443+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:35.960451+0800 - INFO - Character.AI 人突然出现怪异 “性玩具” 言论引发用户困惑->AI技术类
+2025-01-18T16:18:37.012842+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:37.014849+0800 - INFO - Character.AI 人突然出现怪异 “性玩具” 言论引发用户困惑->AI技术类
+2025-01-18T16:18:38.652129+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:38.654139+0800 - INFO - 全新研究项目推动人工智能的 “土著化” 进程->AI技术类
+2025-01-18T16:18:39.744120+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:39.747053+0800 - INFO - 全新研究项目推动人工智能的 “土著化” 进程->AI技术类
+2025-01-18T16:18:41.261638+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:41.264286+0800 - INFO - DeepSeek V3的成功证明了国内的人工智能正在飞速发展->AI技术类
+2025-01-18T16:18:42.974406+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:42.975647+0800 - INFO - DeepSeek V3的成功证明了国内的人工智能正在飞速发展->AI技术类
+2025-01-18T16:18:44.728095+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:44.730162+0800 - INFO - 印度AI初创公司NeuralGarage利用AI实现影视配音完美同步->AI技术类
+2025-01-18T16:18:45.825534+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:45.826542+0800 - INFO - 印度AI初创公司NeuralGarage利用AI实现影视配音完美同步->AI技术类
+2025-01-18T16:18:47.247453+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:47.248487+0800 - INFO - 科大讯飞申请注册烟火大模型等多个大模型商标，布局未来科技市场->AI商业类
+2025-01-18T16:18:50.226039+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:50.228825+0800 - INFO - 科大讯飞申请注册烟火大模型等多个大模型商标，布局未来科技市场->AI商业类
+2025-01-18T16:18:51.690971+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:51.691978+0800 - INFO - 谷歌推出 Vertex AI RAG 引擎，助力开发者构建智能应用->AI技术类
+2025-01-18T16:18:52.736373+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:52.737380+0800 - INFO - 谷歌推出 Vertex AI RAG 引擎，助力开发者构建智能应用->AI技术类
+2025-01-18T16:18:53.957262+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:53.958269+0800 - INFO - 理想汽车申请 “理想 AI Talk” 商标->AI商业类
+2025-01-18T16:18:54.627775+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:54.628784+0800 - INFO - 理想汽车申请 “理想 AI Talk” 商标->AI商业类
+2025-01-18T16:18:56.220564+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:56.222564+0800 - INFO - 微软发布创新AI模型MatterGen，根据特定需求生成新材料->AI技术类
+2025-01-18T16:18:57.266139+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:57.268146+0800 - INFO - 微软发布创新AI模型MatterGen，根据特定需求生成新材料->AI技术类
+2025-01-18T16:18:58.883195+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:58.885818+0800 - INFO - 数据显示：ChatGPT Plus成为AI订阅服务留存率冠军->AI商业类
+2025-01-18T16:18:59.847831+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:18:59.848838+0800 - INFO - 数据显示：ChatGPT Plus成为AI订阅服务留存率冠军->AI商业类
+2025-01-18T16:19:01.621920+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:01.624004+0800 - INFO - 腾讯推出 AI 生成内容检测工具，打击虚假信息->AI技术类
+2025-01-18T16:19:02.486596+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:02.489121+0800 - INFO - 腾讯推出 AI 生成内容检测工具，打击虚假信息->AI技术类
+2025-01-18T16:19:03.631399+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:03.632405+0800 - INFO - 中国​2024年度十大科技名词出炉，“人工智能 +”入选->AI技术类
+2025-01-18T16:19:04.359589+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:04.360360+0800 - INFO - 中国​2024年度十大科技名词出炉，“人工智能 +”入选->AI技术类
+2025-01-18T16:19:06.143142+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:06.143929+0800 - INFO - 腾讯朱雀大模型检测上线「鉴别工具」可鉴别图片、文章是否由AI生成->AI技术类
+2025-01-18T16:19:07.151114+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:07.153285+0800 - INFO - 腾讯朱雀大模型检测上线「鉴别工具」可鉴别图片、文章是否由AI生成->AI技术类
+2025-01-18T16:19:08.720285+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:08.722294+0800 - INFO - 前OpenAI CTO的AI初创公司招聘首批员工 前OpenAI高管加入->AI商业类
+2025-01-18T16:19:09.987561+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:09.989569+0800 - INFO - 前OpenAI CTO的AI初创公司招聘首批员工 前OpenAI高管加入->AI商业类
+2025-01-18T16:19:11.283567+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:11.285576+0800 - INFO - 腾讯AI助手“元宝”团队重组，调整至CSIG、腾讯会议负责人接手->AI产品类
+2025-01-18T16:19:12.232247+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:12.234258+0800 - INFO - 腾讯AI助手“元宝”团队重组，调整至CSIG、腾讯会议负责人接手->AI产品类
+2025-01-18T16:19:13.510225+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:13.513057+0800 - INFO - 三星拟携手OpenAI研发智能电视：将支持实时对话及内容推荐->AI产品类
+2025-01-18T16:19:14.477457+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:14.479472+0800 - INFO - 三星拟携手OpenAI研发智能电视：将支持实时对话及内容推荐->AI产品类
+2025-01-18T16:19:16.585907+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:16.587916+0800 - INFO - 字节跳动豆包全新上线AI编程功能，引入 GitHub 开源仓库->AI技术类
+2025-01-18T16:19:17.449008+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:17.451017+0800 - INFO - 字节跳动豆包全新上线AI编程功能，引入 GitHub 开源仓库->AI技术类
+2025-01-18T16:19:18.722815+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:18.724345+0800 - INFO - 阿里智能互联并入夸克:布局AI眼镜 整合通义能力->AI产品类
+2025-01-18T16:19:19.994176+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:19.996184+0800 - INFO - 阿里智能互联并入夸克:布局AI眼镜 整合通义能力->AI产品类
+2025-01-18T16:19:21.481597+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:21.483758+0800 - INFO - 360集团发布鸿蒙原生AI应用，纳米搜索月访问量破3.5亿->AI产品类
+2025-01-18T16:19:22.447843+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:22.450556+0800 - INFO - 360集团发布鸿蒙原生AI应用，纳米搜索月访问量破3.5亿->AI产品类
+2025-01-18T16:19:23.791080+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:23.792090+0800 - INFO - 海螺AI海外版发布新语音模型T2A-01-HD 生成音频质量更高->AI技术类
+2025-01-18T16:19:24.538923+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:24.540931+0800 - INFO - 海螺AI海外版发布新语音模型T2A-01-HD 生成音频质量更高->AI技术类
+2025-01-18T16:19:25.823341+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:25.825350+0800 - INFO - 微软打击恶意使用生成式 AI 的网络犯罪行为->AI商业类
+2025-01-18T16:19:26.629055+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:26.632063+0800 - INFO - 微软打击恶意使用生成式 AI 的网络犯罪行为->AI商业类
+2025-01-18T16:19:28.642126+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:28.644525+0800 - INFO - 百度发布升级版生物计算模型工具 HelixFold 3 助力生命科学研究->AI技术类
+2025-01-18T16:19:30.637678+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:30.639520+0800 - INFO - 百度发布升级版生物计算模型工具 HelixFold 3 助力生命科学研究->AI技术类
+2025-01-18T16:19:32.288652+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:32.290660+0800 - INFO - Nvidia重磅推出三大AI安全工具，以控制AI聊天机器人->AI技术类
+2025-01-18T16:19:33.301240+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:33.302755+0800 - INFO - Nvidia重磅推出三大AI安全工具，以控制AI聊天机器人->AI技术类
+2025-01-18T16:19:34.747228+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:34.749331+0800 - INFO - 谷歌CEO皮查伊认为Gemini已是市面最强，目标吸引五亿用户->AI商业类
+2025-01-18T16:19:35.736438+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:35.739446+0800 - INFO - 谷歌CEO皮查伊认为Gemini已是市面最强，目标吸引五亿用户->AI商业类
+2025-01-18T16:19:37.357946+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:37.358699+0800 - INFO - 华硕推出搭载彩色 E Ink 显示屏的 NUC AI 迷你电脑->AI产品类
+2025-01-18T16:19:38.725055+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:38.727291+0800 - INFO - 华硕推出搭载彩色 E Ink 显示屏的 NUC AI 迷你电脑->AI产品类
+2025-01-18T16:19:40.571203+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:40.573207+0800 - INFO - ​微软将AI功能整合进Microsoft 365，接着提高订阅价格->AI商业类
+2025-01-18T16:19:41.581650+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:41.583658+0800 - INFO - ​微软将AI功能整合进Microsoft 365，接着提高订阅价格->AI商业类
+2025-01-18T16:19:43.233292+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:43.235654+0800 - INFO - Mistral 与法新社达成内容合作 升级 Le Chat 聊天机器人性能->AI产品类
+2025-01-18T16:19:44.413006+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:44.414521+0800 - INFO - Mistral 与法新社达成内容合作 升级 Le Chat 聊天机器人性能->AI产品类
+2025-01-18T16:19:46.162542+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:46.165551+0800 - INFO - ​Borderless AI获3200万美元融资，用AI技术革新HR管理->AI商业类
+2025-01-18T16:19:47.909809+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T16:19:47.911817+0800 - INFO - ​Borderless AI获3200万美元融资，用AI技术革新HR管理->AI商业类
+2025-01-18T16:19:47.942558+0800 - INFO - 已爬取到30条新闻
+2025-01-18T16:19:47.944213+0800 - INFO - 最新aibase快讯爬取结束...
+2025-01-18T16:19:47.944213+0800 - INFO - 爬取结束...
+2025-01-19T08:29:41.456309+0800 - WARNING - 已爬取过该新闻:拜登政府决定不在本周日关停TikTok，但它的麻烦没有结束；支付宝接受事故损失；星巴克中国董事长王静瑛将退休丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2749 01月17日 23:01
+2025-01-19T08:30:56.320940+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:30:56.329941+0800 - INFO - 拜登政府决定不在 1 月 19 日关停 TikTok。->其他类
+2025-01-19T08:31:26.816762+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:31:26.822883+0800 - INFO - 支付宝接受事故损失，不会向用户追索。->其他类
+2025-01-19T08:34:46.622088+0800 - INFO - 开始爬取晚点...
+2025-01-19T08:34:46.623088+0800 - INFO - 开始爬取最新晚点早知道...
+2025-01-19T08:34:47.651517+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:47.655522+0800 - INFO - 拜登政府决定不在 1 月 19 日关停 TikTok。->其他类
+2025-01-19T08:34:47.828309+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:47.829313+0800 - INFO - 支付宝接受事故损失，不会向用户追索。->其他类
+2025-01-19T08:34:48.025510+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.027523+0800 - INFO - 星巴克中国董事长王静瑛将退休。->其他类
+2025-01-19T08:34:48.183325+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.184331+0800 - INFO - 2024 年社会消费品零售总额同比增长 3.5%。->其他类
+2025-01-19T08:34:48.394793+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.395807+0800 - INFO - 萨莉亚中国区利润下滑。->其他类
+2025-01-19T08:34:48.555129+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.555129+0800 - INFO - 微信正式上线送礼物。->其他类
+2025-01-19T08:34:48.740528+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.740528+0800 - INFO - 特斯拉 Cybertruck 减产降价。->其他科技类
+2025-01-19T08:34:48.891441+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:48.893275+0800 - INFO - 商务部等八部门发布 2025 年汽车以旧换新补贴。->其他类
+2025-01-19T08:34:49.034760+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:49.035769+0800 - INFO - 极越启动用户定金退款登记 1 月 22 日起退定金。->其他类
+2025-01-19T08:34:49.208130+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:49.209137+0800 - INFO - 3.3 亿中国网民听说 AIGC 产品。->其他科技类
+2025-01-19T08:34:49.377424+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:49.379451+0800 - INFO - 三星与 OpenAI 合作，可能推出 AI 电视。->AI产品类
+2025-01-19T08:34:49.549802+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:49.550811+0800 - INFO - SpaceX 星舰在发射中爆炸，迫使飞机改道。->其他科技类
+2025-01-19T08:34:49.562079+0800 - INFO - 已爬取到4条新闻
+2025-01-19T08:34:49.563428+0800 - INFO - 最新晚点早爬取结束...
+2025-01-19T08:34:49.563428+0800 - INFO - 开始爬取36kr...
+2025-01-19T08:34:49.563428+0800 - INFO - 开始爬取最新36kr快讯...
+2025-01-19T08:34:50.032946+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.034955+0800 - INFO - 今年首家！千亿公募换帅->其他类
+2025-01-19T08:34:50.183727+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.183727+0800 - INFO - 先锋集团将支付1.06亿美元以和解美国SEC指控->其他类
+2025-01-19T08:34:50.352483+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.353491+0800 - INFO - 新凤鸣入选首批国家工信部“卓越级智能工厂”->其他科技类
+2025-01-19T08:34:50.510931+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.511939+0800 - INFO - 国新创投基金启航 首期规模100亿元->其他类
+2025-01-19T08:34:50.711869+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.712879+0800 - INFO - 姚伟雄先生将不再担任安踏集团时尚运动品牌群 CEO 职务，江艳女士将接任时尚运动品牌群 CEO->其他类
+2025-01-19T08:34:50.902419+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:50.903428+0800 - INFO - 三峡集团5项技术装备入列国家能源局第四批能源领域首台（套）重大技术装备名单->其他科技类
+2025-01-19T08:34:51.059962+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.060971+0800 - INFO - 2024年河南全省实现地区生产总值63589.99亿元 同比增长5.1%->其他类
+2025-01-19T08:34:51.217531+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.218540+0800 - INFO - 云南：全省初一在校女生可免费接种国产HPV疫苗->其他类
+2025-01-19T08:34:51.378307+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.378307+0800 - INFO - 商务部副部长一行赴北京喜隆多店调研指导永辉超市调改工作->其他类
+2025-01-19T08:34:51.519653+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.520658+0800 - INFO - 浙江进出口规模首次突破5万亿元->其他类
+2025-01-19T08:34:51.665122+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.665122+0800 - INFO - 第三届链博会海外路演活动将于本月启动 首站将设在泰国->其他类
+2025-01-19T08:34:51.816646+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.816646+0800 - INFO - 格力电器回应“董明珠被停职审查”传闻：“无中生有、恶意中伤的谣言”->其他类
+2025-01-19T08:34:51.961896+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:51.961896+0800 - INFO - 去年以旧换新拉动家电消费2700亿元->其他类
+2025-01-19T08:34:52.118838+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:52.118838+0800 - INFO - 广东宏大：宏大爆破连中四标 合计中标金额20.32亿元->其他类
+2025-01-19T08:34:52.253679+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:52.254684+0800 - INFO - 2025年云南将引进亿元以上项目500个->其他类
+2025-01-19T08:34:52.408858+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-19T08:34:52.409868+0800 - INFO - 春运第5日 全社会跨区域人员流动量预计超2亿人次->其他类
+2025-01-19T08:34:52.418822+0800 - INFO - 已爬取到2条新闻
+2025-01-19T08:34:52.418822+0800 - INFO - 最新36kr快讯爬取结束...
+2025-01-19T08:34:52.418822+0800 - INFO - 开始爬取aibase...
+2025-01-19T08:34:52.418822+0800 - INFO - 开始爬取最新aibase快讯...
+2025-01-19T08:34:53.083087+0800 - INFO - Sam Altman 收到参议院信件 OpenAI 面临监管调查已存在，跳过
+2025-01-19T08:34:53.084086+0800 - INFO - ​Runway推全新AI图像生成器Frames，打造电影级视觉表现已存在，跳过
+2025-01-19T08:34:53.085085+0800 - INFO - Perplexity 收购职业社交平台 Read.cv，用户数据迁移期限曝光已存在，跳过
+2025-01-19T08:34:53.085085+0800 - INFO - Character.AI 人突然出现怪异 “性玩具” 言论引发用户困惑已存在，跳过
+2025-01-19T08:34:53.086087+0800 - INFO - 全新研究项目推动人工智能的 “土著化” 进程已存在，跳过
+2025-01-19T08:34:53.087085+0800 - INFO - DeepSeek V3的成功证明了国内的人工智能正在飞速发展已存在，跳过
+2025-01-19T08:34:53.088086+0800 - INFO - 印度AI初创公司NeuralGarage利用AI实现影视配音完美同步已存在，跳过
+2025-01-19T08:34:53.088086+0800 - INFO - 科大讯飞申请注册烟火大模型等多个大模型商标，布局未来科技市场已存在，跳过
+2025-01-19T08:34:53.089263+0800 - INFO - 谷歌推出 Vertex AI RAG 引擎，助力开发者构建智能应用已存在，跳过
+2025-01-19T08:34:53.089263+0800 - INFO - 理想汽车申请 “理想 AI Talk” 商标已存在，跳过
+2025-01-19T08:34:53.090263+0800 - INFO - 微软发布创新AI模型MatterGen，根据特定需求生成新材料已存在，跳过
+2025-01-19T08:34:53.090263+0800 - INFO - 数据显示：ChatGPT Plus成为AI订阅服务留存率冠军已存在，跳过
+2025-01-19T08:34:53.091264+0800 - INFO - 腾讯推出 AI 生成内容检测工具，打击虚假信息已存在，跳过
+2025-01-19T08:34:53.092263+0800 - INFO - 中国​2024年度十大科技名词出炉，“人工智能 +”入选已存在，跳过
+2025-01-19T08:34:53.092263+0800 - INFO - 腾讯朱雀大模型检测上线「鉴别工具」可鉴别图片、文章是否由AI生成已存在，跳过
+2025-01-19T08:34:53.093263+0800 - INFO - 前OpenAI CTO的AI初创公司招聘首批员工 前OpenAI高管加入已存在，跳过
+2025-01-19T08:34:53.093263+0800 - INFO - 腾讯AI助手“元宝”团队重组，调整至CSIG、腾讯会议负责人接手已存在，跳过
+2025-01-19T08:34:53.094262+0800 - INFO - 三星拟携手OpenAI研发智能电视：将支持实时对话及内容推荐已存在，跳过
+2025-01-19T08:34:53.094262+0800 - INFO - 字节跳动豆包全新上线AI编程功能，引入 GitHub 开源仓库已存在，跳过
+2025-01-19T08:34:53.095263+0800 - INFO - 阿里智能互联并入夸克:布局AI眼镜 整合通义能力已存在，跳过
+2025-01-19T08:34:53.095263+0800 - INFO - 360集团发布鸿蒙原生AI应用，纳米搜索月访问量破3.5亿已存在，跳过
+2025-01-19T08:34:53.096263+0800 - INFO - 海螺AI海外版发布新语音模型T2A-01-HD 生成音频质量更高已存在，跳过
+2025-01-19T08:34:53.096263+0800 - INFO - 微软打击恶意使用生成式 AI 的网络犯罪行为已存在，跳过
+2025-01-19T08:34:53.097263+0800 - INFO - 百度发布升级版生物计算模型工具 HelixFold 3 助力生命科学研究已存在，跳过
+2025-01-19T08:34:53.097263+0800 - INFO - Nvidia重磅推出三大AI安全工具，以控制AI聊天机器人已存在，跳过
+2025-01-19T08:34:53.098263+0800 - INFO - 谷歌CEO皮查伊认为Gemini已是市面最强，目标吸引五亿用户已存在，跳过
+2025-01-19T08:34:53.098263+0800 - INFO - 华硕推出搭载彩色 E Ink 显示屏的 NUC AI 迷你电脑已存在，跳过
+2025-01-19T08:34:53.099263+0800 - INFO - ​微软将AI功能整合进Microsoft 365，接着提高订阅价格已存在，跳过
+2025-01-19T08:34:53.099263+0800 - INFO - Mistral 与法新社达成内容合作 升级 Le Chat 聊天机器人性能已存在，跳过
+2025-01-19T08:34:53.100263+0800 - INFO - ​Borderless AI获3200万美元融资，用AI技术革新HR管理已存在，跳过
+2025-01-19T08:34:53.100263+0800 - INFO - 已爬取到0条新闻
+2025-01-19T08:34:53.101262+0800 - INFO - 最新aibase快讯爬取结束...
+2025-01-19T08:34:53.101262+0800 - INFO - 爬取结束...

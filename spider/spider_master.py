@@ -1,4 +1,4 @@
-from . import init_env
+from spider import init_env
 
 init_env()
 from spider.spider_latepost import get_news_letter
@@ -43,20 +43,49 @@ def get_aibase_brief_news():
     logger.info('最新aibase快讯爬取结束...')
 
 
-if __name__ == '__main__':
+def do_schedule_jobs():
     scheduler = BlockingScheduler(jobstores=jobstores)
 
-    # # 每天早上9:00执行，get_latepost_brief_news
-    # scheduler.add_job(get_latepost_brief_news, CronTrigger(hour=9, minute=0), id='get_latepost_brief_news',
-    #                   replace_existing=True)
-    # # 每隔3个小时执行，get_36kr_brief_news，每天6点到22点执行
-    # scheduler.add_job(get_36kr_brief_news, CronTrigger(hour='6-22/3'), id='get_36kr_brief_news',
-    #                   replace_existing=True)
-
-    # 测试
-    scheduler.add_job(get_latepost_brief_news, IntervalTrigger(seconds=15), id='get_latepost_brief_news',
+    # 每天早上9:00执行，get_latepost_brief_news
+    scheduler.add_job(get_latepost_brief_news, CronTrigger(hour=9, minute=0), id='get_latepost_brief_news',
                       replace_existing=True)
     # 每隔3个小时执行，get_36kr_brief_news，每天6点到22点执行
-    scheduler.add_job(get_36kr_brief_news, IntervalTrigger(seconds=10), id='get_36kr_brief_news',
+    scheduler.add_job(get_36kr_brief_news, CronTrigger(hour='6-22/3'), id='get_36kr_brief_news',
                       replace_existing=True)
+    # 每隔2个小时执行，get_aibase_brief_news，每天6点到22点执行
+    scheduler.add_job(get_aibase_brief_news, CronTrigger(hour='6-22/3'), id='get_36kr_brief_news',
+                      replace_existing=True)
+    #
+    # # 测试
+    # scheduler.add_job(get_latepost_brief_news, IntervalTrigger(seconds=15), id='get_latepost_brief_news',
+    #                   replace_existing=True)
+    # # 每隔3个小时执行，get_36kr_brief_news，每天6点到22点执行
+    # scheduler.add_job(get_36kr_brief_news, IntervalTrigger(seconds=10), id='get_36kr_brief_news',
+    #                   replace_existing=True)
     scheduler.start()
+
+
+def do_spider_task_now():
+    logger.info('开始爬取晚点...')
+    get_latepost_brief_news()
+    logger.info('开始爬取36kr...')
+    get_36kr_brief_news()
+    logger.info('开始爬取aibase...')
+    get_aibase_brief_news()
+    logger.info('爬取结束...')
+
+
+if __name__ == '__main__':
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-m', '--model', choices=['schedule', 'immediate'], default='schedule',
+                        help='是否开启定时任务')
+
+    args = parser.parse_args()
+    if args.model == 'schedule':
+        do_schedule_jobs()
+    elif args.model == 'immediate':
+        do_spider_task_now()
+    else:
+        print('参数错误[schedule, immediate]')

@@ -1,13 +1,15 @@
-from . import init_env
+from spider import init_env
 
 init_env()
 import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
 from spider.po.news_po import BriefNews
+from spider.classify import classify
 from util.log_util import logger
 from util.storage.sqlite_sqlalchemy import globle_db
 from util.spider_util import get_user_agent
+from spider.constant import NEWS_TYPE_SKIPPED
 
 # URL to scrape
 ROOT_URL = "https://www.aibase.com/zh/news"
@@ -47,6 +49,10 @@ def get_latest_news() -> list[BriefNews]:
             return all_news
         for newsletter in newsletter_list:
             url = SINGLE_ROOT_URL + newsletter['href']
+            if _has_same_brief_news(url):
+                logger.info(f"{newsletter.find('h3').text}已存在，跳过")
+                continue
+
             # 发送GET请求获取新闻详情页面
             brief_response = requests.get(url, headers=headers)
             if brief_response.status_code != 200:
@@ -71,11 +77,26 @@ def get_latest_news() -> list[BriefNews]:
                                                  class_='leading-8 text-[#242424] post-content mt-12 text-lg space-y-7')
             p_list = content_elem.find_all('p')
             content = ''
+            img_blob = None
             for p_elem in p_list:
                 if p_elem.text.strip() != "":
                     content += p_elem.text.strip() + '\n'
+                # 获取新闻图片
+                elif p_elem.find('img'):
+                    img_src = p_elem.find('img')['src']
+                    # 将图片转为二进制存入数据库
+                    img_response = requests.get(img_src, headers=headers)
+                    if img_response.ok:
+                        img_blob = img_response.content
+            # 类型检查
+            news_type = classify(title, content)
+            if news_type in NEWS_TYPE_SKIPPED:
+                continue
+
             brief_news = BriefNews(title=title, content=content, time=timestamp, popularity=pop,
+                                   type=classify(title, content), image=img_blob,
                                    web_site=WEB_SITE, url=url, create_time=int(datetime.now().timestamp()))
+
             all_news.append(brief_news)
         # 插入数据库
         globle_db.add_all(all_news)
@@ -85,10 +106,9 @@ def get_latest_news() -> list[BriefNews]:
     return all_news
 
 
-def _has_same_brief_news(url: str, timestamp: int):
+def _has_same_brief_news(url: str):
     with globle_db.get_session() as session:
-        news_obj = session.query(BriefNews).filter(BriefNews.url == url,
-                                                   BriefNews.time == timestamp, BriefNews.web_site == WEB_SITE).first()
+        news_obj = session.query(BriefNews).filter(BriefNews.url == url, BriefNews.web_site == WEB_SITE).first()
         return news_obj is not None
 
 

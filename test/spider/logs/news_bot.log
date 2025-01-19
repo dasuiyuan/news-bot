@@ -1,0 +1,15 @@
+2025-01-18T14:51:16.417127+0800 - INFO - 开始分类
+2025-01-18T14:51:18.550766+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T14:51:18.554275+0800 - INFO - 分类完成
+2025-01-18T14:51:53.969548+0800 - INFO - 开始分类
+2025-01-18T14:51:55.698504+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T14:51:55.701551+0800 - INFO - 分类完成
+2025-01-18T14:51:55.701551+0800 - INFO - 开始分类
+2025-01-18T14:51:56.788710+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T14:51:56.789721+0800 - INFO - 分类完成
+2025-01-18T14:51:56.795048+0800 - INFO - 开始分类
+2025-01-18T14:51:57.908648+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T14:51:57.909654+0800 - INFO - 分类完成
+2025-01-18T14:51:57.909654+0800 - INFO - 开始分类
+2025-01-18T14:51:58.632021+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-01-18T14:51:58.633171+0800 - INFO - 分类完成

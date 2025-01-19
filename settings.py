@@ -28,8 +28,8 @@ class Settings(BaseSettings):
     QWEN_API_KEY: str = "4e903a0c42c63f21f0e304c8104de72a"
     QWEN_API_URL: str = "https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1"
 
-    GLM_MODEL: str = "GLM-4-0520"
-    GLM_API_KEY: str = "0168e5e6e2ef53bd42e77903f3851303.GgdjBoxIUgj1HBA5"
+    GLM_MODEL: str = "glm-4-plus"
+    GLM_API_KEY: str = "0b1d50483da246849c179ec9accb9adc.rkcd7DanD0miqTiA"
 
     XINFERENCE_EMBEDDING_MODEL: str = "bge-m3"
     XINFERENCE_API_URL: str = "http://11.51.202.60:9997"
@@ -46,8 +46,8 @@ class Settings(BaseSettings):
 
 geoi_settings = Settings()
 print(f"NEWS_BOT_ROOT：{NEWS_BOT_ROOT.resolve()}")
-print(f"QWEN_API_KEY:【{geoi_settings.QWEN_API_KEY}】")
-print(f"QWEN_API_URL:【{geoi_settings.QWEN_API_URL}】")
+print(f"GLM_API_KEY:【{geoi_settings.GLM_API_KEY}】")
+print(f"GLM_MODEL:【{geoi_settings.GLM_MODEL}】")
 
 if __name__ == '__main__':
     print(NEWS_BOT_ROOT)

@@ -1,13 +1,15 @@
-from . import init_env
+from spider import init_env
 
 init_env()
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from spider.po.news_po import BriefNews
+from spider.classify import classify
 from util.log_util import logger
 from util.storage.sqlite_sqlalchemy import globle_db
 from util.spider_util import get_user_agent
+from spider.constant import NEWS_TYPE_SKIPPED
 
 # URL to scrape
 ROOT_URL = "https://www.latepost.com"
@@ -57,11 +59,16 @@ def get_news_letter() -> list[BriefNews]:
             time_div = brief_soup.find('div', class_='article-header-date')
             time_str = time_div.text
             # 获取当前年份
-            current_year = datetime.now().year
+            news_year = datetime.now().year
+            if "昨天" in time_str:
+                abs_day = (datetime.now() - timedelta(days=1)).strftime("%m月%d日")
+                news_year = (datetime.now() - timedelta(days=1)).year
+                time_str = time_str.replace("昨天", abs_day)
             # 定义时间格式
             time_format = "%m月%d日 %H:%M"
             # 将时间字符串转换为datetime对象，假设为当前年份
-            dt_object = datetime.strptime(f"{current_year}年{time_str}", f"%Y年{time_format}")
+            dt_object = datetime.strptime(f"{news_year}年{time_str}", f"%Y年{time_format}")
+
             # 将datetime对象转换为时间戳
             timestamp = int(dt_object.timestamp())
 
@@ -80,14 +87,17 @@ def get_news_letter() -> list[BriefNews]:
                 for p in p_tags:
                     if p.find('span', class_='ql-bg'):
                         if brief_news is not None:
-                            all_news.append(brief_news)
+                            if not _is_skip_news(brief_news):
+                                all_news.append(brief_news)
                         brief_news = BriefNews(title=p.get_text(strip=True), content="", time=timestamp,
                                                web_site=WEB_SITE, url=url, create_time=int(datetime.now().timestamp()))
                         continue
                     content = p.get_text(strip=True)
                     if content != "":
                         brief_news.content += content
-                all_news.append(brief_news)
+                # 处理最后一个新闻
+                if not _is_skip_news(brief_news):
+                    all_news.append(brief_news)
             else:
                 logger.warning("未找到指定的div标签。")
         else:
@@ -99,6 +109,17 @@ def get_news_letter() -> list[BriefNews]:
     except Exception as e:
         logger.warning(f"访问latepost失败: {e}")
     return all_news
+
+
+def _is_skip_news(brief_news: BriefNews) -> bool:
+    """
+    判断是否跳过新闻
+    :param title:
+    :return:
+    """
+    brief_news.type = classify(brief_news.title, brief_news.content)
+    # 类型检查
+    return brief_news.type in NEWS_TYPE_SKIPPED
 
 
 def _has_same_brief_news(url: str, timestamp: int):

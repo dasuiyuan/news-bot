@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, Integer, BigInteger, String, Text
+from sqlalchemy import create_engine, Column, Integer, BigInteger, String, Text, BLOB
 from util.storage.sqlite_sqlalchemy import Base, SQLiteDB
 
 
@@ -9,6 +9,7 @@ class BriefNews(Base):
     content = Column(Text, nullable=False)
     web_site = Column(String, nullable=True)
     type = Column(String, nullable=False)
+    image = Column(BLOB, nullable=True)
     popularity = Column(Integer, nullable=True)
     source = Column(String, nullable=True)
     url = Column(String, nullable=True)

@@ -1,11 +1,13 @@
-# 定义一个新闻分类的枚举类:科技AI类、其他科技类、经济类、社会类、体育类、政治类
+# 定义一个新闻分类的枚举类:AI产品类、AI技术类、AI商业类、其他科技类、其他类
 from enum import Enum
 
 
-class NewsClassify(Enum):
-    TECH_AI = "科技AI类"
-    OTHER_TECH = "其他科技类"
-    ECONOMY = "经济类"
-    SOCIETY = "社会类"
-    SPORT = "体育类"
-    POLITICS = "政治类"
+class NewsType(Enum):
+    AI_PRODUCT = "AI产品类"
+    AI_TECHNOLOGY = "AI技术类"
+    AI_BUSINESS = "AI商业类"
+    OTHER_TECHNOLOGY = "其他科技类"
+    OTHER_CLASS = "其他类"
+
+
+NEWS_TYPE_SKIPPED = ['其他类']
