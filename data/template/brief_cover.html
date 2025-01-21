@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10月AI大事件</title>
+    <!-- 引入Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <style>
+        /* 定义本地字体（如果需要） */
+        @font-face {
+            font-family: 'Jockey One Local';
+            src: url('fonts/JockeyOne-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .news-section {
+            display: flex;
+            max-width: 900px; /* 增大最大宽度 */
+            flex-direction: column;
+            margin: 0 auto;
+            font: 400 120px 'Jockey One', sans-serif; /* 增大字体大小 */
+            width: 900px;
+            height: 1200px; /* 3:4 的宽高比 */
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 1200px) {
+            /* 新增更大屏幕的媒体查询 */
+            .news-section {
+                font-size: 100px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .news-section {
+                font-size: 80px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .news-section {
+                font-size: 60px;
+                white-space: initial;
+            }
+        }
+
+        .news-content {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .background-img {
+            position: absolute;
+            inset: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .news-details {
+            position: absolute; /* 设置为绝对定位 */
+            top: 50%; /* 距离顶部 50% */
+            left: 0%; /* 距离左侧 50% */
+            transform: translate(0%, -50%); /* 向左和向上移动自身宽度和高度的 50%，实现居中 */
+            background-color: rgba(115, 114, 114, 0.7);
+            backdrop-filter: blur(4px);
+            display: flex;
+            width: 100%; /* 或者根据需要调整宽度 */
+            padding: 30px; /* 调整内边距 */
+            flex-direction: column;
+            gap: 60px;
+            box-sizing: border-box;
+        }
+
+        /*.news-details {*/
+        /*    position: relative;*/
+        /*    background-color: rgba(115, 114, 114, 0.7);*/
+        /*    backdrop-filter: blur(4px);*/
+        /*    display: flex;*/
+        /*    width: 100%;*/
+        /*    padding: 30px; !* 增大内边距 *!*/
+        /*    flex-direction: column;*/
+        /*    gap: 60px; !* 增大间距 *!*/
+        /*    box-sizing: border-box;*/
+        /*}*/
+
+        @media (max-width: 1200px) {
+            .news-details {
+                padding: 25px;
+                gap: 50px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .news-details {
+                padding: 20px;
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .news-details {
+                padding: 15px;
+                gap: 20px;
+            }
+        }
+
+        .news-title {
+            color: rgb(150, 245, 78);
+            font-weight: bold;
+            font-size: 120px; /* 增大字体大小 */
+            line-height: 1;
+            text-shadow: 0 0 10px rgba(150, 245, 78, 0.3);
+            /*左侧增加空白距离*/
+            margin-left: 50px;
+            font-family: 'Jockey One', serif;
+        }
+
+        @media (max-width: 1200px) {
+            .news-title {
+                font-size: 100px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .news-title {
+                font-size: 80px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .news-title {
+                font-size: 60px;
+            }
+        }
+
+        .news-date {
+            color: rgb(59, 237, 253);
+            font-size: 120px; /* 增大字体大小 */
+            line-height: 1;
+            text-align: right;
+            text-shadow: 0 0 10px rgba(59, 237, 253, 0.3);
+            margin-right: 50px;
+            font-family: 'Jockey One', 'Jockey One Local', sans-serif; /* 使用Google字体或本地字体 */
+        }
+
+        @media (max-width: 1200px) {
+            .news-date {
+                font-size: 100px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .news-date {
+                font-size: 80px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .news-date {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="news-section">
+    <div class="news-content">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/23aa4f893f128db448a1693a37b398db83b74b9157afe57ae6c00000d5c498a9?apiKey=57d9e892835349978d58e235dc1751ea&"
+             alt="AI Daily News Background" class="background-img">
+        <div class="news-details">
+            <div class="news-title" role="heading" aria-level="1">AI每日新鲜事</div>
+            <div class="news-date" aria-label="发布日期：2025年1月20日">{{today}}</div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

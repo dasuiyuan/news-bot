@@ -37,10 +37,11 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
         final_news_list[-1].content = summary
 
     # 3、生成图片
+    # 生成封面
 
+    # 生成新闻图片
 
     # 4、发布
-
 
 
 def news_summarize(brief_news: BriefNews):
