@@ -33,7 +33,11 @@ def generate_cover():
         html_to_image(html_content, image_file)
 
 
-def generate_news(brief_news: BriefNews):
+def generate_news_title(brief_news: BriefNews):
+    image_file = os.path.join(img_path, f"brief_{brief_news.id}.png")
+
+
+def generate_news_content(brief_news: BriefNews):
     image_file = os.path.join(img_path, f"brief_{brief_news.id}.png")
 
 
