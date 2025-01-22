@@ -42,4 +42,5 @@ def generate_news_content(brief_news: BriefNews):
 
 
 if __name__ == "__main__":
-    generate_cover()
+    # generate_cover()
+    generate_news_title(BriefNews(id=1))

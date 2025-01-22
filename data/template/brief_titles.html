@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10月AI大事件</title>
+    <!-- 引入Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <style>
+        .news-container {
+            background-color: rgba(255, 255, 255, 1);
+            display: flex;
+            max-width: 768px;
+            flex-direction: column;
+            overflow: hidden;
+            color: rgba(0, 0, 0, 1);
+            white-space: nowrap;
+            width: 768px;
+            height: 1024px; /* 3:4 的宽高比 */
+            font: 400 32px Inter, sans-serif;
+        }
+
+        .news-wrapper {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            min-height: 1024px;
+            width: 100%;
+            align-items: start;
+            padding: 171px 60px;
+        }
+
+        .background-image {
+            position: absolute;
+            inset: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .news-item {
+            position: relative;
+        }
+
+        .news-item-spacing {
+            position: relative;
+            margin-top: 113px;
+        }
+
+        .news-item-long {
+            position: relative;
+            margin: 113px 0 -34px;
+        }
+
+        @media (max-width: 991px) {
+            .news-container {
+                white-space: initial;
+            }
+
+            .news-wrapper {
+                max-width: 100%;
+                white-space: initial;
+                padding: 100px 20px;
+            }
+
+            .news-item-spacing {
+                margin-top: 40px;
+            }
+
+            .news-item-long {
+                max-width: 100%;
+                margin: 40px 0 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="news-container">
+    <div class="news-wrapper">
+        <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b3b939fb68a3759bbce98f7689bbdabfac5c55c7d5ba9af3e217aa87bdb87ad?placeholderIfAbsent=true&apiKey=57d9e892835349978d58e235dc1751ea"
+                class="background-image"
+                alt="News section background"
+        />
+        <div class="news-item">1. 第一个新闻</div>
+        <div class="news-item-spacing">2. 第二个新闻</div>
+        <div class="news-item-spacing">3. 第三个新闻</div>
+        <div class="news-item-spacing">4. 第四个新闻</div>
+        <div class="news-item-long">
+            5. 第五个新闻第五个新闻第五个新闻第五
+            <br/>
+            个新闻
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
