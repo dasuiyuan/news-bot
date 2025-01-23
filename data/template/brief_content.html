@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI大事件</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .news-container {
+            background-color: rgba(255, 255, 255, 1);
+            max-width: 768px;
+            width: 768px;
+            height: 1024px; /* 3:4 的宽高比 */
+            margin: 0 auto; /* 水平居中 */
+            background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/7b3b939fb68a3759bbce98f7689bbdabfac5c55c7d5ba9af3e217aa87bdb87ad?placeholderIfAbsent=true&apiKey=57d9e892835349978d58e235dc1751ea'); /* 设置背景图 */
+            background-size: cover; /* 背景图覆盖整个容器 */
+            background-position: center; /* 背景图居中 */
+            background-repeat: no-repeat; /* 背景图不重复 */
+        }
+
+        .image {
+            width: 100%; /* 图片宽度 */
+            height: auto; /* 图片高度自适应 */
+        }
+
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('fonts/QingNiaoHuaGuangJianMeiHei-2.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .news-content {
+            position: relative;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            gap: 100px; /* 设置文字之间的间隔 */
+            padding-top: 160px; /* 在内容容器的顶部添加内边距 */
+        }
+
+        .news-item {
+            text-align: left; /* 文字居中对齐 */
+            margin-left: 20px;
+            width: 100%; /* 使文字宽度与容器一致 */
+            margin-bottom: 100px;
+            font-size: 30px;
+            /*font-family: 'MyCustomFont', serif;*/
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="news-container">
+    <div class="news-content">
+        <div class="news-item">新闻内容</div>
+    </div>
+</div>
+</body>
+</html>

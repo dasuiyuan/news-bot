@@ -1,16 +1,21 @@
-from process import image_generate
-from spider.po.news_po import BriefNews
-from . import init_env
+from test.process import init_env
 
 init_env()
+from process import image_generate
+from spider.po.news_po import BriefNews
 from util.storage.sqlite_sqlalchemy import globle_db
 
 
 def test_generate_news_title():
     with globle_db.get_session() as session:
-        briefs = session.query(BriefNews).limit(5).all()
-        for brief in briefs:
-            image_generate.generate_news_title(brief)
+        briefs = session.query(BriefNews).filter(BriefNews.type not in ['其他类']).limit(5).all()
+        image_generate.generate_news_title(briefs)
+
+
+def test_generate_news_content():
+    with globle_db.get_session() as session:
+        brief = session.query(BriefNews).filter(BriefNews.type not in ['其他类']).limit(1).first()
+        image_generate.generate_news_title(briefs)
 
 
 if __name__ == '__main__':
