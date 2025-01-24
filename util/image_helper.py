@@ -19,8 +19,8 @@ if __name__ == "__main__":
         'enable-javascript': '',  # 启用JavaScript
         # 'exclude-from-outline': ''
     }
-    img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template", "brief_cover.png")
-    html_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template", "brief_cover.html")
+    img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template", "test.png")
+    html_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template", "test.html")
     imgkit.from_file(html_path, img_path, options=options)
     # from html2image import Html2Image
     #

@@ -9,11 +9,14 @@ from datetime import datetime
 from util import init_env
 
 init_env()
+from util.llm_util import chat_deepseek
+from process import prompt
 from spider.po.news_po import BriefNews
 from util.storage.sqlite_sqlalchemy import globle_db
 
 img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image")
 template_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template")
+tmp_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "tmp")
 
 
 def html_to_image(html_content, img_file):
@@ -48,11 +51,23 @@ def generate_news_title(brief_news_list: list[BriefNews]):
 
 
 def generate_news_content(brief_news: BriefNews):
-    image_file = os.path.join(img_path, "brief_content.png")
+    image_file = os.path.join(img_path, f"brief_content_{brief_news.id}.png")
     html_file = os.path.join(template_path, "brief_content.html")
     with open(html_file, "r", encoding="utf-8") as f:
         html_str_list = f.readlines()
         html_content = "".join(html_str_list)
+        # 将图片的blob存储到tmp下
+        news_img_file = os.path.join(tmp_path, "img_default.png")
+        if brief_news.image is not None:
+            with open(os.path.join(tmp_path, f"img_{brief_news.id}.png"), "wb") as f:
+                f.write(brief_news.image)
+            news_img_file = os.path.join(tmp_path, f"img_{brief_news.id}.png")
+        html_content = html_content.replace("$news_img$", news_img_file)
+        # llm总结50个字
+        response = chat_deepseek().complete(
+            prompt.PROMPT_NEWS_SUMMARIZE.format(length=50, title=brief_news.title, content=brief_news.content))
+        summary = response.text
+        html_content = html_content.replace("$news_content$", summary)
         html_to_image(html_content, image_file)
 
 

@@ -14,9 +14,10 @@ def test_generate_news_title():
 
 def test_generate_news_content():
     with globle_db.get_session() as session:
-        brief = session.query(BriefNews).filter(BriefNews.type not in ['其他类']).limit(1).first()
-        image_generate.generate_news_title(briefs)
+        brief = session.query(BriefNews).filter(BriefNews.image.isnot(None)).limit(1).first()
+        image_generate.generate_news_content(brief)
 
 
 if __name__ == '__main__':
-    test_generate_news_title()
+    # test_generate_news_title()
+    test_generate_news_content()
