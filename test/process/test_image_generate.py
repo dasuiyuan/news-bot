@@ -19,5 +19,6 @@ def test_generate_news_content():
 
 
 if __name__ == '__main__':
+    # image_generate.generate_cover()
     # test_generate_news_title()
     test_generate_news_content()
