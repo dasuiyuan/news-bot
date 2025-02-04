@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI大事件</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
+          rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .news-container {
+            background-color: rgba(255, 255, 255, 1);
+            max-width: 768px;
+            width: 768px;
+            height: 1024px; /* 3:4 的宽高比 */
+            margin: 0 auto; /* 水平居中 */
+            /*background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/7b3b939fb68a3759bbce98f7689bbdabfac5c55c7d5ba9af3e217aa87bdb87ad?placeholderIfAbsent=true&apiKey=57d9e892835349978d58e235dc1751ea'); !* 设置背景图 *!*/
+            /*background-size: cover; !* 背景图覆盖整个容器 *!*/
+            /*background-position: center; !* 背景图居中 *!*/
+            /*background-repeat: no-repeat; !* 背景图不重复 *!*/
+        }
+
+        .background-img {
+            position: absolute;
+            inset: 0;
+            margin-left: 12px;
+            margin-top: 10px;
+            height: 1024px;
+            width: 768px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .news-title {
+            text-align: center; /* 文字居中对齐 */
+            margin: 0 auto; /* 水平居中 */
+            width: 80%;
+            display: flex;
+            font-size: 35px;
+            font-weight: bold;
+            flex-direction: column;
+            gap: 5px; /* 设置文字之间的间隔 */
+            padding-top: 20px; /* 在内容容器的顶部添加内边距 */
+        }
+
+        .image {
+            margin: 0 auto; /* 水平居中 */
+            width: 80%; /* 图片宽度 */
+            margin-left: 35px;
+            height: auto; /* 图片高度自适应 */
+        }
+
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('fonts/QingNiaoHuaGuangJianMeiHei-2.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .news-content {
+            position: relative;
+            width: 95%;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 100px; /* 设置文字之间的间隔 */
+            padding-top: 5px; /* 在内容容器的顶部添加内边距 */
+        }
+
+        .news-item {
+            text-align: left; /* 文字居中对齐 */
+            margin-left: 100px;
+            width: 80%; /* 使文字宽度与容器一致 */
+            margin-bottom: 100px;
+            font-size: 30px;
+            font-family: 'Segoe UI Emoji', "ZCOOL KuaiLe", sans-serif;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<div class="news-container">
+    <img src="/Users/suiyuan/personal/news-bot/code/news-bot/data/template/content_background.jpg"
+         class="background-img">
+    <div class="news-content">
+        <div class="news-title">
+            $news_title$
+        </div>
+        <div style="text-align: center;">
+            <img src="$news_img$"
+                 class="image">
+        </div>
+        <div class="news-item">$news_content$</div>
+    </div>
+</div>
+</body>
+</html>
