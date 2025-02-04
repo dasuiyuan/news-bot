@@ -1,4 +1,5 @@
 import random
+import image_generate
 from datetime import datetime, timedelta
 from util.llm_util import chat_deepseek
 from spider.po.news_po import BriefNews
@@ -6,6 +7,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
 from apscheduler.triggers.cron import CronTrigger
 from util.storage.sqlite_sqlalchemy import globle_db
+from util.log_util import logger
 from process import prompt
 
 jobstores = {
@@ -29,19 +31,27 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     aibase_list = [_ for _ in brief_news_list if _.web_site == 'aibase']
     sorted_news_list: list[BriefNews] = sorted(aibase_list, key=lambda x: x.popularity, reverse=True)
     candidate_list = not_aibase_list + sorted_news_list[:count - len(not_aibase_list)]
-    # 对candidate_list进行总结
-    final_news_list: list[BriefNews] = []
-    for brief_news in candidate_list:
-        summary = news_summarize(brief_news)
-        final_news_list.append(brief_news)
-        final_news_list[-1].content = summary
+    # # 对candidate_list进行总结
+    # final_news_list: list[BriefNews] = []
+    # for brief_news in candidate_list:
+    #     summary = news_summarize(brief_news)
+    #     final_news_list.append(brief_news)
+    #     final_news_list[-1].content = summary
 
     # 3、生成图片
     # 生成封面
+    img_cover_file = image_generate.generate_cover()
 
-    # 生成新闻图片
+    # 生成新闻标题
+    img_title_file = image_generate.generate_news_title(candidate_list)
+
+    # 生成新闻内容
+    img_content_file_list = []
+    for brief in candidate_list:
+        img_content_file_list.append(image_generate.generate_news_content(brief))
 
     # 4、发布
+    logger.info(f"封面：{img_cover_file} 标题：{img_title_file} 内容：{img_content_file_list}")
 
 
 def news_summarize(brief_news: BriefNews):
@@ -51,8 +61,10 @@ def news_summarize(brief_news: BriefNews):
 
 
 if __name__ == '__main__':
-    # 定时每天9:10执行brief_news_synthesis
-    scheduler = BlockingScheduler()
-    scheduler.add_jobstore(jobstores['default'])
-    scheduler.add_job(brief_news_synthesis, CronTrigger(hour=9, minute=10), id='brief_news_synthesis',
-                      replace_existing=True)
+    # # 定时每天9:10执行brief_news_synthesis
+    # scheduler = BlockingScheduler()
+    # scheduler.add_jobstore(jobstores['default'])
+    # scheduler.add_job(brief_news_synthesis, CronTrigger(hour=9, minute=10), id='brief_news_synthesis',
+    #                   replace_existing=True)
+
+    brief_news_synthesis()

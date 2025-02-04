@@ -4,7 +4,7 @@ PROMPT_NEWS_SUMMARIZE = """
 # 输出要求
 1、保持原文意思，并提取出最重点的信息，不要自己扩展和创造
 2、整体长度不能超过{length}
-3、以小红书的风格输出
+3、以小红书的风格输出，内容里还有一些 emoji 表情
 
 title={title}
 content={content}

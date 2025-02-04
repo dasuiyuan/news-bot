@@ -1,194 +1,66 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10月AI大事件</title>
-    <!-- 引入Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
-          rel="stylesheet">
     <style>
-        /* 定义本地字体（如果需要） */
-        @font-face {
-            font-family: 'Jockey One Local';
-            src: url('fonts/JockeyOne-Regular.woff2') format('woff2');
-            font-weight: normal;
-            font-style: normal;
+        html, body {
+            margin: 0;
+            padding: 0;
         }
 
-        .news-section {
+        .news-container {
             background-color: rgba(255, 255, 255, 1);
-            max-width: 768px;
-            width: 768px;
+            max-width: 750px;
+            width: 750px;
             height: 1024px; /* 3:4 的宽高比 */
-            margin: 0 0; /* 水平居中 */
-            /*background-image: 'file:///D:\3-code\mini\news-bot\data\template\cover_background.png'; !* 设置背景图 *!*/
+            margin: 0 auto; /* 水平居中 */
+            /*background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/7b3b939fb68a3759bbce98f7689bbdabfac5c55c7d5ba9af3e217aa87bdb87ad?placeholderIfAbsent=true&apiKey=57d9e892835349978d58e235dc1751ea'); !* 设置背景图 *!*/
             /*background-size: cover; !* 背景图覆盖整个容器 *!*/
             /*background-position: center; !* 背景图居中 *!*/
             /*background-repeat: no-repeat; !* 背景图不重复 *!*/
         }
 
-        @media (max-width: 1024px) {
-            /* 新增更大屏幕的媒体查询 */
-            .news-section {
-                font-size: 100px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .news-section {
-                font-size: 80px;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .news-section {
-                font-size: 60px;
-                white-space: initial;
-            }
-        }
-
-        .news-content {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            box-sizing: border-box;
-        }
-
         .background-img {
             position: absolute;
             inset: 0;
-            height: 1024px;
-            width: 768px;
+            height: 1030px;
+            width: 780px;
+            margin-left: 10px;
+            margin-top: 10px;
             object-fit: cover;
             object-position: center;
         }
 
-        .news-details {
-            position: absolute; /* 设置为绝对定位 */
-            top: 50%; /* 距离顶部 50% */
-            left: 0%; /* 距离左侧 50% */
-            transform: translate(0%, -50%); /* 向左和向上移动自身宽度和高度的 50%，实现居中 */
-            background-color: rgba(115, 114, 114, 0.7);
-            backdrop-filter: blur(4px);
-            display: flex;
-            width: 100%; /* 或者根据需要调整宽度 */
-            padding: 30px; /* 调整内边距 */
-            flex-direction: column;
-            gap: 60px;
-            box-sizing: border-box;
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('fonts/QingNiaoHuaGuangJianMeiHei-2.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
         }
 
-        /*.news-details {*/
-        /*    position: relative;*/
-        /*    background-color: rgba(115, 114, 114, 0.7);*/
-        /*    backdrop-filter: blur(4px);*/
-        /*    display: flex;*/
-        /*    width: 100%;*/
-        /*    padding: 30px; !* 增大内边距 *!*/
-        /*    flex-direction: column;*/
-        /*    gap: 60px; !* 增大间距 *!*/
-        /*    box-sizing: border-box;*/
-        /*}*/
-
-        @media (max-width: 1024px) {
-            .news-details {
-                padding: 25px;
-                gap: 50px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .news-details {
-                padding: 20px;
-                gap: 40px;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .news-details {
-                padding: 15px;
-                gap: 20px;
-            }
-        }
-
-        .news-title {
-            color: rgb(150, 245, 78);
-            font-weight: bold;
-            font-size: 120px; /* 增大字体大小 */
-            line-height: 1;
-            text-shadow: 0 0 10px rgba(150, 245, 78, 0.3);
-            /*左侧增加空白距离*/
-            margin-left: 50px;
-            font-family: 'Jockey One', serif;
-        }
-
-        @media (max-width: 1024px) {
-            .news-title {
-                font-size: 100px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .news-title {
-                font-size: 80px;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .news-title {
-                font-size: 60px;
-            }
-        }
-
-        .news-date {
-            color: rgb(59, 237, 253);
-            font-size: 120px; /* 增大字体大小 */
-            line-height: 1;
-            text-align: right;
-            text-shadow: 0 0 10px rgba(59, 237, 253, 0.3);
-            margin-right: 50px;
-            font-family: 'Jockey One', 'Jockey One Local', sans-serif; /* 使用Google字体或本地字体 */
-        }
-
-        @media (max-width: 1024px) {
-            .news-date {
-                font-size: 100px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .news-date {
-                font-size: 80px;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .news-date {
-                font-size: 60px;
-            }
+        .news-content {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            padding-top: 760px; /* 在内容容器的顶部添加内边距 */
+            font-size: 100px;
+            /*font-weight: 900;*/
+            font-weight: 900;
+            font-style: italic;
+            font-family: "Jockey Onee", sans-serif;
         }
     </style>
 </head>
-
 <body>
-<div class="news-section">
-    <div class="news-content">
-        <img src="D:\3-code\mini\news-bot\data\template\cover_background.png"
-             alt="AI Daily News Background" class="background-img">
-        <div class="news-details">
-            <div class="news-title" role="heading" aria-level="1">AI每日新鲜事</div>
-            <div class="news-date" aria-label="发布日期：2025年1月20日">{{today}}</div>
-        </div>
-    </div>
+<div class="news-container">
+    <img src="/Users/suiyuan/personal/news-bot/code/news-bot/data/template/cover_background.png"
+         class="background-img">
+    <div class="news-content">{{today}}</div>
 </div>
 </body>
-
 </html>

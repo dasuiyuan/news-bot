@@ -9,7 +9,7 @@ from datetime import datetime
 from util import init_env
 
 init_env()
-from util.llm_util import chat_deepseek
+from util.llm_util import chat_deepseek, chat_glm
 from process import prompt
 from spider.po.news_po import BriefNews
 from selenium import webdriver
@@ -55,7 +55,7 @@ def html_to_image_selenium(html_content, img_file, id, width=768, height=1024):
         driver.get(f"file://{html_path}")
 
         # 等待页面加载完成
-        time.sleep(2)  # 根据需要调整等待时间
+        time.sleep(3)  # 根据需要调整等待时间
 
         # 截图并保存
         driver.save_screenshot(img_file)
@@ -70,8 +70,9 @@ def generate_cover():
     html_file = os.path.join(template_path, "brief_cover.html")
     with open(html_file, "r", encoding="utf-8") as f:
         html_str_list = f.readlines()
-        html_content = "".join(html_str_list).replace("{{today}}", datetime.now().strftime("%Y-%m-%d"))
+        html_content = "".join(html_str_list).replace("{{today}}", datetime.now().strftime("%Y.%m.%d"))
         html_to_image_selenium(html_content, image_file, 'cover', 800, 1190)
+    return image_file
 
 
 def generate_news_title(brief_news_list: list[BriefNews]):
@@ -84,6 +85,7 @@ def generate_news_title(brief_news_list: list[BriefNews]):
             title = news.title
             html_content = html_content.replace(f"第{idx + 1}个新闻", title)
         html_to_image_selenium(html_content, image_file, 'title', 790, 1180)
+    return image_file
 
 
 def generate_news_content(brief_news: BriefNews):
@@ -101,11 +103,12 @@ def generate_news_content(brief_news: BriefNews):
             news_img_file = os.path.join(tmp_path, f"img_{brief_news.id}.png")
         html_content = html_content.replace("$news_img$", news_img_file)
         # llm总结50个字
-        response = chat_deepseek().complete(
+        response = chat_glm().complete(
             prompt.PROMPT_NEWS_SUMMARIZE.format(length=50, title=brief_news.title, content=brief_news.content))
         summary = response.text
         html_content = html_content.replace("$news_content$", summary)
         html_to_image_selenium(html_content, image_file, brief_news.id, 768 + 50, 1024 + 150)
+    return image_file
 
 
 if __name__ == "__main__":

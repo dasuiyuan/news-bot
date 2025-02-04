@@ -8,79 +8,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&display=swap"
           rel="stylesheet">
     <style>
-        html, body {
+        body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
+            width: 750px;
+            height: 1024px;
+            background-color: rgb(80, 246, 128); /* 浅蓝色背景 */
+            display: flex;
+            /*justify-content: normal;*/
+            align-items: center;
         }
 
-        .news-container {
-            background-color: rgba(255, 255, 255, 1);
-            max-width: 768px;
-            width: 768px;
-            height: 1024px; /* 3:4 的宽高比 */
-            margin: 0 auto; /* 水平居中 */
-            /*background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/7b3b939fb68a3759bbce98f7689bbdabfac5c55c7d5ba9af3e217aa87bdb87ad?placeholderIfAbsent=true&apiKey=57d9e892835349978d58e235dc1751ea'); !* 设置背景图 *!*/
-            /*background-size: cover; !* 背景图覆盖整个容器 *!*/
-            /*background-position: center; !* 背景图居中 *!*/
-            /*background-repeat: no-repeat; !* 背景图不重复 *!*/
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column; /* 使子元素垂直排列 */
+            align-items: center; /* 水平居中对齐 */
+            justify-content: center; /* 垂直居中对齐 */
         }
 
         .news-title {
             text-align: center; /* 文字居中对齐 */
-            margin: 0 auto; /* 水平居中 */
-            width: 80%;
+            margin-left: 20px;
+            width: 85%;
+            /*margin-top: 5px;*/
+            /*margin-bottom: 10px; !* 在标题下方添加一些间距 *!*/
+            font-size: 30px;
+            font-family: 'Jockey One', sans-serif;
+            /*font-weight: bold;*/
+        }
+
+        .rounded-rectangle {
+            position: relative;
+            margin-left: 70px;
+            width: 100%; /* 矩形宽度，可根据需要调整 */
+            height: 85%; /* 矩形高度，可根据需要调整 */
+            background-color: white;
+            border-radius: 10px; /* 四角弧度 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果，使矩形更立体 */
             display: flex;
-            font-size: 20px;
             flex-direction: column;
-            gap: 5px; /* 设置文字之间的间隔 */
-            padding-top: 20px; /* 在内容容器的顶部添加内边距 */
+            align-items: center;
+            /*justify-content: center;*/
         }
 
         .image {
-            margin: 0 auto; /* 水平居中 */
-            width: 700px; /* 图片宽度 */
+            margin: 10px auto; /* 水平居中 */
+            width: 90%; /* 图片宽度 */
             height: auto; /* 图片高度自适应 */
         }
 
-        @font-face {
-            font-family: 'MyCustomFont';
-            src: url('fonts/QingNiaoHuaGuangJianMeiHei-2.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        .news-content {
-            position: relative;
-            width: 95%;
-            display: flex;
-            flex-direction: column;
-            gap: 100px; /* 设置文字之间的间隔 */
-            padding-top: 5px; /* 在内容容器的顶部添加内边距 */
-        }
-
         .news-item {
-            text-align: left; /* 文字居中对齐 */
-            margin-left: 20px;
-            width: 100%; /* 使文字宽度与容器一致 */
-            margin-bottom: 100px;
+            text-align: left; /* 文字左对齐 */
+            margin-left: 10px;
+            width: 95%; /* 使文字宽度与容器一致 */
+            margin-top: 20px;
             font-size: 30px;
-            font-family: 'Segoe UI Emoji', "ZCOOL KuaiLe", sans-serif;
+            font-family: 'Jockey One', sans-serif;
             font-weight: normal;
         }
     </style>
 </head>
 <body>
-<div class="news-container">
+<div class="container">
     <div class="news-title">
         Sam Altman 收到参议院信件 OpenAI 面临监管调查
     </div>
-    <div style="text-align: center;">
-        <img src="D:\3-code\mini\news-bot\data\tmp\img_19.png"
-             class="image">
-    </div>
-    <div class="news-content">
-        <div class="news-item">📩 OpenAI CEO Sam Altman 公开参议院信件，质疑公司巨额捐款影响特朗普政府政策，规避监管。💰 Altman 称捐款为个人行为，非公司决定。⚖️ 信件揭示政府对科技公司监管决心。</div>
+    <div class="rounded-rectangle">
+        <img src="/Users/suiyuan/personal/news-bot/code/news-bot/data/tmp/img_19.png" class="image">
+        <div class="news-item">📩Altman公开参议院信件，OpenAI等捐款引监管关注🔍。信中质疑捐款影响特朗普政府，Altman称个人行为👤。信件暴露政府对科技巨头监管决心🚫！</div>
     </div>
 </div>
 </body>
