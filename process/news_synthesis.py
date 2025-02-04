@@ -1,3 +1,4 @@
+import os
 import random
 import image_generate
 from datetime import datetime, timedelta
@@ -39,16 +40,18 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     #     final_news_list[-1].content = summary
 
     # 3、生成图片
+    img_folder = img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image",
+                                         datetime.now().strftime("%Y-%m-%d"))
     # 生成封面
-    img_cover_file = image_generate.generate_cover()
+    img_cover_file = image_generate.generate_cover(img_folder)
 
     # 生成新闻标题
-    img_title_file = image_generate.generate_news_title(candidate_list)
+    img_title_file = image_generate.generate_news_title(candidate_list, img_folder)
 
     # 生成新闻内容
     img_content_file_list = []
     for brief in candidate_list:
-        img_content_file_list.append(image_generate.generate_news_content(brief))
+        img_content_file_list.append(image_generate.generate_news_content(brief, img_folder))
 
     # 4、发布
     logger.info(f"封面：{img_cover_file} 标题：{img_title_file} 内容：{img_content_file_list}")

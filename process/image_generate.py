@@ -19,7 +19,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 from util.storage.sqlite_sqlalchemy import globle_db
 
-img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image")
+# img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image")
 template_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template")
 tmp_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "tmp")
 
@@ -65,7 +65,7 @@ def html_to_image_selenium(html_content, img_file, id, width=768, height=1024):
         driver.quit()
 
 
-def generate_cover():
+def generate_cover(img_path):
     image_file = os.path.join(img_path, "brief_cover.png")
     html_file = os.path.join(template_path, "brief_cover.html")
     with open(html_file, "r", encoding="utf-8") as f:
@@ -75,7 +75,7 @@ def generate_cover():
     return image_file
 
 
-def generate_news_title(brief_news_list: list[BriefNews]):
+def generate_news_title(brief_news_list: list[BriefNews], img_path):
     image_file = os.path.join(img_path, "brief_title.png")
     html_file = os.path.join(template_path, "brief_title.html")
     with open(html_file, "r", encoding="utf-8") as f:
@@ -88,7 +88,7 @@ def generate_news_title(brief_news_list: list[BriefNews]):
     return image_file
 
 
-def generate_news_content(brief_news: BriefNews):
+def generate_news_content(brief_news: BriefNews, img_path):
     image_file = os.path.join(img_path, f"brief_content_{brief_news.id}.png")
     html_file = os.path.join(template_path, "brief_content.html")
     with open(html_file, "r", encoding="utf-8") as f:
