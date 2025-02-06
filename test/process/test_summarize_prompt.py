@@ -10,6 +10,6 @@ NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国
 
 if __name__ == '__main__':
     for title, content in NEWS.items():
-        response = chat_deepseek().complete(
+        response = chat_glm().complete(
             prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=title, content=content))
         print(response)

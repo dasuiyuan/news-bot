@@ -66,6 +66,8 @@ def html_to_image_selenium(html_content, img_file, id, width=768, height=1024):
 
 
 def generate_cover(img_path):
+    if os.path.exists(img_path) is False:
+        os.makedirs(img_path)
     image_file = os.path.join(img_path, "brief_cover.png")
     html_file = os.path.join(template_path, "brief_cover.html")
     with open(html_file, "r", encoding="utf-8") as f:
@@ -76,6 +78,8 @@ def generate_cover(img_path):
 
 
 def generate_news_title(brief_news_list: list[BriefNews], img_path):
+    if os.path.exists(img_path) is False:
+        os.makedirs(img_path)
     image_file = os.path.join(img_path, "brief_title.png")
     html_file = os.path.join(template_path, "brief_title.html")
     with open(html_file, "r", encoding="utf-8") as f:
@@ -89,6 +93,8 @@ def generate_news_title(brief_news_list: list[BriefNews], img_path):
 
 
 def generate_news_content(brief_news: BriefNews, img_path):
+    if os.path.exists(img_path) is False:
+        os.makedirs(img_path)
     image_file = os.path.join(img_path, f"brief_content_{brief_news.id}.png")
     html_file = os.path.join(template_path, "brief_content.html")
     with open(html_file, "r", encoding="utf-8") as f:
