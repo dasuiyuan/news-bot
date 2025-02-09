@@ -1,5 +1,7 @@
 from util.llm_util import chat_deepseek, chat_qwen, chat_glm
 from process import prompt
+from util.storage.sqlite_sqlalchemy import SQLiteDB
+from spider.po.news_po import BriefNews
 
 NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国商务部、科技部等部门将汽车动力电池领域中的磷酸铁锂材料制造工艺技术列入《中国禁止出口限制出口技术目录》调整征求意见稿中。
 目录中涉及技术是第四代磷酸铁锂电池制造的核心工艺，通过挤压化学材料，提升同等体积下电池的电容量，主要用在宁德时代的高性价比电池中，并非标准续航版特斯拉使用的普通磷酸铁锂电池。
@@ -9,7 +11,10 @@ NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国
         "OpenAI攻略传媒领域之际，苹果撤回AI新闻功能": "OpenAI宣布与美国数字媒体Axios达成战略伙伴关系。除了常见的内容合作外，科技巨头还将出资帮助Axios建立“由OpenAI技术支持的地方新闻编辑室”。面对AI能力不足的争议，苹果公司在最新测试版系统中暂停了新闻APP的AI“通知摘要”功能；自去年底以来，苹果股价已经累计下跌超13%。"}
 
 if __name__ == '__main__':
-    for title, content in NEWS.items():
-        response = chat_glm().complete(
-            prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=title, content=content))
-        print(response)
+    db = SQLiteDB(f"sqlite:///D:\\3-code\mini\\news-bot\data\\news_bot.db")
+    with db.get_session() as session:
+        news = session.query(BriefNews).filter(BriefNews.type == 'AI技术类').limit(1).first()
+
+    response = chat_glm().complete(
+        prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=news.title, content=news.content))
+    print(response)

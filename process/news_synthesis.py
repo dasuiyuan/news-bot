@@ -21,9 +21,10 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     # 从t_brief_news中获取所有create_time大于昨天9:10分的brief_news
     yesterday_9_10 = datetime.now() - timedelta(days=1)
     yesterday_9_10 = yesterday_9_10.replace(hour=9, minute=10, second=0, microsecond=0)
+    type_filter = type_filter if type_filter else ['AI技术类', 'AI产品类', 'AI商业类']
     brief_news_list: list[BriefNews] = globle_db.get_after_time(BriefNews, int(yesterday_9_10.timestamp()), type_filter)
 
-    # 2、筛选并总结
+    # 2、筛选新闻
     # 遍历所有brief_news，提取出5篇文章，36kr和latepost各一篇，aibase取3篇。如果前两个媒体不够两篇，用aibase。aibase内部根据popularity倒序
     # 筛选不是aibase的brief_news
     not_aibase_list = [_ for _ in brief_news_list if _.web_site != 'aibase']
@@ -31,17 +32,11 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
         not_aibase_list = random.sample(not_aibase_list, 2)
     aibase_list = [_ for _ in brief_news_list if _.web_site == 'aibase']
     sorted_news_list: list[BriefNews] = sorted(aibase_list, key=lambda x: x.popularity, reverse=True)
-    candidate_list = not_aibase_list + sorted_news_list[:count - len(not_aibase_list)]
-    # # 对candidate_list进行总结
-    # final_news_list: list[BriefNews] = []
-    # for brief_news in candidate_list:
-    #     summary = news_summarize(brief_news)
-    #     final_news_list.append(brief_news)
-    #     final_news_list[-1].content = summary
+    candidate_list = sorted_news_list[:count - len(not_aibase_list)] + not_aibase_list
 
     # 3、生成图片
-    img_folder = img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image",
-                                         datetime.now().strftime("%Y-%m-%d"))
+    img_folder = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image",
+                              datetime.now().strftime("%Y-%m-%d"))
     # 生成封面
     img_cover_file = image_generate.generate_cover(img_folder)
 
@@ -50,8 +45,8 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
 
     # 生成新闻内容
     img_content_file_list = []
-    for brief in candidate_list:
-        img_content_file_list.append(image_generate.generate_news_content(brief, img_folder))
+    for idx, brief in enumerate(candidate_list):
+        img_content_file_list.append(image_generate.generate_news_content(brief, img_folder, idx))
 
     # 4、发布
     logger.info(f"封面：{img_cover_file} 标题：{img_title_file} 内容：{img_content_file_list}")

@@ -9,7 +9,7 @@ from datetime import datetime
 from util import init_env
 
 init_env()
-from util.llm_util import chat_deepseek, chat_glm
+from util.llm_util import chat_deepseek, chat_glm, img_gen
 from process import prompt
 from spider.po.news_po import BriefNews
 from selenium import webdriver
@@ -17,7 +17,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from util.storage.sqlite_sqlalchemy import globle_db
 
 # img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image")
 template_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "template")
@@ -88,30 +87,35 @@ def generate_news_title(brief_news_list: list[BriefNews], img_path):
         for idx, news in enumerate(brief_news_list):
             title = news.title
             html_content = html_content.replace(f"第{idx + 1}个新闻", title)
-        html_to_image_selenium(html_content, image_file, 'title', 790, 1180)
+        html_to_image_selenium(html_content, image_file, 'title', 795, 1200)
     return image_file
 
 
-def generate_news_content(brief_news: BriefNews, img_path):
+def generate_news_content(brief_news: BriefNews, img_path, idx):
     if os.path.exists(img_path) is False:
         os.makedirs(img_path)
-    image_file = os.path.join(img_path, f"brief_content_{brief_news.id}.png")
+    image_file = os.path.join(img_path, f"{idx}_brief_content_{brief_news.id}.png")
     html_file = os.path.join(template_path, "brief_content.html")
     with open(html_file, "r", encoding="utf-8") as f:
         html_str_list = f.readlines()
         html_content = "".join(html_str_list)
         html_content = html_content.replace("$news_title$", brief_news.title)
         # 将图片的blob存储到tmp下
-        news_img_file = os.path.join(tmp_path, "img_default.png")
         if brief_news.image is not None:
             with open(os.path.join(tmp_path, f"img_{brief_news.id}.png"), "wb") as f:
                 f.write(brief_news.image)
             news_img_file = os.path.join(tmp_path, f"img_{brief_news.id}.png")
+        else:
+            news_img_file = os.path.join(tmp_path, f"img_{brief_news.id}.png")
+            img_gen(prompt.PROMPT_NEWS_IMAGE_GENERATE.format(title=brief_news.title, content=brief_news.content),
+                    save_path=news_img_file)
         html_content = html_content.replace("$news_img$", news_img_file)
         # llm总结50个字
         response = chat_glm().complete(
             prompt.PROMPT_NEWS_SUMMARIZE.format(length=50, title=brief_news.title, content=brief_news.content))
         summary = response.text
+        li_list = summary.strip("\n").split("\n")
+        summary = "".join(li_list)
         html_content = html_content.replace("$news_content$", summary)
         html_to_image_selenium(html_content, image_file, brief_news.id, 768 + 50, 1024 + 150)
     return image_file
