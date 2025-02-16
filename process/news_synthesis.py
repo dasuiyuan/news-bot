@@ -10,6 +10,7 @@ from apscheduler.triggers.cron import CronTrigger
 from util.storage.sqlite_sqlalchemy import globle_db
 from util.log_util import logger
 from process import prompt
+from publish.xiaohongshu import NewsPublishPackage, publish_news
 
 jobstores = {
     'default': SQLAlchemyJobStore(engine=globle_db.get_engine(), tablename='apscheduler_jobs')
@@ -31,8 +32,10 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     if len(not_aibase_list) >= 2:
         not_aibase_list = random.sample(not_aibase_list, 2)
     aibase_list = [_ for _ in brief_news_list if _.web_site == 'aibase']
-    sorted_news_list: list[BriefNews] = sorted(aibase_list, key=lambda x: x.popularity, reverse=True)
-    candidate_list = sorted_news_list[:count - len(not_aibase_list)] + not_aibase_list
+    sorted_aibase_list: list[BriefNews] = sorted(aibase_list, key=lambda x: x.popularity, reverse=True)
+    candidate_aibase_list = sorted_aibase_list[:count - len(not_aibase_list)]
+    candidate_list = candidate_aibase_list + not_aibase_list
+    backup_aibase_list = sorted_aibase_list[count - len(not_aibase_list):]
 
     # 3、生成图片
     img_folder = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image",
@@ -40,16 +43,30 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     # 生成封面
     img_cover_file = image_generate.generate_cover(img_folder)
 
-    # 生成新闻标题
-    img_title_file = image_generate.generate_news_title(candidate_list, img_folder)
-
     # 生成新闻内容
+    final_list = []
     img_content_file_list = []
     for idx, brief in enumerate(candidate_list):
-        img_content_file_list.append(image_generate.generate_news_content(brief, img_folder, idx))
+        try:
+            img_content_file_list.append(image_generate.generate_news_content(brief, img_folder, idx))
+            final_list.append(brief)
+        except Exception as e:
+            logger.error(f"生成新闻内容图片失败，新闻ID：{brief.id} 新闻标题：{brief.title}， 从替补中选择一篇")
+            new_brief = backup_aibase_list.pop()
+            img_content_file_list.append(
+                image_generate.generate_news_content(new_brief, img_folder, idx))
+            final_list.append(new_brief)
+            continue
+
+    # 生成新闻标题
+    img_title_file = image_generate.generate_news_title(final_list, img_folder)
 
     # 4、发布
-    logger.info(f"封面：{img_cover_file} 标题：{img_title_file} 内容：{img_content_file_list}")
+    # pub_files = [img_cover_file, img_title_file] + img_content_file_list
+    # logger.info(f"封面：{img_cover_file} 标题：{img_title_file} 内容：{img_content_file_list}")
+    # title = f"AI科技每日新鲜事！{datetime.now().strftime('%Y.%m.%d')}"
+    # news_package = NewsPublishPackage(title=title, files=pub_files)
+    # publish_news(news_package)
 
 
 def news_summarize(brief_news: BriefNews):

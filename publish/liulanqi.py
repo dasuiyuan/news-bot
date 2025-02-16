@@ -1,4 +1,3 @@
-
 import datetime
 from operator import index
 import traceback
@@ -18,9 +17,11 @@ import os
 from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnection
 
 ROOT_PATH = os.getenv(
-    "ROOT_PATH", "/workspaces/notes/python/douyin/output/douyin")
-VIDEO_PATH = os.path.join(ROOT_PATH, "output")
-COOKING_PATH = os.path.join(ROOT_PATH, "cooking")
+    "NEWS_BOT_ROOT", "..")
+DATA_ROOT = os.path.join(ROOT_PATH, "data")
+PUBLISH_PATH = os.path.join(DATA_ROOT, "publish")
+VIDEO_PATH = os.path.join(PUBLISH_PATH, "output")
+COOKING_PATH = os.path.join(PUBLISH_PATH, "cooking")
 COOKING_TXT = os.path.join(COOKING_PATH, "douyin.txt")
 
 agent = 'Mozilla/5.0 (Macintosh; Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
@@ -39,7 +40,7 @@ def get_driver():
         "--disable-blink-features=AutomationControlled")
     driver = webdriver.Remote(
         command_executor="http://101.43.210.78:50000",
-        desired_capabilities=chrome_options.to_capabilities()
+        options=chrome_options
     )
     driver.maximize_window()
     # driver = webdriver.Remote(
@@ -103,7 +104,6 @@ def login(driver):
 
 
 def get_map4():
-
     # 基本信息
     # 视频存放路径
     mp4_result = []
@@ -113,17 +113,18 @@ def get_map4():
 
     # 视频地址获取
     for path_mp4 in path.iterdir():
-        if(".mp4" in str(path_mp4)):
+        if (".mp4" in str(path_mp4)):
             map4_path = str(path_mp4)
             mp4_result.append((map4_path, path_mp4.name))
 
-    if(len(mp4_result) > 0):
+    if (len(mp4_result) > 0):
         print("检查到视频路径：", mp4_result)
     else:
         print("未检查到视频路径，程序终止！")
         exit()
     mp4_result.sort()
     return mp4_result
+
 
     # 封面地址获取
     # path_cover = ""
@@ -165,9 +166,9 @@ def get_cookie(driver):
 
 def get_publish_date(title, index):
     # 代表的是 加一天时间
-    time_long = int(index/3) * 24
+    time_long = int(index / 3) * 24
     now = datetime.datetime.today()
-    if(now.hour > 20):
+    if (now.hour > 20):
         time_long = 24
     tomorrowemp = now + datetime.timedelta(hours=time_long)
     print("title:", title)
@@ -179,9 +180,9 @@ def get_publish_date(title, index):
     elif title.find("(3)") > 0 or title.find("(6)") > 0:
         tomorrow = tomorrowemp.replace(hour=18, minute=0, second=0)
     print("准备写入的时间是:", tomorrow)
-    if(tomorrow <= now):
+    if (tomorrow <= now):
         tomorrow = now + \
-            datetime.timedelta(hours=2) + datetime.timedelta(hours=1*index)
+                   datetime.timedelta(hours=2) + datetime.timedelta(hours=1 * index)
     print("输出的时间是:", tomorrow.strftime("%Y-%m-%d %H:%M"))
     return tomorrow.strftime("%Y-%m-%d %H:%M")
 
@@ -284,7 +285,7 @@ def publish_douyin(driver, mp4, index):
         time.sleep(4)
         print("点击定时发布")
         dingshi[1].click()
-        #driver.find_elements("xpath", '//*[@class="radio--4Gpx6 one-line--2rHu9"]')[1].click()
+        # driver.find_elements("xpath", '//*[@class="radio--4Gpx6 one-line--2rHu9"]')[1].click()
         time.sleep(3)
         input_data = driver.find_element("xpath", '//*[@placeholder="日期和时间"]')
         input_data.send_keys(Keys.CONTROL, 'a')  # 全选
@@ -315,6 +316,7 @@ def publish_douyin(driver, mp4, index):
         traceback.print_exc()
     print("上传结束")
     time.sleep(10)
+
 
 # 开始执行视频发布
 # publish_douyin(driver=driver)
