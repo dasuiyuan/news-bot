@@ -1909,3 +1909,1041 @@ LookupError: Error resolving reference __main__:task_2: error looking up object
 2025-02-16T16:13:10.926107+0800 - INFO - Get LATEST chromedriver version for google-chrome
 2025-02-16T16:13:15.658346+0800 - INFO - Get LATEST chromedriver version for google-chrome
 2025-02-16T16:13:16.326915+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T07:53:55.414469+0800 - INFO - 开始爬取晚点...
+2025-02-17T07:53:55.414469+0800 - INFO - 开始爬取最新晚点早知道...
+2025-02-17T07:53:55.472770+0800 - WARNING - 访问latepost失败: HTTPSConnectionPool(host='www.latepost.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))
+2025-02-17T07:53:55.472770+0800 - INFO - 最新晚点早爬取结束...
+2025-02-17T07:53:55.473318+0800 - INFO - 开始爬取36kr...
+2025-02-17T07:53:55.473318+0800 - INFO - 开始爬取最新36kr快讯...
+2025-02-17T07:53:56.773101+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:56.777481+0800 - INFO - 消息称博通与台积电在探讨拆分英特尔的交易->其他科技类
+2025-02-17T07:53:56.950662+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:56.951807+0800 - INFO - 美国东部冬季风暴持续蔓延，超1.1亿人受影响->其他类
+2025-02-17T07:53:57.132542+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:57.133549+0800 - INFO - YouTube TV达成新协议，保留派拉蒙内容->其他科技类
+2025-02-17T07:53:57.276020+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:57.277031+0800 - INFO - 超20城优化调整公积金政策->其他类
+2025-02-17T07:53:57.460764+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:57.460764+0800 - INFO - 地球造氧核心自我修复机制揭示->其他科技类
+2025-02-17T07:53:57.638095+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:57.639101+0800 - INFO - 科技创新浪潮推动中国资产价值重估->其他科技类
+2025-02-17T07:53:57.792694+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:57.793702+0800 - INFO - 各地加大外资领域引资稳资力度->其他类
+2025-02-17T07:53:58.006122+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.006122+0800 - INFO - 苹果智能可能于4月上线Vision Pro->AI产品类
+2025-02-17T07:53:58.152901+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.152901+0800 - INFO - 美能源部：国家核安全管理局本周被解雇人员少于50人，均为试用期员工->其他类
+2025-02-17T07:53:58.323307+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.324314+0800 - INFO - 债券投资迎来AI变革->AI商业类
+2025-02-17T07:53:58.474234+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.475245+0800 - INFO - 中国食品品牌汇聚美国洛杉矶亚洲新潮食品展->其他类
+2025-02-17T07:53:58.625146+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.626157+0800 - INFO - 英国发布钢铁产业计划应对美关税威胁->其他类
+2025-02-17T07:53:58.795988+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.796996+0800 - INFO - OpenAI尝试“解除对ChatGPT的审查”->AI技术类
+2025-02-17T07:53:58.945226+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:58.945226+0800 - INFO - 2025年度总票房破200亿->其他类
+2025-02-17T07:53:59.155750+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.156768+0800 - INFO - 国务院国资委：深入推进战略性重组和专业化整合->其他类
+2025-02-17T07:53:59.342963+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.342963+0800 - INFO - 国务院国资委：努力突破和掌握更多源头底层技术->其他科技类
+2025-02-17T07:53:59.497431+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.498440+0800 - INFO - 国务院国资委：持续提升中央企业控股上市公司质量，不断改进和加强市值管理->其他类
+2025-02-17T07:53:59.680776+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.680776+0800 - INFO - 中信建投：开门红成色足，社融增量超预期->其他类
+2025-02-17T07:53:59.823151+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.823151+0800 - INFO - 基金公司年内调研549家上市公司，电子行业最受关注->其他类
+2025-02-17T07:53:59.983625+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:53:59.984634+0800 - INFO - 韩国现白银投资热，银条卖断货->其他类
+2025-02-17T07:53:59.994975+0800 - INFO - 已爬取到8条新闻
+2025-02-17T07:53:59.994975+0800 - INFO - 最新36kr快讯爬取结束...
+2025-02-17T07:53:59.994975+0800 - INFO - 开始爬取aibase...
+2025-02-17T07:53:59.994975+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-17T07:54:00.543756+0800 - INFO - ​2025 年生成式AI市场预计将达 322 亿美元，增长势头强劲已存在，跳过
+2025-02-17T07:54:00.544765+0800 - INFO - 百川智能联合北京儿童医院推出“AI儿科医生”，正式投入临床应用已存在，跳过
+2025-02-17T07:54:00.545764+0800 - INFO - ​谷歌利用ai拦截 236 万款恶意应用在Google Play上架已存在，跳过
+2025-02-17T07:54:00.545764+0800 - INFO - Adobe 发布 Firefly AI 视频生成器公测版：轻松将文本与图像转化为短视频已存在，跳过
+2025-02-17T07:54:00.546764+0800 - INFO - 谷歌 DeepMind 推出千亿级视觉语言数据集 WebLI-100B已存在，跳过
+2025-02-17T07:54:00.547763+0800 - INFO - 学而思推出“随时问”APP，深度融合DeepSeek R1 面向全国中小学生提供免费AI辅导已存在，跳过
+2025-02-17T07:54:00.547763+0800 - INFO - 昆仑万维发布Matrix-Zero世界模型：国内首创3D场景与可交互视频生成已存在，跳过
+2025-02-17T07:54:00.548763+0800 - INFO - EnCharge AI 获超 1 亿美元融资 加速模拟芯片在人工智能领域的应用已存在，跳过
+2025-02-17T07:54:00.549764+0800 - INFO - ​多家知名出版商起诉AI初创公司Cohere涉嫌侵犯版权已存在，跳过
+2025-02-17T07:54:00.549764+0800 - INFO - ChatGPT上线全新个性化用户自定义指令功能 定制对话风格已存在，跳过
+2025-02-17T07:54:00.550764+0800 - INFO - AI陪伴应用助力抗孤独，但或许适得其反已存在，跳过
+2025-02-17T07:54:00.551763+0800 - INFO - 苹果计划2025年年中之前将AI功能引入中国iPhone已存在，跳过
+2025-02-17T07:54:00.551763+0800 - INFO - DeepSeek R1 VSCode插件下载量突破4万次已存在，跳过
+2025-02-17T07:54:00.552764+0800 - INFO - ​Codeium推出Windsurf Wave 3版本 支持模型上下文协议已存在，跳过
+2025-02-17T07:54:00.553765+0800 - INFO - ​马斯克宣布 Grok 3 即将发布，称将超越 ChatGPT已存在，跳过
+2025-02-17T07:54:00.553765+0800 - INFO - 百度宣布文心大模型 4.5 系列即将上线，6月30日全面开源！已存在，跳过
+2025-02-17T07:54:00.554764+0800 - INFO - ​2025 年十大 AI 技能，可以让你薪资增长高达 47%已存在，跳过
+2025-02-17T07:54:00.554764+0800 - INFO - Windsurf Wave3更新发布:增强AI编辑体验 Tab键光速跳转代码，Turbo模式解放双手！已存在，跳过
+2025-02-17T07:54:00.555763+0800 - INFO - 显卡市场硝烟再起：Nvidia RTX5070 发布推迟，AMD或有后招已存在，跳过
+2025-02-17T07:54:00.556764+0800 - INFO - YouTube 增加新的AI视频生成功能 支持视频剪辑到短片中已存在，跳过
+2025-02-17T07:54:00.556764+0800 - INFO - 最强视频模型Veo 2可以在YouTube上玩了 已存在，跳过
+2025-02-17T07:54:00.557764+0800 - INFO - ​报道称苹果公司正在研发人形机器人已存在，跳过
+2025-02-17T07:54:00.557764+0800 - INFO - 昆仑万维发布Matrix-Zero世界模型 支持3D场景、可交互视频生成已存在，跳过
+2025-02-17T07:54:00.559003+0800 - INFO - ​Anthropic即将发布全新 AI 模型，推理能力再上新台阶已存在，跳过
+2025-02-17T07:54:00.559003+0800 - INFO - 百度：将在未来几个月推出文心大模型4.5系列 并于6月30日起正式开源已存在，跳过
+2025-02-17T07:54:00.560009+0800 - INFO - ​英国将 “AI安全研究所” 更名为 “AI安全研究院”，加速AI产业发展已存在，跳过
+2025-02-17T07:54:00.560009+0800 - INFO - 科大讯飞即将发布新版本星火 X1，超越 OpenAI 的国产算力平台已存在，跳过
+2025-02-17T07:54:00.561010+0800 - INFO - 百度 Apollo智舱大模型成功接入DeepSeek，未来将搭载在凯迪拉克和别克新车型已存在，跳过
+2025-02-17T07:54:00.561010+0800 - INFO - 报道称苹果仍继续与百度合作为国行iPhone开发AI功能已存在，跳过
+2025-02-17T07:54:00.562010+0800 - INFO - Anthropic即将发布混合AI模型:兼顾速度与深度推理，成本可控已存在，跳过
+2025-02-17T07:54:00.562010+0800 - INFO - 已爬取到0条新闻
+2025-02-17T07:54:00.562010+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-17T07:54:00.562833+0800 - INFO - 爬取结束...
+2025-02-17T07:55:25.510218+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T07:55:26.513711+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:55:27.366225+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:55:28.029220+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:55:29.610274+0800 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-17T07:55:29.610274+0800 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-17T07:55:29.610274+0800 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-17T07:55:30.272699+0800 - INFO - Driver downloading response is 200
+2025-02-17T07:55:32.090150+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:55:32.825746+0800 - INFO - Driver has been saved in cache [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-17T07:55:56.047508+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-17T07:56:04.664419+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T07:56:04.667426+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T07:56:05.641138+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:56:06.316958+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T07:56:06.996596+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T07:56:21.389996+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-17T07:56:21.391004+0800 - ERROR - 生成新闻内容图片失败，新闻ID：185 新闻标题：OpenAI尝试“解除对ChatGPT的审查”， 从替补中选择一篇
+2025-02-17T08:12:52.369223+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:12:53.349865+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:12:54.027287+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:12:54.680781+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:13:14.035791+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T08:13:14.039304+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:13:15.018394+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:15.691863+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:16.374382+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:13:35.494022+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T08:13:35.495029+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:13:36.467411+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:37.134062+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:37.797805+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:13:51.445906+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T08:13:51.446901+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:13:52.434678+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:53.139965+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:13:53.832144+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:14:06.909792+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-17T08:14:06.910802+0800 - ERROR - 生成新闻内容图片失败，新闻ID：134 新闻标题：苹果计划在今年年中引入国行 Apple Intelligence，与百度和阿里合作。， 从替补中选择一篇
+2025-02-17T08:14:09.641945+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T08:14:09.644951+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:14:10.675434+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:14:11.349915+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:14:12.012887+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:14:33.646207+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-17T08:14:42.980336+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-17T08:14:42.982343+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:14:43.968470+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:14:44.627202+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:14:45.314981+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:14:54.925810+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:14:55.941166+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:15:00.670420+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:15:01.357013+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T08:15:10.982656+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-17\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-17\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-17\\1_brief_content_161.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-17\\2_brief_content_165.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-17\\3_brief_content_163.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-17\\4_brief_content_174.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-17\\5_brief_content_138.png']
+2025-02-17T08:15:10.983653+0800 - INFO - ====== WebDriver manager ======
+2025-02-17T08:15:11.978108+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:15:16.710250+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17T08:15:17.377627+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17T23:34:26.650221+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-17T23:34:26.650221+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-17T23:34:26.650221+0800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-17T23:34:26.661603+0800 - INFO - Added job "get_latepost_brief_news" to job store "default"
+2025-02-17T23:34:26.666000+0800 - INFO - Added job "get_36kr_brief_news" to job store "default"
+2025-02-17T23:34:26.672671+0800 - INFO - Added job "get_aibase_brief_news" to job store "default"
+2025-02-17T23:34:26.672671+0800 - INFO - Scheduler started
+2025-02-18T06:00:00.019185+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 06:00:00 CST)" (scheduled at 2025-02-18 06:00:00+08:00)
+2025-02-18T06:00:00.020183+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T06:00:02.515774+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:02.520210+0800 - INFO - 苏州政务外网成功部署 DeepSeek 大模型，数字政务智能助手上线->AI技术类
+2025-02-18T06:00:02.662074+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:02.662074+0800 - INFO - 苏州政务外网成功部署 DeepSeek 大模型，数字政务智能助手上线->AI产品类
+2025-02-18T06:00:03.248022+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:03.248022+0800 - INFO - 腾讯内测混元深度思考模型 Hunyuan T1->AI技术类
+2025-02-18T06:00:03.387842+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:03.388849+0800 - INFO - 腾讯内测混元深度思考模型 Hunyuan T1->AI技术类
+2025-02-18T06:00:04.270295+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:04.271303+0800 - INFO - ​韩国政府计划采购10000个高性能 GPU，助力 AI 竞争->AI技术类
+2025-02-18T06:00:04.415603+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:04.416609+0800 - INFO - ​韩国政府计划采购10000个高性能 GPU，助力 AI 竞争->AI技术类
+2025-02-18T06:00:05.140448+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:05.141959+0800 - INFO - 百度文心一言免费权益卡上线 可体验“深度搜索功能”->AI产品类
+2025-02-18T06:00:05.283264+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:05.284273+0800 - INFO - 百度文心一言免费权益卡上线 可体验“深度搜索功能”->AI产品类
+2025-02-18T06:00:06.711918+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:06.713080+0800 - INFO - 百度地图深度融合DeepSeek 玩啥、吃啥直接问->AI技术类
+2025-02-18T06:00:06.856668+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:06.856668+0800 - INFO - 百度地图深度融合DeepSeek 玩啥、吃啥直接问->AI技术类
+2025-02-18T06:00:07.795912+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:07.797921+0800 - INFO - ​英特尔或面临分拆风险，台积电与博通寻求收购机会->其他科技类
+2025-02-18T06:00:07.940120+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:07.941128+0800 - INFO - ​英特尔或面临分拆风险，台积电与博通寻求收购机会->其他科技类
+2025-02-18T06:00:08.835141+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:08.835141+0800 - INFO - AI 在心理治疗领域获认可，ChatGPT 展现超凡同理心->AI技术类
+2025-02-18T06:00:08.979438+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:08.980445+0800 - INFO - AI 在心理治疗领域获认可，ChatGPT 展现超凡同理心->AI技术类
+2025-02-18T06:00:10.133920+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:10.134927+0800 - INFO - 佛山市人工智能应用赋能中心全面接入DeepSeek->AI技术类
+2025-02-18T06:00:10.277167+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:10.278175+0800 - INFO - 佛山市人工智能应用赋能中心全面接入DeepSeek->AI技术类
+2025-02-18T06:00:11.256714+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:11.257728+0800 - INFO - 大模型六小强如何在 DeepSeek 冲击下重塑策略？->AI技术类
+2025-02-18T06:00:11.401114+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:11.402579+0800 - INFO - 大模型六小强如何在 DeepSeek 冲击下重塑策略？->AI技术类
+2025-02-18T06:00:12.150908+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:12.153411+0800 - INFO - 途虎回购1128万股A类股份，并完成DeepSeek大模型接入->AI技术类
+2025-02-18T06:00:12.294964+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:12.294964+0800 - INFO - 途虎回购1128万股A类股份，并完成DeepSeek大模型接入->AI技术类
+2025-02-18T06:00:13.593961+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:13.594969+0800 - INFO - 腾讯元宝重大升级：混元与DeepSeek模型携手开启深度思考新功能->AI产品类
+2025-02-18T06:00:13.737302+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:13.738311+0800 - INFO - 腾讯元宝重大升级：混元与DeepSeek模型携手开启深度思考新功能->AI产品类
+2025-02-18T06:00:14.965673+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:14.966681+0800 - INFO - 月之暗面解密o1:Long-CoT是关键，模型思考需要"放长线"->AI技术类
+2025-02-18T06:00:15.107290+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:15.110718+0800 - INFO - 月之暗面解密o1:Long-CoT是关键，模型思考需要"放长线"->AI技术类
+2025-02-18T06:00:16.051930+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:16.052937+0800 - INFO - ChatGPT 的心理治疗能力通过图灵测试 竟优于人类专家！->AI技术类
+2025-02-18T06:00:16.196157+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:16.197166+0800 - INFO - ChatGPT 的心理治疗能力通过图灵测试 竟优于人类专家！->AI技术类
+2025-02-18T06:00:17.293693+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:17.294716+0800 - INFO - 80%准确率！Meta 研发出无创脑机接口，仅凭思维就能打字->AI技术类
+2025-02-18T06:00:17.437031+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:17.438038+0800 - INFO - 80%准确率！Meta 研发出无创脑机接口，仅凭思维就能打字->AI技术类
+2025-02-18T06:00:18.219322+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:18.220332+0800 - INFO - 腾讯元宝重大升级：混元+DeepSeek双模型支持深度思考，免费开放->AI产品类
+2025-02-18T06:00:18.363996+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:18.365006+0800 - INFO - 腾讯元宝重大升级：混元+DeepSeek双模型支持深度思考，免费开放->AI产品类
+2025-02-18T06:00:19.319279+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:19.320287+0800 - INFO - GPT-4o“人格觉醒”？ 升级后变身“毒舌”暖男，还懂人类小情绪了！->AI技术类
+2025-02-18T06:00:19.464224+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:19.466474+0800 - INFO - GPT-4o“人格觉醒”？ 升级后变身“毒舌”暖男，还懂人类小情绪了！->AI技术类
+2025-02-18T06:00:20.889095+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:20.890102+0800 - INFO - 腾讯QQ浏览器接入DeepSeek-R1满血版，生成内容一键收录笔记->AI产品类
+2025-02-18T06:00:21.033117+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:21.034299+0800 - INFO - 腾讯QQ浏览器接入DeepSeek-R1满血版，生成内容一键收录笔记->AI产品类
+2025-02-18T06:00:22.016615+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:22.017620+0800 - INFO - 德国人工智能研究方面有强大实力，却面临商业化困境->AI商业类
+2025-02-18T06:00:22.158051+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:22.158051+0800 - INFO - 德国人工智能研究方面有强大实力，却面临商业化困境->AI商业类
+2025-02-18T06:00:23.057383+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:23.058392+0800 - INFO - 腾讯市值暴涨3000亿，微信搜一搜接入DeepSeek大模型->AI产品类
+2025-02-18T06:00:23.201018+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:23.201627+0800 - INFO - 腾讯市值暴涨3000亿，微信搜一搜接入DeepSeek大模型->AI产品类
+2025-02-18T06:00:24.114716+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:24.116765+0800 - INFO - Perplexity 推出免费的 “深度研究” 工具，助力专业研究->AI技术类
+2025-02-18T06:00:24.258199+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:24.259592+0800 - INFO - Perplexity 推出免费的 “深度研究” 工具，助力专业研究->AI技术类
+2025-02-18T06:00:25.394886+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:25.395896+0800 - INFO - 高盛因AI推动中国股市上涨上调目标价->AI商业类
+2025-02-18T06:00:25.540570+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:25.541578+0800 - INFO - 高盛因AI推动中国股市上涨上调目标价->AI商业类
+2025-02-18T06:00:26.774860+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:26.775870+0800 - INFO - ​香港大学研发 AI 成像工具CytoMAD 提升癌症检测速度与精准度->AI技术类
+2025-02-18T06:00:26.919017+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:26.920025+0800 - INFO - ​香港大学研发 AI 成像工具CytoMAD 提升癌症检测速度与精准度->AI技术类
+2025-02-18T06:00:28.118558+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:28.119569+0800 - INFO - FDA 大裁员：AI 部门受重创，特朗普却在加码投资！->AI技术类
+2025-02-18T06:00:28.262255+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:28.263744+0800 - INFO - FDA 大裁员：AI 部门受重创，特朗普却在加码投资！->AI技术类
+2025-02-18T06:00:29.331676+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:29.332683+0800 - INFO - Meta 出品！Pippo：输入单张人物图片生高分辨率多视角图片->AI技术类
+2025-02-18T06:00:29.474334+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:29.475342+0800 - INFO - Meta 出品！Pippo：输入单张人物图片生高分辨率多视角图片->AI技术类
+2025-02-18T06:00:30.278370+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:30.279380+0800 - INFO - 微软发布 OmniParser V2.0：把屏幕截图转化成LLM可处理的结构化格式->AI技术类
+2025-02-18T06:00:30.423941+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:30.424946+0800 - INFO - 微软发布 OmniParser V2.0：把屏幕截图转化成LLM可处理的结构化格式->AI技术类
+2025-02-18T06:00:31.626350+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:31.627356+0800 - INFO - OpenAI调整策略，力求在内容审查与自由言论之间找到平衡->AI商业类
+2025-02-18T06:00:31.768734+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:31.769741+0800 - INFO - OpenAI调整策略，力求在内容审查与自由言论之间找到平衡->AI商业类
+2025-02-18T06:00:32.879468+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:32.880475+0800 - INFO - Light-A-Video ：无需训练实现视频重新打光->AI技术类
+2025-02-18T06:00:33.023535+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:33.023535+0800 - INFO - Light-A-Video ：无需训练实现视频重新打光->AI技术类
+2025-02-18T06:00:34.250254+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:34.251262+0800 - INFO - 苹果与Meta争相开发AI驱动的人形机器人->AI产品类
+2025-02-18T06:00:34.395284+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:34.396295+0800 - INFO - 苹果与Meta争相开发AI驱动的人形机器人->AI产品类
+2025-02-18T06:00:35.644404+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:35.645410+0800 - INFO - 阿里巴巴在AI热潮中逆风翻盘，股价上涨50%->AI商业类
+2025-02-18T06:00:35.787863+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:35.788872+0800 - INFO - 阿里巴巴在AI热潮中逆风翻盘，股价上涨50%->AI商业类
+2025-02-18T06:00:37.225979+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:37.226525+0800 - INFO - Meta 创新推出 “连续概念混合” 框架，推动 Transformer 预训练新革命->AI技术类
+2025-02-18T06:00:37.372560+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T06:00:37.372560+0800 - INFO - Meta 创新推出 “连续概念混合” 框架，推动 Transformer 预训练新革命->AI技术类
+2025-02-18T06:00:37.400628+0800 - INFO - 已爬取到30条新闻
+2025-02-18T06:00:37.402244+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T06:00:37.402749+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 09:00:00 CST)" executed successfully
+2025-02-18T07:00:00.012449+0800 - INFO - Running job "get_latepost_brief_news (trigger: cron[hour='7', minute='0'], next run at: 2025-02-19 07:00:00 CST)" (scheduled at 2025-02-18 07:00:00+08:00)
+2025-02-18T07:00:00.012449+0800 - INFO - 开始爬取最新晚点早知道...
+2025-02-18T07:00:00.231531+0800 - WARNING - 已爬取过该新闻:蔡崇信呼吁关注开源大模型；抖音电商销售额增长三成；美团试点外卖众包骑手超时免罚丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2793 02月14日 23:02
+2025-02-18T07:00:00.232673+0800 - INFO - 最新晚点早爬取结束...
+2025-02-18T07:00:00.232673+0800 - INFO - Job "get_latepost_brief_news (trigger: cron[hour='7', minute='0'], next run at: 2025-02-19 07:00:00 CST)" executed successfully
+2025-02-18T07:42:59.472473+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:43:00.502693+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:01.370023+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:02.038409+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:03.795894+0800 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-18T07:43:03.795894+0800 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-18T07:43:03.796896+0800 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-18T07:43:04.507275+0800 - INFO - Driver downloading response is 200
+2025-02-18T07:43:06.665544+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:07.401900+0800 - INFO - Driver has been saved in cache [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-18T07:43:25.485382+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T07:43:25.488378+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:43:26.509349+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:27.191617+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:27.853931+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:43:44.905872+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T07:43:44.906880+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:43:45.930010+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:46.615927+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:43:47.282544+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:44:03.148806+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T07:44:03.150813+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:44:04.165959+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:04.824093+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:05.486798+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:44:19.430229+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T07:44:19.431236+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:44:20.422474+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:21.086711+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:21.756352+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:44:36.205209+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T07:44:36.207726+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:44:37.202634+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:37.892856+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:38.557499+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:44:48.174774+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:44:49.170620+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:53.879847+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:44:54.551670+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T07:45:04.192660+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-18\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-18\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\1_brief_content_205.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\2_brief_content_210.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\3_brief_content_206.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\4_brief_content_211.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\5_brief_content_215.png']
+2025-02-18T07:45:04.192660+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T07:45:05.203368+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:45:09.922735+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T07:45:10.594066+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T09:00:00.007866+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 12:00:00 CST)" (scheduled at 2025-02-18 09:00:00+08:00)
+2025-02-18T09:00:00.007866+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T09:00:01.197387+0800 - WARNING - 访问aibase失败: invalid literal for int() with base 10: '15.4k'
+2025-02-18T09:00:01.197906+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T09:00:01.197906+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 12:00:00 CST)" executed successfully
+2025-02-18T12:00:00.014788+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 15:00:00 CST)" (scheduled at 2025-02-18 12:00:00+08:00)
+2025-02-18T12:00:00.014788+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T12:00:01.993744+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:01.993744+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露->AI商业类
+2025-02-18T12:00:02.144826+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:02.145839+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露->AI商业类
+2025-02-18T12:00:03.320225+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:03.320225+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性->AI技术类
+2025-02-18T12:00:03.465768+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:03.466771+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性->AI技术类
+2025-02-18T12:00:04.599720+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:04.600727+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙->AI产品类
+2025-02-18T12:00:04.749730+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:04.750738+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙->AI产品类
+2025-02-18T12:00:06.196090+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:06.197101+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！->AI技术类
+2025-02-18T12:00:06.343063+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:06.343063+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！->AI技术类
+2025-02-18T12:00:07.124189+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:07.125197+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件->AI产品类
+2025-02-18T12:00:07.275320+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:07.276325+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件->AI产品类
+2025-02-18T12:00:08.013766+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:08.014772+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元->AI商业类
+2025-02-18T12:00:08.156560+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:08.157568+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元->AI商业类
+2025-02-18T12:00:09.475224+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:09.476232+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”->AI产品类
+2025-02-18T12:00:09.622326+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:09.623332+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”->AI产品类
+2025-02-18T12:00:10.889392+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:10.890400+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek->AI技术类
+2025-02-18T12:00:11.034220+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:11.035230+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek->AI技术类
+2025-02-18T12:00:12.296961+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:12.297968+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型->AI技术类
+2025-02-18T12:00:12.439166+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:12.439166+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型->AI产品类
+2025-02-18T12:00:13.904499+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:13.905704+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势->AI技术类
+2025-02-18T12:00:14.049207+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:14.050214+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势->AI技术类
+2025-02-18T12:00:14.916837+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:14.916837+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险->AI技术类
+2025-02-18T12:00:15.061259+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:15.062268+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险->AI技术类
+2025-02-18T12:00:15.947265+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:15.948277+0800 - INFO - HYBE旗下AI 声音工具Supertone Play上线：10秒搞定声音克隆->AI产品类
+2025-02-18T12:00:16.093081+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:16.094090+0800 - INFO - HYBE旗下AI 声音工具Supertone Play上线：10秒搞定声音克隆->AI产品类
+2025-02-18T12:00:17.393084+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:17.396087+0800 - INFO - Mistral CEO 盛赞 DeepSeek：开源 AI 迎来重要时刻->AI技术类
+2025-02-18T12:00:17.538605+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:17.539608+0800 - INFO - Mistral CEO 盛赞 DeepSeek：开源 AI 迎来重要时刻->AI技术类
+2025-02-18T12:00:18.413493+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:18.414501+0800 - INFO - 《纽约时报》批准员工使用 AI 工具，但版权之争仍在继续->AI产品类
+2025-02-18T12:00:18.558297+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:18.559304+0800 - INFO - 《纽约时报》批准员工使用 AI 工具，但版权之争仍在继续->AI商业类
+2025-02-18T12:00:19.421635+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:19.422689+0800 - INFO - 新壹科技视频创作平台“秒创”接入DeepSeek->AI技术类
+2025-02-18T12:00:19.563825+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:19.563825+0800 - INFO - 新壹科技视频创作平台“秒创”接入DeepSeek->AI技术类
+2025-02-18T12:00:20.808384+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:20.809390+0800 - INFO - ​微软研究揭示：过度使用AI可能削弱人类的批判性思维能力->AI技术类
+2025-02-18T12:00:20.954309+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:20.955320+0800 - INFO - ​微软研究揭示：过度使用AI可能削弱人类的批判性思维能力->AI技术类
+2025-02-18T12:00:22.698896+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:22.698896+0800 - INFO - AI 也要“入乡随俗”：Mistral 推出首款区域定制模型 Saba，专攻中东和南亚市场->AI技术类
+2025-02-18T12:00:22.843135+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:22.844142+0800 - INFO - AI 也要“入乡随俗”：Mistral 推出首款区域定制模型 Saba，专攻中东和南亚市场->AI技术类
+2025-02-18T12:00:23.865943+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:23.867954+0800 - INFO - 纽约时报开始为产品和编辑人员提供 AI 工具->AI产品类
+2025-02-18T12:00:24.011157+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:24.012165+0800 - INFO - 纽约时报开始为产品和编辑人员提供 AI 工具->AI产品类
+2025-02-18T12:00:24.932432+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:24.933922+0800 - INFO - 深圳福田、广州上线“AI公务员” ：部署 DeepSeek 大模型覆盖 240 个场景->AI产品类
+2025-02-18T12:00:25.075807+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:25.075807+0800 - INFO - 深圳福田、广州上线“AI公务员” ：部署 DeepSeek 大模型覆盖 240 个场景->AI产品类
+2025-02-18T12:00:26.004056+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:26.004056+0800 - INFO - Mistral AI 发布 Saba:专注于中东和东南亚语言的AI模型->AI技术类
+2025-02-18T12:00:26.147020+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:26.148028+0800 - INFO - Mistral AI 发布 Saba:专注于中东和东南亚语言的AI模型->AI技术类
+2025-02-18T12:00:26.863140+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:26.864457+0800 - INFO - 小模型+大模型协同！秘塔AI搜索推出浅度研究「Shallow Research」功能->AI技术类
+2025-02-18T12:00:27.005817+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:27.006829+0800 - INFO - 小模型+大模型协同！秘塔AI搜索推出浅度研究「Shallow Research」功能->AI技术类
+2025-02-18T12:00:28.242249+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:28.243259+0800 - INFO - AI才女罗福莉已到新岗位上班 此前曾被雷军千万年薪挖角->AI商业类
+2025-02-18T12:00:28.385172+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:28.386182+0800 - INFO - AI才女罗福莉已到新岗位上班 此前曾被雷军千万年薪挖角->AI商业类
+2025-02-18T12:00:29.599166+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:29.600174+0800 - INFO - 效果最佳！阶跃星辰开源Step-Video-T2V 视频生成模型->AI技术类
+2025-02-18T12:00:29.741181+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:29.742187+0800 - INFO - 效果最佳！阶跃星辰开源Step-Video-T2V 视频生成模型->AI技术类
+2025-02-18T12:00:30.821668+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:30.822678+0800 - INFO - 腾讯电子签将上线AI起草合同功能 接入混元、DeepSeek等大模型->AI产品类
+2025-02-18T12:00:30.980634+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T12:00:30.981640+0800 - INFO - 腾讯电子签将上线AI起草合同功能 接入混元、DeepSeek等大模型->AI产品类
+2025-02-18T12:00:30.983641+0800 - INFO - 苏州政务外网成功部署 DeepSeek 大模型，数字政务智能助手上线已存在，跳过
+2025-02-18T12:00:30.984853+0800 - INFO - 腾讯内测混元深度思考模型 Hunyuan T1已存在，跳过
+2025-02-18T12:00:30.986369+0800 - INFO - ​韩国政府计划采购10000个高性能 GPU，助力 AI 竞争已存在，跳过
+2025-02-18T12:00:30.987366+0800 - INFO - 百度文心一言免费权益卡上线 可体验“深度搜索功能”已存在，跳过
+2025-02-18T12:00:30.987366+0800 - INFO - 百度地图深度融合DeepSeek 玩啥、吃啥直接问已存在，跳过
+2025-02-18T12:00:30.988366+0800 - INFO - ​英特尔或面临分拆风险，台积电与博通寻求收购机会已存在，跳过
+2025-02-18T12:00:31.009746+0800 - INFO - 已爬取到24条新闻
+2025-02-18T12:00:31.010188+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T12:00:31.010692+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 15:00:00 CST)" executed successfully
+2025-02-18T15:00:00.009977+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 18:00:00 CST)" (scheduled at 2025-02-18 15:00:00+08:00)
+2025-02-18T15:00:00.010988+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T15:00:01.963006+0800 - WARNING - 访问aibase失败: invalid literal for int() with base 10: '15.5k'
+2025-02-18T15:00:01.964118+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T15:00:01.964623+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 18:00:00 CST)" executed successfully
+2025-02-18T18:00:00.011556+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 21:00:00 CST)" (scheduled at 2025-02-18 18:00:00+08:00)
+2025-02-18T18:00:00.012566+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T18:00:01.873741+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:01.874750+0800 - INFO - 印度最大支付平台Paytm应用内推出 Perplexity AI 智能搜索功能->AI产品类
+2025-02-18T18:00:02.026135+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:02.026135+0800 - INFO - 印度最大支付平台Paytm应用内推出 Perplexity AI 智能搜索功能->AI产品类
+2025-02-18T18:00:03.023737+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:03.024746+0800 - INFO - 百度第四季度营收341亿元 李彦宏：AI相关投入将带来更大成果->AI技术类
+2025-02-18T18:00:03.170892+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:03.171898+0800 - INFO - 百度第四季度营收341亿元 李彦宏：AI相关投入将带来更大成果->AI商业类
+2025-02-18T18:00:03.927362+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:03.927362+0800 - INFO - Kimi大幅削减广告预算，DeepSeek崛起令月之暗面压力倍增->AI商业类
+2025-02-18T18:00:04.074026+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:04.075032+0800 - INFO - Kimi大幅削减广告预算，DeepSeek崛起令月之暗面压力倍增->AI商业类
+2025-02-18T18:00:05.293861+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:05.294366+0800 - INFO - ​OpenAI 推出 SWE-Lancer 基准测试:评估真实世界自由软件工程工作的模型性能->AI技术类
+2025-02-18T18:00:05.438950+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:05.440053+0800 - INFO - ​OpenAI 推出 SWE-Lancer 基准测试:评估真实世界自由软件工程工作的模型性能->AI技术类
+2025-02-18T18:00:06.483495+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:06.484503+0800 - INFO - ​xAI开发者平台超值首充活动：5美元即可每月享受150美元信用额度->AI技术类
+2025-02-18T18:00:06.628941+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:06.628941+0800 - INFO - ​xAI开发者平台超值首充活动：5美元即可每月享受150美元信用额度->AI技术类
+2025-02-18T18:00:07.447261+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:07.448267+0800 - INFO - 马斯克首次披露 Grok 3 的训练成本：高达 20 万块英伟达 GPU->AI技术类
+2025-02-18T18:00:07.597276+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:07.598284+0800 - INFO - 马斯克首次披露 Grok 3 的训练成本：高达 20 万块英伟达 GPU->AI技术类
+2025-02-18T18:00:08.421758+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:08.421758+0800 - INFO - 腾讯元宝接入DeepSeek回答现广告 官方回应：估计开了联网搜索->AI产品类
+2025-02-18T18:00:08.573403+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:08.574414+0800 - INFO - 腾讯元宝接入DeepSeek回答现广告 官方回应：估计开了联网搜索->AI产品类
+2025-02-18T18:00:09.513083+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:09.514091+0800 - INFO - 月之暗面推出kimi-latest：可第一时间体验kimi最新模型->AI技术类
+2025-02-18T18:00:09.659389+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:09.660394+0800 - INFO - 月之暗面推出kimi-latest：可第一时间体验kimi最新模型->AI技术类
+2025-02-18T18:00:10.674625+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:10.675130+0800 - INFO - 网易有道推出国内首款AI原生学习硬件SpaceOne  集成DeepSeek-R1->AI产品类
+2025-02-18T18:00:10.818190+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:10.819197+0800 - INFO - 网易有道推出国内首款AI原生学习硬件SpaceOne  集成DeepSeek-R1->AI产品类
+2025-02-18T18:00:11.575008+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:11.576017+0800 - INFO - 微信AI搜索功能因访问量过大转向聊天机器人“元宝”->AI产品类
+2025-02-18T18:00:11.717237+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:11.718039+0800 - INFO - 微信AI搜索功能因访问量过大转向聊天机器人“元宝”->AI技术类
+2025-02-18T18:00:12.544853+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:12.545860+0800 - INFO - 首批苏州 AI 青年创业园名单揭晓，20家创业园入选->AI商业类
+2025-02-18T18:00:12.686254+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:12.686254+0800 - INFO - 首批苏州 AI 青年创业园名单揭晓，20家创业园入选->AI商业类
+2025-02-18T18:00:13.593419+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:13.594427+0800 - INFO - ​OpenAI 考虑特别投票权以抵御马斯克等敌意收购->AI商业类
+2025-02-18T18:00:13.735761+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:13.736998+0800 - INFO - ​OpenAI 考虑特别投票权以抵御马斯克等敌意收购->AI商业类
+2025-02-18T18:00:15.020635+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:15.021643+0800 - INFO - xAI王炸模型 Grok 3发布：​ 超越GPT-4o，计算能力提升10倍->AI技术类
+2025-02-18T18:00:15.165074+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:15.165074+0800 - INFO - xAI王炸模型 Grok 3发布：​ 超越GPT-4o，计算能力提升10倍->AI技术类
+2025-02-18T18:00:16.424562+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:16.425572+0800 - INFO - 马斯克的xAI正式推出深度推理模型Grok 3，引入思维链、未来两年搭载到SpaceX火箭->AI技术类
+2025-02-18T18:00:16.566505+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:16.568517+0800 - INFO - 马斯克的xAI正式推出深度推理模型Grok 3，引入思维链、未来两年搭载到SpaceX火箭->AI技术类
+2025-02-18T18:00:17.347358+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:17.348427+0800 - INFO - xAI Grok 2将在Grok 3正式可用后开源->AI技术类
+2025-02-18T18:00:17.494736+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:17.494736+0800 - INFO - xAI Grok 2将在Grok 3正式可用后开源->AI技术类
+2025-02-18T18:00:18.508131+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:18.509706+0800 - INFO -  Grok-3正式发布:马斯克"钞能力"催生AI新王座挑战者->AI产品类
+2025-02-18T18:00:18.649567+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:18.650576+0800 - INFO -  Grok-3正式发布:马斯克"钞能力"催生AI新王座挑战者->AI产品类
+2025-02-18T18:00:19.679835+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:19.679835+0800 - INFO - 马斯克推出超级智能聊天机器人 Grok 3，号称 “地球上最聪明的 AI”->AI技术类
+2025-02-18T18:00:19.819947+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T18:00:19.819947+0800 - INFO - 马斯克推出超级智能聊天机器人 Grok 3，号称 “地球上最聪明的 AI”->AI技术类
+2025-02-18T18:00:19.822014+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露已存在，跳过
+2025-02-18T18:00:19.823011+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性已存在，跳过
+2025-02-18T18:00:19.823011+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙已存在，跳过
+2025-02-18T18:00:19.825014+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！已存在，跳过
+2025-02-18T18:00:19.826014+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件已存在，跳过
+2025-02-18T18:00:19.827013+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元已存在，跳过
+2025-02-18T18:00:19.827013+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”已存在，跳过
+2025-02-18T18:00:19.828013+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek已存在，跳过
+2025-02-18T18:00:19.828013+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型已存在，跳过
+2025-02-18T18:00:19.829014+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势已存在，跳过
+2025-02-18T18:00:19.830015+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险已存在，跳过
+2025-02-18T18:00:19.830015+0800 - INFO - HYBE旗下AI 声音工具Supertone Play上线：10秒搞定声音克隆已存在，跳过
+2025-02-18T18:00:19.831013+0800 - INFO - Mistral CEO 盛赞 DeepSeek：开源 AI 迎来重要时刻已存在，跳过
+2025-02-18T18:00:19.850294+0800 - INFO - 已爬取到17条新闻
+2025-02-18T18:00:19.851672+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T18:00:19.851672+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-18 21:00:00 CST)" executed successfully
+2025-02-18T21:00:00.004707+0800 - INFO - Running job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-19 06:00:00 CST)" (scheduled at 2025-02-18 21:00:00+08:00)
+2025-02-18T21:00:00.004707+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T21:00:01.390102+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:00:01.391111+0800 - INFO - 理想同学App全新升级，接入DeepSeek R1与V3模型->AI产品类
+2025-02-18T21:00:01.536493+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:00:01.538504+0800 - INFO - 理想同学App全新升级，接入DeepSeek R1与V3模型->AI产品类
+2025-02-18T21:00:02.528258+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:00:02.528258+0800 - INFO - ​DeepSeek 推出 NSA 技术：加速长上下文训练与推理->AI技术类
+2025-02-18T21:00:02.672054+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:00:02.672054+0800 - INFO - ​DeepSeek 推出 NSA 技术：加速长上下文训练与推理->AI技术类
+2025-02-18T21:00:02.674060+0800 - INFO - 印度最大支付平台Paytm应用内推出 Perplexity AI 智能搜索功能已存在，跳过
+2025-02-18T21:00:02.675060+0800 - INFO - 百度第四季度营收341亿元 李彦宏：AI相关投入将带来更大成果已存在，跳过
+2025-02-18T21:00:02.675060+0800 - INFO - Kimi大幅削减广告预算，DeepSeek崛起令月之暗面压力倍增已存在，跳过
+2025-02-18T21:00:02.676249+0800 - INFO - ​OpenAI 推出 SWE-Lancer 基准测试:评估真实世界自由软件工程工作的模型性能已存在，跳过
+2025-02-18T21:00:02.677256+0800 - INFO - ​xAI开发者平台超值首充活动：5美元即可每月享受150美元信用额度已存在，跳过
+2025-02-18T21:00:02.678255+0800 - INFO - 马斯克首次披露 Grok 3 的训练成本：高达 20 万块英伟达 GPU已存在，跳过
+2025-02-18T21:00:02.678255+0800 - INFO - 腾讯元宝接入DeepSeek回答现广告 官方回应：估计开了联网搜索已存在，跳过
+2025-02-18T21:00:02.679259+0800 - INFO - 月之暗面推出kimi-latest：可第一时间体验kimi最新模型已存在，跳过
+2025-02-18T21:00:02.680256+0800 - INFO - 网易有道推出国内首款AI原生学习硬件SpaceOne  集成DeepSeek-R1已存在，跳过
+2025-02-18T21:00:02.680256+0800 - INFO - 微信AI搜索功能因访问量过大转向聊天机器人“元宝”已存在，跳过
+2025-02-18T21:00:02.681256+0800 - INFO - 首批苏州 AI 青年创业园名单揭晓，20家创业园入选已存在，跳过
+2025-02-18T21:00:02.681256+0800 - INFO - ​OpenAI 考虑特别投票权以抵御马斯克等敌意收购已存在，跳过
+2025-02-18T21:00:02.682256+0800 - INFO - xAI王炸模型 Grok 3发布：​ 超越GPT-4o，计算能力提升10倍已存在，跳过
+2025-02-18T21:00:02.683257+0800 - INFO - 马斯克的xAI正式推出深度推理模型Grok 3，引入思维链、未来两年搭载到SpaceX火箭已存在，跳过
+2025-02-18T21:00:02.683257+0800 - INFO - xAI Grok 2将在Grok 3正式可用后开源已存在，跳过
+2025-02-18T21:00:02.684256+0800 - INFO -  Grok-3正式发布:马斯克"钞能力"催生AI新王座挑战者已存在，跳过
+2025-02-18T21:00:02.684256+0800 - INFO - 马斯克推出超级智能聊天机器人 Grok 3，号称 “地球上最聪明的 AI”已存在，跳过
+2025-02-18T21:00:02.685255+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露已存在，跳过
+2025-02-18T21:00:02.685255+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性已存在，跳过
+2025-02-18T21:00:02.686256+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙已存在，跳过
+2025-02-18T21:00:02.686256+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！已存在，跳过
+2025-02-18T21:00:02.687253+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件已存在，跳过
+2025-02-18T21:00:02.688255+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元已存在，跳过
+2025-02-18T21:00:02.688255+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”已存在，跳过
+2025-02-18T21:00:02.689256+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek已存在，跳过
+2025-02-18T21:00:02.689256+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型已存在，跳过
+2025-02-18T21:00:02.690256+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势已存在，跳过
+2025-02-18T21:00:02.690256+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险已存在，跳过
+2025-02-18T21:00:02.701858+0800 - INFO - 已爬取到2条新闻
+2025-02-18T21:00:02.702294+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T21:00:02.702294+0800 - INFO - Job "get_aibase_brief_news (trigger: cron[hour='6-22/3'], next run at: 2025-02-19 06:00:00 CST)" executed successfully
+2025-02-18T21:42:02.810302+0800 - INFO - 开始爬取晚点...
+2025-02-18T21:42:02.810302+0800 - INFO - 开始爬取最新晚点早知道...
+2025-02-18T21:42:04.104085+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.108092+0800 - INFO - 微信搜索接入 DeepSeek，百度快速跟进。->AI商业类
+2025-02-18T21:42:04.288021+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.288021+0800 - INFO - 库迪咖啡说 9.9 元价格战可持续。->其他类
+2025-02-18T21:42:04.439496+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.440503+0800 - INFO - 拼多多国内跨境业务放低招商门槛，招募代购补充供给。->其他类
+2025-02-18T21:42:04.625137+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.626144+0800 - INFO - 《王者荣耀》再次成为全球收入最高的手游。->其他类
+2025-02-18T21:42:04.772328+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.772328+0800 - INFO - Shein 可能会继续削减估值以顺利上市。->其他类
+2025-02-18T21:42:04.937375+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:04.938382+0800 - INFO - 奢侈品电商 Net-A-Porter 退出中国。->其他类
+2025-02-18T21:42:05.159944+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:05.159944+0800 - INFO - 特斯拉自动驾驶可能会延迟进入中国。->AI技术类
+2025-02-18T21:42:05.343247+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:05.344258+0800 - INFO - 大众汽车品牌计划将 2025 年的销售利润率增加到 6.5%。->其他类
+2025-02-18T21:42:05.553449+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:05.554004+0800 - INFO - 东风汽车集团总经理周治平履新兵装集团。->其他科技类
+2025-02-18T21:42:05.734389+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:05.734389+0800 - INFO - 韩国禁止新用户下载 DeepSeek。->AI产品类
+2025-02-18T21:42:05.921222+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:05.921222+0800 - INFO - 博通和台积电或将分拆英特尔。->其他科技类
+2025-02-18T21:42:06.115518+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:06.116530+0800 - INFO - 工信部等八部门印发《新型储能制造业高质量发展行动方案》。->其他科技类
+2025-02-18T21:42:06.130526+0800 - INFO - 已爬取到6条新闻
+2025-02-18T21:42:06.131660+0800 - INFO - 最新晚点早爬取结束...
+2025-02-18T21:42:06.131660+0800 - INFO - 开始爬取36kr...
+2025-02-18T21:42:06.131660+0800 - INFO - 开始爬取最新36kr快讯...
+2025-02-18T21:42:06.766115+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:06.767125+0800 - INFO - 百度财报：2024年，百度智能云AI相关收入增长近300%->AI商业类
+2025-02-18T21:42:06.941706+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:06.941706+0800 - INFO - 百度智能云Q4营收增长26%，经营利润率持续增长->AI商业类
+2025-02-18T21:42:07.184979+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:07.184979+0800 - INFO - 李彦宏：文心大模型4.5系列将开源，是最强大的文心大模型->AI技术类
+2025-02-18T21:42:07.378353+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:07.379357+0800 - INFO - 文远知行盘前再涨近30%->AI技术类
+2025-02-18T21:42:07.522397+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:07.523404+0800 - INFO - 热门中概股美股盘前涨跌不一，爱奇艺跌超3%->其他类
+2025-02-18T21:42:07.671818+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:07.672825+0800 - INFO - 美股大型科技股盘前普涨，英伟达涨超1%->其他类
+2025-02-18T21:42:07.841418+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:07.842422+0800 - INFO - 李彦宏：百度文库AI功能月活用户达9400万，订阅收入同比增长21%->AI商业类
+2025-02-18T21:42:08.001887+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.001887+0800 - INFO - 菲仕兰2024年营业利润5.27亿欧元->其他类
+2025-02-18T21:42:08.146782+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.146782+0800 - INFO - 美银调查：近九成投资者认为美股估值过高->其他类
+2025-02-18T21:42:08.303419+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.304426+0800 - INFO - 易点云：预计2024财年经调整净利润同比增约493%-558.7%->其他类
+2025-02-18T21:42:08.439100+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.440106+0800 - INFO - 美国联合租赁公司据悉将不再寻求收购H&E设备公司->其他类
+2025-02-18T21:42:08.614412+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.615416+0800 - INFO - 亿航智能获国际资本持续加仓->其他科技类
+2025-02-18T21:42:08.779446+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.780464+0800 - INFO - 欧洲央行管委Holzmann：央行降息不能取代经济政策->其他类
+2025-02-18T21:42:08.943932+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:08.944939+0800 - INFO - 潘功胜：IMF当前份额占比已难以反映新兴市场经济体在全球经济中的实际地位，应加快改革进程->其他类
+2025-02-18T21:42:09.092170+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.092170+0800 - INFO - 潘功胜：中方愿与基金组织继续加强合作，共同推进全球金融治理改革->其他类
+2025-02-18T21:42:09.249455+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.249455+0800 - INFO - 潘功胜：中国政府将实施更加积极的财政政策和适度宽松的货币政策->其他类
+2025-02-18T21:42:09.390997+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.390997+0800 - INFO - 通裕重工：拟申请注册发行不超10亿元中期票据->其他类
+2025-02-18T21:42:09.584902+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.585912+0800 - INFO - 天邑股份：与中国移动通信集团终端有限公司签订采购框架合同->AI商业类
+2025-02-18T21:42:09.743361+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.744369+0800 - INFO - *ST仁东：公司重整计划获法院裁定批准->其他类
+2025-02-18T21:42:09.927223+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T21:42:09.927994+0800 - INFO - DeepSeek在香港成立子公司？香港创新科技及工业局发言人回应->AI技术类
+2025-02-18T21:42:09.943391+0800 - INFO - 已爬取到8条新闻
+2025-02-18T21:42:09.943391+0800 - INFO - 最新36kr快讯爬取结束...
+2025-02-18T21:42:09.944388+0800 - INFO - 开始爬取aibase...
+2025-02-18T21:42:09.944388+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-18T21:42:10.342673+0800 - INFO - 理想同学App全新升级，接入DeepSeek R1与V3模型已存在，跳过
+2025-02-18T21:42:10.343682+0800 - INFO - ​DeepSeek 推出 NSA 技术：加速长上下文训练与推理已存在，跳过
+2025-02-18T21:42:10.344682+0800 - INFO - 印度最大支付平台Paytm应用内推出 Perplexity AI 智能搜索功能已存在，跳过
+2025-02-18T21:42:10.345683+0800 - INFO - 百度第四季度营收341亿元 李彦宏：AI相关投入将带来更大成果已存在，跳过
+2025-02-18T21:42:10.345683+0800 - INFO - Kimi大幅削减广告预算，DeepSeek崛起令月之暗面压力倍增已存在，跳过
+2025-02-18T21:42:10.346683+0800 - INFO - ​OpenAI 推出 SWE-Lancer 基准测试:评估真实世界自由软件工程工作的模型性能已存在，跳过
+2025-02-18T21:42:10.347683+0800 - INFO - ​xAI开发者平台超值首充活动：5美元即可每月享受150美元信用额度已存在，跳过
+2025-02-18T21:42:10.347683+0800 - INFO - 马斯克首次披露 Grok 3 的训练成本：高达 20 万块英伟达 GPU已存在，跳过
+2025-02-18T21:42:10.348683+0800 - INFO - 腾讯元宝接入DeepSeek回答现广告 官方回应：估计开了联网搜索已存在，跳过
+2025-02-18T21:42:10.349684+0800 - INFO - 月之暗面推出kimi-latest：可第一时间体验kimi最新模型已存在，跳过
+2025-02-18T21:42:10.349684+0800 - INFO - 网易有道推出国内首款AI原生学习硬件SpaceOne  集成DeepSeek-R1已存在，跳过
+2025-02-18T21:42:10.350683+0800 - INFO - 微信AI搜索功能因访问量过大转向聊天机器人“元宝”已存在，跳过
+2025-02-18T21:42:10.350683+0800 - INFO - 首批苏州 AI 青年创业园名单揭晓，20家创业园入选已存在，跳过
+2025-02-18T21:42:10.351683+0800 - INFO - ​OpenAI 考虑特别投票权以抵御马斯克等敌意收购已存在，跳过
+2025-02-18T21:42:10.352684+0800 - INFO - xAI王炸模型 Grok 3发布：​ 超越GPT-4o，计算能力提升10倍已存在，跳过
+2025-02-18T21:42:10.353683+0800 - INFO - 马斯克的xAI正式推出深度推理模型Grok 3，引入思维链、未来两年搭载到SpaceX火箭已存在，跳过
+2025-02-18T21:42:10.353683+0800 - INFO - xAI Grok 2将在Grok 3正式可用后开源已存在，跳过
+2025-02-18T21:42:10.354683+0800 - INFO -  Grok-3正式发布:马斯克"钞能力"催生AI新王座挑战者已存在，跳过
+2025-02-18T21:42:10.354683+0800 - INFO - 马斯克推出超级智能聊天机器人 Grok 3，号称 “地球上最聪明的 AI”已存在，跳过
+2025-02-18T21:42:10.355683+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露已存在，跳过
+2025-02-18T21:42:10.355683+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性已存在，跳过
+2025-02-18T21:42:10.356683+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙已存在，跳过
+2025-02-18T21:42:10.357679+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！已存在，跳过
+2025-02-18T21:42:10.357679+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件已存在，跳过
+2025-02-18T21:42:10.358680+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元已存在，跳过
+2025-02-18T21:42:10.359685+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”已存在，跳过
+2025-02-18T21:42:10.360678+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek已存在，跳过
+2025-02-18T21:42:10.360678+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型已存在，跳过
+2025-02-18T21:42:10.361677+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势已存在，跳过
+2025-02-18T21:42:10.362677+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险已存在，跳过
+2025-02-18T21:42:10.362677+0800 - INFO - 已爬取到0条新闻
+2025-02-18T21:42:10.362677+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-18T21:42:10.363528+0800 - INFO - 爬取结束...
+2025-02-18T22:06:12.721564+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:06:13.788119+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:14.837917+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:15.654936+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:06:35.320746+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:06:35.325751+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:06:36.383015+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:37.153061+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:37.931732+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:06:56.704454+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:06:56.709461+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:06:57.744905+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:58.517262+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:06:59.282865+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:07:16.688609+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:07:16.692614+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:07:17.729273+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:07:18.498188+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:07:19.256214+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:07:36.035394+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-18T22:07:36.038864+0800 - ERROR - 生成新闻内容图片失败，新闻ID：268 新闻标题：李彦宏：文心大模型4.5系列将开源，是最强大的文心大模型， 从替补中选择一篇
+2025-02-18T22:07:41.465727+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:07:41.470734+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:07:42.513609+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:07:43.279609+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:07:44.048408+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:08:18.377323+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-18T22:08:25.960192+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:08:25.967793+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:08:26.996630+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:08:27.850675+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:08:28.637172+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:08:38.479289+0800 - ERROR - 生成新闻内容图片失败，新闻ID：272 新闻标题：天邑股份：与中国移动通信集团终端有限公司签订采购框架合同， 从替补中选择一篇
+2025-02-18T22:08:46.572398+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:08:46.576903+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:08:47.595217+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:08:48.370760+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:08:49.128739+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:11:29.171519+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:11:30.246593+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:11:31.023620+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:11:31.788379+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:11:51.121960+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:11:51.126961+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:11:52.204831+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:11:53.047709+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:11:53.947878+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:12:12.606088+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:12:12.611097+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:12:13.643174+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:14.461787+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:15.246397+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:12:32.490819+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:12:32.494824+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:12:33.519637+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:34.275169+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:35.030152+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:12:49.506538+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-18T22:12:49.508544+0800 - ERROR - 生成新闻内容图片失败，新闻ID：270 新闻标题：李彦宏：百度文库AI功能月活用户达9400万，订阅收入同比增长21%， 从替补中选择一篇
+2025-02-18T22:12:55.298734+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:12:55.304739+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:12:56.332603+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:57.128701+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:12:57.894859+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:13:12.177392+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-18T22:13:12.179017+0800 - ERROR - 生成新闻内容图片失败，新闻ID：267 新闻标题：百度智能云Q4营收增长26%，经营利润率持续增长， 从替补中选择一篇
+2025-02-18T22:13:16.119666+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:13:16.125059+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:13:17.174043+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:13:17.979382+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:13:19.805790+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:16:40.669290+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:16:41.695667+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:16:42.481348+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:16:43.247809+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:17:02.055269+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:17:02.060270+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:17:03.126857+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:03.922385+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:04.701012+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:17:23.416328+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:17:23.420333+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:17:24.439076+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:25.189189+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:25.940754+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:17:43.055769+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:17:43.059773+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:17:44.088109+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:44.856265+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:17:45.630454+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:18:07.984971+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-18T22:18:16.498609+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:18:16.502615+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:18:17.560907+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:18.317095+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:19.111680+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:18:33.839919+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-18T22:18:33.840919+0800 - ERROR - 生成新闻内容图片失败，新闻ID：270 新闻标题：李彦宏：百度文库AI功能月活用户达9400万，订阅收入同比增长21%， 从替补中选择一篇
+2025-02-18T22:18:39.409803+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:18:39.413800+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:18:40.439968+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:41.204396+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:41.981183+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:18:51.866205+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:18:52.926334+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:57.767250+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:18:59.457836+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:20:02.407463+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-18\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-18\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\1_brief_content_205.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\2_brief_content_238.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\3_brief_content_210.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\4_brief_content_263.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\5_brief_content_241.png']
+2025-02-18T22:20:02.407463+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:20:03.494368+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:20:04.250191+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:20:04.998399+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:22:06.784473+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:22:07.848718+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:09.140191+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:09.920717+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:22:28.794495+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:22:28.799493+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:22:29.831751+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:30.591475+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:31.341751+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:22:49.499833+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:22:49.503840+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:22:50.539274+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:51.286752+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:22:53.108605+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:23:10.221675+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:23:10.225681+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:23:11.253624+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:23:12.011599+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:23:12.783557+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:23:36.571765+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-18T22:23:44.101069+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:23:44.105073+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:23:45.130299+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:23:45.885670+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:23:46.643518+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:24:13.945779+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-18T22:24:21.513642+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T22:24:21.517964+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:24:22.594939+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:23.358570+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:24.150385+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:24:33.997598+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:24:35.021118+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:39.876613+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:40.644627+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T22:24:50.427507+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-18\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-18\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\1_brief_content_205.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\2_brief_content_238.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\3_brief_content_210.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\4_brief_content_272.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\5_brief_content_266.png']
+2025-02-18T22:24:50.428507+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T22:24:51.466467+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:56.299767+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T22:24:57.058412+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:43:36.950672+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:43:38.190390+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:43:39.191037+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:43:39.961639+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:43:58.494447+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T23:43:58.499445+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:43:59.549557+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:00.335193+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:01.099199+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:44:17.756824+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T23:44:17.761356+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:44:18.790000+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:19.540942+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:20.795060+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:44:38.115562+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T23:44:38.119561+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:44:39.151686+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:43.213826+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:44:49.688995+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:45:11.573259+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-18T23:45:19.141909+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T23:45:19.145919+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:45:20.198604+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:45:21.488370+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:45:22.244921+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:45:35.462328+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-18T23:45:35.464340+0800 - ERROR - 生成新闻内容图片失败，新闻ID：261 新闻标题：特斯拉自动驾驶可能会延迟进入中国。， 从替补中选择一篇
+2025-02-18T23:45:41.176499+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-18T23:45:41.183626+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:45:42.219285+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:45:44.368453+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:45:45.997228+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:45:58.401278+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:45:59.477861+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:46:06.223367+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:46:07.007592+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18T23:46:16.085384+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-18\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-18\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\1_brief_content_205.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\2_brief_content_238.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\3_brief_content_210.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\4_brief_content_272.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-18\\5_brief_content_241.png']
+2025-02-18T23:46:16.086384+0800 - INFO - ====== WebDriver manager ======
+2025-02-18T23:46:17.148797+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:46:21.987501+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18T23:46:22.757529+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:04:20.654227+0800 - INFO - 开始爬取晚点...
+2025-02-19T08:04:20.654227+0800 - INFO - 开始爬取最新晚点早知道...
+2025-02-19T08:04:20.850155+0800 - WARNING - 已爬取过该新闻:腾讯市值创三年新高，因为微信接入DeepSeek；瑞幸逐步不卖9.9元咖啡了，库迪觉得还能坚持；拼多多开卷海淘丨百亿美元公司动向 https://www.latepost.com/news/dj_detail?id=2799 02月17日 23:02
+2025-02-19T08:04:20.851301+0800 - INFO - 最新晚点早爬取结束...
+2025-02-19T08:04:20.851301+0800 - INFO - 开始爬取36kr...
+2025-02-19T08:04:20.851301+0800 - INFO - 开始爬取最新36kr快讯...
+2025-02-19T08:04:22.081834+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.086198+0800 - INFO - DeepSeek应用场景不断扩展，保险机构积极部署大模型本地化->AI商业类
+2025-02-19T08:04:22.265462+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.267173+0800 - INFO - AI医疗加速落地，企业争相布局垂类大模型->AI技术类
+2025-02-19T08:04:22.420218+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.421459+0800 - INFO - 金融业对外开放再深化，中意财险一年两获外资加码->其他类
+2025-02-19T08:04:22.634561+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.636514+0800 - INFO - 百余台人形机器人在沪“集训”，上海打造产业创新高地出实招->AI技术类
+2025-02-19T08:04:22.822667+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.823674+0800 - INFO - 对负面信息“脱敏”，中国科技股迎来价值重估->其他科技类
+2025-02-19T08:04:22.971944+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:22.971944+0800 - INFO - 蒙牛乳业：预计2024年度公司拥有人应占利润约0.5亿元至2.5亿元->其他类
+2025-02-19T08:04:23.114065+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.115074+0800 - INFO - 政策护航“出海”，企业境外上市升温->其他类
+2025-02-19T08:04:23.272191+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.273200+0800 - INFO - 央行逆回购操作对冲大额MLF到期，资金面呈现新特点->其他类
+2025-02-19T08:04:23.391673+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.392685+0800 - INFO - 特朗普政府据悉计划在联邦住房管理局裁员至少40%->其他类
+2025-02-19T08:04:23.537394+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.538403+0800 - INFO - 英国Costa Coffee为工人加薪5%，涨幅高于通胀率->其他类
+2025-02-19T08:04:23.696091+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.697098+0800 - INFO - 巴西央行下调该国2025年经济增长预期->其他类
+2025-02-19T08:04:23.874454+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:23.874454+0800 - INFO - 德国大陆集团计划再裁员3000人->其他科技类
+2025-02-19T08:04:24.055377+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.056385+0800 - INFO - 前OpenAI首席技术官成立新AI公司->AI商业类
+2025-02-19T08:04:24.211598+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.212607+0800 - INFO - Strategy比特币持仓超450亿美元，披露去年裁员20%->其他类
+2025-02-19T08:04:24.357965+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.358972+0800 - INFO - 加拿大1月通胀率升至1.9%，受能源价格上涨推动->其他类
+2025-02-19T08:04:24.500327+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.500832+0800 - INFO - 沪鸽向港交所提交上市申请->其他类
+2025-02-19T08:04:24.671825+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.672834+0800 - INFO - 全球动画电影票房冠军！《哪吒之魔童闹海》香港首映礼举行->其他类
+2025-02-19T08:04:24.790636+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.791644+0800 - INFO - 真实生物科技向港交所提交上市申请书->其他类
+2025-02-19T08:04:24.930893+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:24.931899+0800 - INFO - 美银调查：机构投资者冒险偏好达到2010年以来最高->其他类
+2025-02-19T08:04:25.091583+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:04:25.092087+0800 - INFO - 加拿大最新通胀数据料支持进一步降息->其他类
+2025-02-19T08:04:25.107092+0800 - INFO - 已爬取到6条新闻
+2025-02-19T08:04:25.107092+0800 - INFO - 最新36kr快讯爬取结束...
+2025-02-19T08:04:25.107092+0800 - INFO - 开始爬取aibase...
+2025-02-19T08:04:25.107092+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-19T08:04:25.517095+0800 - INFO - 理想同学App全新升级，接入DeepSeek R1与V3模型已存在，跳过
+2025-02-19T08:04:25.517095+0800 - INFO - ​DeepSeek 推出 NSA 技术：加速长上下文训练与推理已存在，跳过
+2025-02-19T08:04:25.518095+0800 - INFO - 印度最大支付平台Paytm应用内推出 Perplexity AI 智能搜索功能已存在，跳过
+2025-02-19T08:04:25.519095+0800 - INFO - 百度第四季度营收341亿元 李彦宏：AI相关投入将带来更大成果已存在，跳过
+2025-02-19T08:04:25.520095+0800 - INFO - Kimi大幅削减广告预算，DeepSeek崛起令月之暗面压力倍增已存在，跳过
+2025-02-19T08:04:25.520095+0800 - INFO - ​OpenAI 推出 SWE-Lancer 基准测试:评估真实世界自由软件工程工作的模型性能已存在，跳过
+2025-02-19T08:04:25.521095+0800 - INFO - ​xAI开发者平台超值首充活动：5美元即可每月享受150美元信用额度已存在，跳过
+2025-02-19T08:04:25.521095+0800 - INFO - 马斯克首次披露 Grok 3 的训练成本：高达 20 万块英伟达 GPU已存在，跳过
+2025-02-19T08:04:25.522095+0800 - INFO - 腾讯元宝接入DeepSeek回答现广告 官方回应：估计开了联网搜索已存在，跳过
+2025-02-19T08:04:25.523095+0800 - INFO - 月之暗面推出kimi-latest：可第一时间体验kimi最新模型已存在，跳过
+2025-02-19T08:04:25.523095+0800 - INFO - 网易有道推出国内首款AI原生学习硬件SpaceOne  集成DeepSeek-R1已存在，跳过
+2025-02-19T08:04:25.524095+0800 - INFO - 微信AI搜索功能因访问量过大转向聊天机器人“元宝”已存在，跳过
+2025-02-19T08:04:25.525095+0800 - INFO - 首批苏州 AI 青年创业园名单揭晓，20家创业园入选已存在，跳过
+2025-02-19T08:04:25.525095+0800 - INFO - ​OpenAI 考虑特别投票权以抵御马斯克等敌意收购已存在，跳过
+2025-02-19T08:04:25.526095+0800 - INFO - xAI王炸模型 Grok 3发布：​ 超越GPT-4o，计算能力提升10倍已存在，跳过
+2025-02-19T08:04:25.526095+0800 - INFO - 马斯克的xAI正式推出深度推理模型Grok 3，引入思维链、未来两年搭载到SpaceX火箭已存在，跳过
+2025-02-19T08:04:25.527095+0800 - INFO - xAI Grok 2将在Grok 3正式可用后开源已存在，跳过
+2025-02-19T08:04:25.528095+0800 - INFO -  Grok-3正式发布:马斯克"钞能力"催生AI新王座挑战者已存在，跳过
+2025-02-19T08:04:25.528095+0800 - INFO - 马斯克推出超级智能聊天机器人 Grok 3，号称 “地球上最聪明的 AI”已存在，跳过
+2025-02-19T08:04:25.529095+0800 - INFO - 到2027年，生成式 AI 将导致超 40% 的数据泄露已存在，跳过
+2025-02-19T08:04:25.529095+0800 - INFO - 首度揭秘！大众点评如何用“AI+人工”守护 2 亿条评价真实性已存在，跳过
+2025-02-19T08:04:25.530095+0800 - INFO - 深圳福田区放大招：一口气“聘请” 70 位 AI 数智员工！政务效率狂飙已存在，跳过
+2025-02-19T08:04:25.530095+0800 - INFO - 用Deepseek翻译哪吒2急急如律令，结果有点意思！已存在，跳过
+2025-02-19T08:04:25.531095+0800 - INFO - 腾讯推出AI合同起草功能，助力用户轻松生成法律文件已存在，跳过
+2025-02-19T08:04:25.531095+0800 - INFO - OpenAI 联合创始人初创公司SSI融资超10亿美元，估值超300亿美元已存在，跳过
+2025-02-19T08:04:25.532095+0800 - INFO - 马斯克坐实计划成立AI游戏工作室，誓言 “让游戏再次伟大”已存在，跳过
+2025-02-19T08:04:25.532095+0800 - INFO - OpenAI低调更新GPT4o模型，多项能力反超DeepSeek已存在，跳过
+2025-02-19T08:04:25.533095+0800 - INFO - 法国公司 Mistral 推出专为阿拉伯语定制的AI大模型已存在，跳过
+2025-02-19T08:04:25.534094+0800 - INFO - 秘塔科技推出 “先想后搜” 研究模式，引领AI搜索新趋势已存在，跳过
+2025-02-19T08:04:25.535095+0800 - INFO - ​研究发现AI Agent易受攻击，用户数据面临风险已存在，跳过
+2025-02-19T08:04:25.535095+0800 - INFO - 已爬取到0条新闻
+2025-02-19T08:04:25.535095+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-19T08:04:25.535773+0800 - INFO - 爬取结束...
+2025-02-19T08:11:08.978051+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:11:10.025179+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:10.697203+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:11.367136+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:12.978027+0800 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-19T08:11:12.979027+0800 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-19T08:11:12.979027+0800 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-19T08:11:13.694167+0800 - INFO - Driver downloading response is 200
+2025-02-19T08:11:15.514113+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:16.265869+0800 - INFO - Driver has been saved in cache [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-19T08:11:36.307592+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:11:36.313591+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:11:37.360369+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:38.030637+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:11:38.683802+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:11:58.481562+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:11:58.484561+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:11:59.528929+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:00.205101+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:00.875759+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:12:20.463151+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:12:20.467149+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:12:21.487615+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:22.161978+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:22.844442+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:12:37.365693+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-19T08:12:37.367701+0800 - ERROR - 生成新闻内容图片失败，新闻ID：270 新闻标题：李彦宏：百度文库AI功能月活用户达9400万，订阅收入同比增长21%， 从替补中选择一篇
+2025-02-19T08:12:42.675892+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:12:42.680015+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:12:43.707465+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:44.381377+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:12:45.058500+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:12:59.609927+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-19T08:12:59.611933+0800 - ERROR - 生成新闻内容图片失败，新闻ID：261 新闻标题：特斯拉自动驾驶可能会延迟进入中国。， 从替补中选择一篇
+2025-02-19T08:13:03.526479+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:13:03.530487+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:13:04.556083+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:05.250320+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:05.926309+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:13:14.132324+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:13:15.181168+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:19.921850+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:20.585411+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:13:28.281998+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-19\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-19\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\1_brief_content_238.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\2_brief_content_248.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\3_brief_content_257.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\4_brief_content_241.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\5_brief_content_258.png']
+2025-02-19T08:13:28.283464+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:13:29.351681+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:34.093985+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:13:34.763749+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:44:59.648543+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:45:00.715527+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:01.421383+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:02.118090+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:45:22.221384+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:45:22.227643+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:45:23.289065+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:23.960541+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:24.638941+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:45:44.318409+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:45:44.322414+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:45:45.460043+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:46.135733+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:45:46.809366+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:46:06.097291+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:46:06.101297+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:46:07.193707+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:46:07.879198+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:46:08.554043+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:46:31.110691+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-19T08:46:38.575197+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:46:38.580205+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:46:39.642634+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:46:40.307000+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:46:40.969644+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:47:04.972150+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-19T08:47:12.588967+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2025-02-19T08:47:12.592966+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:47:13.656228+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:14.339709+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:15.008103+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:47:24.734975+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:47:25.807130+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:30.565225+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:31.240378+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-19T08:47:39.668252+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-19\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-19\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\1_brief_content_238.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\2_brief_content_248.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\3_brief_content_257.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\4_brief_content_274.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-19\\5_brief_content_273.png']
+2025-02-19T08:47:39.669359+0800 - INFO - ====== WebDriver manager ======
+2025-02-19T08:47:40.738169+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:45.480848+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-19T08:47:46.158130+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache

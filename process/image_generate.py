@@ -118,7 +118,7 @@ def generate_news_content(brief_news: BriefNews, img_path, idx):
         summary = "".join(li_list)
         html_content = html_content.replace("$news_content$", summary)
         html_to_image_selenium(html_content, image_file, brief_news.id, 768 + 50, 1024 + 150)
-    return image_file
+    return image_file, summary
 
 
 if __name__ == "__main__":

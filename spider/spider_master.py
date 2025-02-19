@@ -47,13 +47,13 @@ def do_schedule_jobs():
     scheduler = BlockingScheduler(jobstores=jobstores)
 
     # 每天早上9:00执行，get_latepost_brief_news
-    scheduler.add_job(get_latepost_brief_news, CronTrigger(hour=9, minute=0), id='get_latepost_brief_news',
+    scheduler.add_job(get_latepost_brief_news, CronTrigger(hour=7, minute=0), id='get_latepost_brief_news',
                       replace_existing=True)
     # 每隔3个小时执行，get_36kr_brief_news，每天6点到22点执行
     scheduler.add_job(get_36kr_brief_news, CronTrigger(hour='6-22/3'), id='get_36kr_brief_news',
                       replace_existing=True)
     # 每隔2个小时执行，get_aibase_brief_news，每天6点到22点执行
-    scheduler.add_job(get_aibase_brief_news, CronTrigger(hour='6-22/3'), id='get_36kr_brief_news',
+    scheduler.add_job(get_aibase_brief_news, CronTrigger(hour='6-22/3'), id='get_aibase_brief_news',
                       replace_existing=True)
     #
     # # 测试
