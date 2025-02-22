@@ -68,6 +68,9 @@ def generate_cover(img_path):
     if os.path.exists(img_path) is False:
         os.makedirs(img_path)
     image_file = os.path.join(img_path, "00_brief_cover.png")
+    if os.path.exists(image_file):
+        return image_file
+
     html_file = os.path.join(template_path, "brief_cover.html")
     with open(html_file, "r", encoding="utf-8") as f:
         html_str_list = f.readlines()

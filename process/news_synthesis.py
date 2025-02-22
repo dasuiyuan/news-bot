@@ -55,16 +55,18 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
             final_list.append(brief)
             news_items.append(
                 NewsItem(title=f"{emoji_list[idx]} {brief.title}",
-                         content=summary.replace("</li><li>", "\n").replace("<li>", "").replace("</li>", "")))
+                         content=summary.replace("</li><li>", "\n").replace("<li>", "").replace("</li>", "").replace(
+                             "<br>", "\n")))
         except Exception as e:
-            logger.error(f"生成新闻内容图片失败，新闻ID：{brief.id} 新闻标题：{brief.title}， 从替补中选择一篇")
+            logger.error(f"{e} 生成新闻内容图片失败，新闻ID：{brief.id} 新闻标题：{brief.title}， 从替补中选择一篇")
             new_brief = backup_aibase_list.pop()
             file_path, summary = image_generate.generate_news_content(new_brief, img_folder, idx)
             img_content_file_list.append(file_path)
             final_list.append(new_brief)
             news_items.append(
                 NewsItem(title=f"{emoji_list[idx]} {brief.title}",
-                         ccontent=summary.replace("</li><li>", "\n").replace("<li>", "").replace("</li>", "")))
+                         content=summary.replace("</li><li>", "\n").replace("<li>", "").replace("</li>", "").replace(
+                             "<br>", "\n")))
             continue
 
     # 生成新闻标题
@@ -80,7 +82,7 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
 
 def news_summarize(brief_news: BriefNews):
     response = chat_deepseek().complete(
-        prompt.PROMPT_NEWS_SUMMARIZE.format(length=50, title=brief_news.title, content=brief_news.content))
+        prompt.PROMPT_NEWS_SUMMARIZE.format(length=39, title=brief_news.title, content=brief_news.content))
     return response.text
 
 
