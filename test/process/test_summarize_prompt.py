@@ -1,4 +1,4 @@
-from util.llm_util import chat_deepseek, chat_qwen, chat_glm
+from util.llm_util import chat_deepseek, chat_qwen, chat_glm, chat_ali_bailian
 from process import prompt
 from util.storage.sqlite_sqlalchemy import SQLiteDB
 from spider.po.news_po import BriefNews
@@ -15,6 +15,6 @@ if __name__ == '__main__':
     with db.get_session() as session:
         news = session.query(BriefNews).filter(BriefNews.type == 'AI技术类').limit(1).first()
 
-    response = chat_glm().complete(
+    response = chat_ali_bailian().complete(
         prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=news.title, content=news.content))
     print(response)

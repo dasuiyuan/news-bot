@@ -4,8 +4,8 @@
 # @Software: PyCharm
 # @Desc:
 
-from custom.llm.glm_custom_llm import ChatGLM, ZHIPU_API_KEY
-from custom.llm.glm_custom_embeding import ChatGLMEmbeddings
+from llm.glm_custom_llm import ChatGLM, ZHIPU_API_KEY
+from llm.glm_custom_embeding import ChatGLMEmbeddings
 
 if __name__ == '__main__':
     test_llm = ChatGLM(model="GLM-4-0520", reuse_client=True, api_key=ZHIPU_API_KEY, )

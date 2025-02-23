@@ -16,6 +16,8 @@ from llm.jdy_qwen_custom_llm import (
     Qwen_API_KEY,
     Qwen_API_URL
 )
+from llm.ali_bailian_custom_llm import ChatAliBailian, ALI_BAILIAN_DEFAULT_MODEL, ALI_BAILIAN_API_KEY, \
+    ALI_BAILIAN_API_URL
 from llm.deepseek_custom_llm import (
     ChatDeepSeek,
     DEFAULT_MODEL as DEEPSEEK_MODEL,
@@ -31,6 +33,10 @@ _chat_qwen = ChatQwen(model=DEFAULT_MODEL, reuse_client=True,
                       api_url=Qwen_API_URL,
                       api_key=Qwen_API_KEY, )
 
+_chat_ali_bailian = ChatAliBailian(model=ALI_BAILIAN_DEFAULT_MODEL, reuse_client=True, context_window=32000,
+                             api_url=ALI_BAILIAN_API_URL,
+                             api_key=ALI_BAILIAN_API_KEY, )
+
 _chat_glm = ChatGLM(model='glm-4', reuse_client=True, api_key=ZHIPU_API_KEY, )
 _embedding_glm = ChatGLMEmbeddings(model='embedding-2', reuse_client=True, api_key=ZHIPU_API_KEY, )
 
@@ -41,6 +47,10 @@ def chat_deepseek():
 
 def chat_glm():
     return _chat_glm
+
+
+def chat_ali_bailian():
+    return _chat_ali_bailian
 
 
 def glm_embedding():

@@ -4973,3 +4973,124 @@ AI产品类
 2025-02-22T09:33:32.145424+0800 - INFO - Get LATEST chromedriver version for google-chrome
 2025-02-22T09:33:32.320643+0800 - INFO - Get LATEST chromedriver version for google-chrome
 2025-02-22T09:33:32.486041+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T13:58:05.471047+0800 - INFO - 开始爬取晚点...
+2025-02-23T13:58:05.471047+0800 - INFO - 开始爬取最新晚点早知道...
+2025-02-23T13:58:07.024312+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.028576+0800 - INFO - 蜜雪冰城港股招股首日超购 1800 倍。->其他类
+2025-02-23T13:58:07.214025+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.215034+0800 - INFO - Temu 在速卖通主战场发动攻势。->其他类
+2025-02-23T13:58:07.394456+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.395461+0800 - INFO - 上汽集团、华为确定合作。->其他类
+2025-02-23T13:58:07.547493+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.548500+0800 - INFO - 阿里考虑为盒马引入外部投资者。->其他类
+2025-02-23T13:58:07.730834+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.731842+0800 - INFO - DeepSeek 将在下周开源 5 个代码库。->AI技术类
+2025-02-23T13:58:07.918654+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:07.918654+0800 - INFO - 吴永辉加入后字节大模型团队组织架构调整。->AI技术类
+2025-02-23T13:58:08.107400+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.108406+0800 - INFO - 苹果称未来会更多使用自研基带。->其他科技类
+2025-02-23T13:58:08.294506+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.294506+0800 - INFO - 日产希望特斯拉成为它的战略投资方。->其他科技类
+2025-02-23T13:58:08.465499+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.465499+0800 - INFO - 中国汽油、柴油价格下调，每吨分别少了 170 元、160 元。->其他类
+2025-02-23T13:58:08.616829+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.616829+0800 - INFO - 沃尔玛中国业绩创新高，山姆是增长引擎。->其他类
+2025-02-23T13:58:08.781105+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.781105+0800 - INFO - 勃肯鞋在亚洲受欢迎，四季度销售额同比增长 19%。->其他类
+2025-02-23T13:58:08.927912+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:08.928920+0800 - INFO - 钻石巨头戴比尔斯或将在下半年被出售。->其他类
+2025-02-23T13:58:09.141221+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:09.143229+0800 - INFO - 银行主动清理 “长期睡眠” 信用卡，在用发卡量两年减少 8000 万张。->其他类
+2025-02-23T13:58:09.155626+0800 - INFO - 已爬取到4条新闻
+2025-02-23T13:58:09.155626+0800 - INFO - 最新晚点早爬取结束...
+2025-02-23T13:58:09.155626+0800 - INFO - 开始爬取36kr...
+2025-02-23T13:58:09.155626+0800 - INFO - 开始爬取最新36kr快讯...
+2025-02-23T13:58:09.627019+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:09.627019+0800 - INFO - 上海人工智能实验室发布通用具身智能仿真平台桃源2.0->AI技术类
+2025-02-23T13:58:09.809122+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:09.810135+0800 - INFO - 联想创新推出DaaS（Device as a Service设备即服务）交付模式->AI技术类
+2025-02-23T13:58:09.981628+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:09.982638+0800 - INFO - 联汇科技将DeepSeek R1从文本模型迁移到视觉语言领域->AI技术类
+2025-02-23T13:58:10.127273+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.128283+0800 - INFO - 中国最大事故车拍卖平台博车网向港交所递交上市申请->其他类
+2025-02-23T13:58:10.316184+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.316184+0800 - INFO - 高德红外董事长称多个脑机接口技术指标已超马斯克的Neuralink公司->AI技术类
+2025-02-23T13:58:10.453461+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.453967+0800 - INFO - 《哪吒之魔童闹海》票房突破134亿元->其他类
+2025-02-23T13:58:10.620750+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.621255+0800 - INFO - 马斯克宣布Grok语音模式正式上线->AI产品类
+2025-02-23T13:58:10.836583+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.837588+0800 - INFO - 湖南规范互联网医院处方行为：严禁使用AI等自动生成处方->其他科技类
+2025-02-23T13:58:10.995995+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:10.997003+0800 - INFO - 深圳：来深毕业生免费7天住升级为15天->其他类
+2025-02-23T13:58:11.153271+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.153271+0800 - INFO - TCL李东生：中国制造未来在海外最大增量大概率来自新兴市场->其他类
+2025-02-23T13:58:11.349291+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.350308+0800 - INFO - 清华AIR联合水木分子开源DeepSeek版多模态生物医药大模型BioMedGPT-R1->AI技术类
+2025-02-23T13:58:11.535063+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.536330+0800 - INFO - 上海市副市长陈杰：加快建设人工智能“上海高地”，壮大开源社区力量->AI商业类
+2025-02-23T13:58:11.705000+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.705946+0800 - INFO - 思朗科技完成D轮融资交割，溥泉资本领投->其他科技类
+2025-02-23T13:58:11.796944+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.796944+0800 - INFO - DeepSeek“低调”参与2025全球开发者先锋大会->UNK
+2025-02-23T13:58:11.938289+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:11.938289+0800 - INFO - 胖东来进军郑州->其他类
+2025-02-23T13:58:12.114009+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:12.115016+0800 - INFO - 联想拯救者与Angry Miao怒喵联合打造客制化发烧友键盘->其他科技类
+2025-02-23T13:58:12.252946+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:12.252946+0800 - INFO - 奇瑞风云T8车型正式上市->其他类
+2025-02-23T13:58:12.441523+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:12.441523+0800 - INFO - 酷开AIOS已接入满血版DeepSeek-R1大模型->AI产品类
+2025-02-23T13:58:12.618443+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:12.618443+0800 - INFO - SpaceX计划于2月26日进行星舰第八次试飞->其他科技类
+2025-02-23T13:58:12.801483+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:12.801483+0800 - INFO - 全国首个垂直领域应急管理政务大模型在南京发布->AI技术类
+2025-02-23T13:58:12.884225+0800 - INFO - 已爬取到14条新闻
+2025-02-23T13:58:12.884225+0800 - INFO - 最新36kr快讯爬取结束...
+2025-02-23T13:58:12.884225+0800 - INFO - 开始爬取aibase...
+2025-02-23T13:58:12.884225+0800 - INFO - 开始爬取最新aibase快讯...
+2025-02-23T13:58:14.658064+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:14.658064+0800 - INFO - 仅次DeepSeek！腾讯元宝超越豆包位列苹果免费APP下载榜第二->AI产品类
+2025-02-23T13:58:14.798151+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:14.798151+0800 - INFO - 仅次DeepSeek！腾讯元宝超越豆包位列苹果免费APP下载榜第二->AI产品类
+2025-02-23T13:58:16.675664+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:16.675664+0800 - INFO - 出门问问发布小问移动数字人 完美适配各种场景->AI产品类
+2025-02-23T13:58:16.819369+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:16.820457+0800 - INFO - 出门问问发布小问移动数字人 完美适配各种场景->AI产品类
+2025-02-23T13:58:19.399377+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:19.400384+0800 - INFO - 抖音副总裁否认AI团队大变阵：都是不实信息->AI商业类
+2025-02-23T13:58:19.543585+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:19.544593+0800 - INFO - 抖音副总裁否认AI团队大变阵：都是不实信息->AI商业类
+2025-02-23T13:58:22.532674+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:22.533683+0800 - INFO - 苹果智能简体中文支持将于4月上线 随iOS 18.4发布->AI产品类
+2025-02-23T13:58:22.687007+0800 - INFO - HTTP Request: POST https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T13:58:22.689007+0800 - INFO - 苹果智能简体中文支持将于4月上线 随iOS 18.4发布->AI产品类
+2025-02-23T13:58:22.692518+0800 - INFO - OpenAI 在全球扩展人工智能代理服务Operator，提升用户体验已存在，跳过
+2025-02-23T13:58:22.694522+0800 - INFO - OpenAI宣布面向多个国家推出AI代理 Operator已存在，跳过
+2025-02-23T13:58:22.698524+0800 - INFO - 全部免费！百度文心智能体平台已全面接入DeepSeek模型已存在，跳过
+2025-02-23T13:58:22.700029+0800 - INFO - Sakana AI发布“AI CUDA工程师”：自动化优化CUDA内核，速度提升高达100倍已存在，跳过
+2025-02-23T13:58:22.702036+0800 - INFO - 阿里国际开源Ovis2系列多模态大语言模型 共有六个版本已存在，跳过
+2025-02-23T13:58:22.703042+0800 - INFO - 马斯克的xAI游戏工作室或将颠覆游戏行业：Grok 3助力快速游戏开发已存在，跳过
+2025-02-23T13:58:22.705042+0800 - INFO - Veo 2震撼登场！Freepik携手谷歌全球首发AI视频新体验已存在，跳过
+2025-02-23T13:58:22.706042+0800 - INFO - Google “核弹级”AI视频模型Veo 2在Freepik首发 前10000名用户可白嫖已存在，跳过
+2025-02-23T13:58:22.708042+0800 - INFO - Freepik 率先推出 Veo 2，开启 AI 视频生成新篇章已存在，跳过
+2025-02-23T13:58:22.709042+0800 - INFO - 华人学者引领AI创新，Grok 3在App Store一鸣惊人已存在，跳过
+2025-02-23T13:58:22.710043+0800 - INFO - 腾讯手游《和平精英》将接入DeepSeek  2月25日开启灰测已存在，跳过
+2025-02-23T13:58:22.710549+0800 - INFO - 微软备战OpenAI的GPT-5模型，预计即将发布GPT-4.5已存在，跳过
+2025-02-23T13:58:22.712577+0800 - INFO - 阿里云魔搭首发上线阶跃星辰最新开源的两款多模态模型已存在，跳过
+2025-02-23T13:58:22.713584+0800 - INFO - OpenAI Operator工具向多国Pro用户推出 欧洲地区推广仍在进行已存在，跳过
+2025-02-23T13:58:22.714583+0800 - INFO - 网信办发布2025年“清朗”系列专项行动 整治AI技术滥用乱象已存在，跳过
+2025-02-23T13:58:22.716583+0800 - INFO - iPhone15Pro 系列将获视觉智能功能，升级 iPhone16理由再减已存在，跳过
+2025-02-23T13:58:22.718584+0800 - INFO - ​小红书将接入DeepSeek，AI 搜索产品“点点” 内测深度思考功能已存在，跳过
+2025-02-23T13:58:22.718584+0800 - INFO - DDN 推出 Infinia 2.0对象存储，加速AI数据处理速度已存在，跳过
+2025-02-23T13:58:22.720090+0800 - INFO - 腾讯文档接入DeepSeek 上线PPT直出、周报神器、文献速读功能已存在，跳过
+2025-02-23T13:58:22.721097+0800 - INFO - DeepSeek App 上线一个月下载量突破 1 亿已存在，跳过
+2025-02-23T13:58:22.723105+0800 - INFO - 扣子Coze宣布独家支持 DeepSeek Function Calling 工具调用能力已存在，跳过
+2025-02-23T13:58:22.724104+0800 - INFO - 阿里巴巴股价飙升，背后原因竟与人工智能有关已存在，跳过
+2025-02-23T13:58:22.725103+0800 - INFO - 消息称字节AI 核心部门Seed大调整 ，吴永辉博士或成核心人物已存在，跳过
+2025-02-23T13:58:22.726104+0800 - INFO - 超给力！DeepSeek 宣布下周开源五个项目已存在，跳过
+2025-02-23T13:58:22.727105+0800 - INFO - Deepseek宣布将连续五天发布5个开源项目 推动社区创新已存在，跳过
+2025-02-23T13:58:22.728104+0800 - INFO - Spotify与ElevenLabs合作 推出AI朗读有声书选项已存在，跳过
+2025-02-23T13:58:22.773867+0800 - INFO - 已爬取到4条新闻
+2025-02-23T13:58:22.773867+0800 - INFO - 最新aibase快讯爬取结束...
+2025-02-23T13:58:22.774869+0800 - INFO - 爬取结束...

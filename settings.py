@@ -28,6 +28,10 @@ class Settings(BaseSettings):
     QWEN_API_KEY: str = "4e903a0c42c63f21f0e304c8104de72a"
     QWEN_API_URL: str = "https://ai-api-gateway-cn-north-1.jdcloud.com/api/predict/qwen2-32b/v1"
 
+    ALI_BAILIAN_MODEL: str = "qwen-plus"
+    ALI_BAILIAN_API_KEY: str = "sk-9a0b6b366dff47bf8d7f0a13d07401fa"
+    ALI_BAILIAN_API_URL: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
     GLM_MODEL: str = "glm-4-plus"
     GLM_API_KEY: str = "0b1d50483da246849c179ec9accb9adc.rkcd7DanD0miqTiA"
 

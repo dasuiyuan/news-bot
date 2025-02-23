@@ -4,7 +4,7 @@ from util.storage.sqlite_sqlalchemy import SQLiteDB
 from spider.po.news_po import BriefNews
 
 if __name__ == '__main__':
-    db = SQLiteDB(f"sqlite:///D:\\3-code\mini\\news-bot\data\\news_bot.db")
+    db = SQLiteDB(f"sqlite:///D:\\3-code\mini\\news-bot\\data\\news_bot.db")
     with db.get_session() as session:
         news = session.query(BriefNews).filter(
             BriefNews.type.in_(['AI技术类', 'AI产品类'])).limit(1).first()
