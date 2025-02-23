@@ -5094,3 +5094,50 @@ AI产品类
 2025-02-23T13:58:22.773867+0800 - INFO - 已爬取到4条新闻
 2025-02-23T13:58:22.773867+0800 - INFO - 最新aibase快讯爬取结束...
 2025-02-23T13:58:22.774869+0800 - INFO - 爬取结束...
+2025-02-23T15:46:44.666085+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:46:45.795241+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:46:46.872335+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:46:47.548899+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:46:49.209600+0800 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-23T15:46:49.209600+0800 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-23T15:46:49.209600+0800 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-23T15:46:49.904115+0800 - INFO - Driver downloading response is 200
+2025-02-23T15:46:52.604815+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:46:53.361601+0800 - INFO - Driver has been saved in cache [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126]
+2025-02-23T15:47:14.312041+0800 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T15:47:14.323830+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:47:15.522963+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:47:16.208828+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:47:16.901192+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:47:37.990029+0800 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T15:47:37.994283+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:47:39.118234+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:47:39.790740+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:47:40.509173+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:47:59.709934+0800 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T15:47:59.709934+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:48:01.263735+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:48:01.968531+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:48:02.652238+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:48:24.184730+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 200 OK"
+2025-02-23T15:48:33.601747+0800 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T15:48:33.604859+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:48:34.729652+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:48:35.408164+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:48:36.068525+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:48:50.655929+0800 - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/images/generations "HTTP/1.1 400 Bad Request"
+2025-02-23T15:48:50.658000+0800 - ERROR - Error code: 400, with error text {"contentFilter":[{"level":2,"role":"user"}],"error":{"code":"1301","message":"系统检测到输入或生成内容可能包含不安全或敏感内容，请您避免输入易产生敏感内容的提示语，感谢您的配合。"}} 生成新闻内容图片失败，新闻ID：530 新闻标题：联汇科技将DeepSeek R1从文本模型迁移到视觉语言领域， 从替补中选择一篇
+2025-02-23T15:48:58.951406+0800 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-23T15:48:58.953447+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:49:00.074382+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:01.039379+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:01.719301+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:49:11.416060+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:49:12.568065+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:17.363508+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:18.056268+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-23T15:49:26.442798+0800 - INFO - 封面：D:\3-code\mini\news-bot\data\image\2025-02-23\00_brief_cover.png 标题：D:\3-code\mini\news-bot\data\image\2025-02-23\01_brief_title.png 内容：['D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-23\\1_brief_content_542.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-23\\2_brief_content_545.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-23\\3_brief_content_543.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-23\\4_brief_content_528.png', 'D:\\3-code\\mini\\news-bot\\data\\image\\2025-02-23\\5_brief_content_544.png']
+2025-02-23T15:49:26.443303+0800 - INFO - ====== WebDriver manager ======
+2025-02-23T15:49:27.543300+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:32.328171+0800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-23T15:49:32.996450+0800 - INFO - Driver [C:\Users\adolf\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache

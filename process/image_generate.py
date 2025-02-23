@@ -9,7 +9,7 @@ from datetime import datetime
 from util import init_env
 
 init_env()
-from util.llm_util import chat_deepseek, chat_glm, img_gen
+from util.llm_util import chat_deepseek, img_gen, chat_ali_bailian
 from process import prompt
 from spider.po.news_po import BriefNews
 from selenium import webdriver
@@ -114,7 +114,7 @@ def generate_news_content(brief_news: BriefNews, img_path, idx):
                     save_path=news_img_file)
         html_content = html_content.replace("$news_img$", news_img_file)
         # llm总结50个字
-        response = chat_glm().complete(
+        response = chat_ali_bailian().complete(
             prompt.PROMPT_NEWS_SUMMARIZE.format(length=50, title=brief_news.title, content=brief_news.content))
         summary = response.text
         li_list = summary.strip("\n").split("\n")
