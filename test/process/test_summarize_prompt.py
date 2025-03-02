@@ -13,8 +13,10 @@ NEWS = {"中国考虑限制部分汽车电池技术出口": """1 月 2 日中国
 if __name__ == '__main__':
     db = SQLiteDB(f"sqlite:///D:\\3-code\mini\\news-bot\data\\news_bot.db")
     with db.get_session() as session:
-        news = session.query(BriefNews).filter(BriefNews.type == 'AI技术类').limit(1).first()
-
-    response = chat_ali_bailian().complete(
-        prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=news.title, content=news.content))
-    print(response)
+        news_list = session.query(BriefNews).filter(BriefNews.type == 'AI技术类').limit(3).all()
+    for news in news_list:
+        print(news.content)
+        response = chat_ali_bailian().complete(
+            prompt.PROMPT_NEWS_SUMMARIZE.format(length=30, title=news.title, content=news.content))
+        print(response)
+        print("==================")

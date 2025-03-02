@@ -5,12 +5,15 @@ PROMPT_NEWS_SUMMARIZE = """
 # 输出要求
 1、保持原文意思，并提取出重要信息，不要自己扩展和创造
 2、以小红书的风格输出，内容里包含少量的emoji 表情
-3、提炼出新闻的核心内容，一条一条的列出来，并且根据内容增加html标签。
-4、如果新闻总结后在100字以内，增加<br>进行换行，如果超过100字，不需要换行。整体字数不要超过150字
-注意：只输出总结内容，不需要说明和解释
+3、提炼出新闻的核心内容，一条一条的列出来，并且根据内容增加<li>、<br>标签
+4、提炼3-5条，每条内容38字以内
+
+#注意：只输出总结内容，不需要输出其他内容
 
 title={title}
 content={content}
+
+summary：
 """
 
 PROMPT_NEWS_IMAGE_GENERATE = """
@@ -31,13 +34,18 @@ PROMPT_WEEKLY_INTEGRATE = """
 2、热门公司：根据本周的科技新闻评选出1个最热门的公司，并在后面附上这个公司本周被选中的理由
 3、热门技术：根据本周的科技新闻评选出1个最热门的技术或产品，并在后面附上这个技术或产品被选中的理由
 4、预测：根据本周的科技新闻，预测下周的科技新闻动态，提供不超过3条的预测内容
-5、内容里包含少量的emoji 表情，不要过多
+5、reason和prediction中包含少量的emoji 表情
 
 # 输出格式
-1、以json格式输出，key是keywords、hot-company、hot-tech、prediction，value是对应的内容
-2、直接输出结果，不需要解释
+1、以json格式输出，key是hot-words、hot-company、hot-tech、prediction，value是对应的内容
+2、hot-words是一个数组，每个元素是一个json对象，包含hot-word和reason两个key
+3、hot-company和hot-tech是json对象，包含company或tech和reason两个key
+4、prediction是一个数组，每个元素是一个字符串
+5、文中不出现新闻引用，不要出现“如新闻1”
+6、直接输出结果，不需要解释
 
 # 本周新闻
 {news}
 
+JSON:
 """

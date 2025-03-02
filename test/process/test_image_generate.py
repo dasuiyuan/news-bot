@@ -25,5 +25,6 @@ if __name__ == '__main__':
     img_path = os.path.join(os.environ.get("NEWS_BOT_ROOT"), "data", "image",
                             datetime.now().strftime("%Y-%m-%d"))
     # image_generate.generate_cover(img_path)
-    test_generate_news_title(img_path)
+    image_generate.generate_cover_weekly(img_path)
+    # test_generate_news_title(img_path)
     # test_generate_news_content(img_path)

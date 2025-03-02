@@ -110,7 +110,6 @@ class ChatGLM(CustomLLM):
             raw=response, additional_kwargs=get_additional_kwargs(response),
         )
         print(f"chat: {rsp} ")
-
         return rsp
 
     @llm_chat_callback()

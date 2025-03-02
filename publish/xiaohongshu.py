@@ -163,7 +163,7 @@ def publish_pictures(driver, news_package: NewsPublishPackage):
     # 填写正文
     content = ""
     for item in news_package.items:
-        content += f"{item.title}<br><br>{item.content}<br><br>"
+        content += f"{item.title}<br>{item.content}<br>"
     content_tag = driver.find_element(
         "xpath", '//*[@data-placeholder="输入正文描述，真诚有价值的分享予人温暖"]')
 
