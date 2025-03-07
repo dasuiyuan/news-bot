@@ -164,6 +164,9 @@ def publish_pictures(driver, news_package: NewsPublishPackage):
     content = ""
     for item in news_package.items:
         content += f"{item.title}<br>{item.content}<br>"
+        if len(content) > 1000:
+            content = content[:999]
+            break
     content_tag = driver.find_element(
         "xpath", '//*[@data-placeholder="输入正文描述，真诚有价值的分享予人温暖"]')
 

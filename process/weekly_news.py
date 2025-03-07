@@ -80,7 +80,7 @@ def generate_weekly_news():
     # 4、发布
     pub_files = [cover_file, keywords_file, hot_file, pre_file]
     logger.info(f"封面：{cover_file} 关键词：{keywords_file} 热门：{hot_file} 预测：{pre_file}")
-    title = f"AI科技每日新鲜事！{datetime.now().strftime('%Y.%m.%d')}"
+    title = "AI科技本周回顾！"
     news_package = NewsPublishPackage(title=title, items=news_items, files=pub_files)
     publish_news(news_package)
 

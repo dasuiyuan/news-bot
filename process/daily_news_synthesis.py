@@ -13,7 +13,7 @@ from process import prompt
 from publish.xiaohongshu import NewsPublishPackage, NewsItem, publish_news
 
 jobstores = {
-    'default': SQLAlchemyJobStore(engine=globle_db.get_engine(), tablename='apscheduler_jobs')
+    'default': SQLAlchemyJobStore(engine=globle_db.get_engine(), tablename='apscheduler_jobs_daily')
 }
 
 
@@ -87,10 +87,11 @@ def news_summarize(brief_news: BriefNews):
 
 
 if __name__ == '__main__':
-    # # 定时每天9:10执行brief_news_synthesis
-    # scheduler = BlockingScheduler()
-    # scheduler.add_jobstore(jobstores['default'])
-    # scheduler.add_job(brief_news_synthesis, CronTrigger(hour=9, minute=10), id='brief_news_synthesis',
-    #                   replace_existing=True)
+    # 定时每天7:30执行brief_news_synthesis
+    scheduler = BlockingScheduler()
+    scheduler.add_jobstore(jobstores['default'])
+    scheduler.add_job(brief_news_synthesis, CronTrigger(hour=7, minute=30), id='brief_news_synthesis',
+                      replace_existing=True)
+    scheduler.start()
 
-    brief_news_synthesis()
+    # brief_news_synthesis()
