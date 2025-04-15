@@ -40,7 +40,7 @@ def weekly_integrate():
     for idx, news in enumerate(weekly_news):
         news_str += f"新闻{idx + 1}：{news.title}\n{news.content}\n"
 
-    response = chat_ali_bailian().complete(
+    response = chat_qwen().complete(
         prompt.PROMPT_WEEKLY_INTEGRATE.format(news=news_str))
 
     return response.text

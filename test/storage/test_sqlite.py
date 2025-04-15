@@ -9,6 +9,6 @@ from datetime import datetime
 from spider.po.news_po import BriefNews
 
 if __name__ == '__main__':
-    ts = int(datetime.strptime('2025-01-5 01:00', "%Y-%m-%d %H:%M").timestamp())
+    ts = int(datetime.strptime('2025-04-14 01:00', "%Y-%m-%d %H:%M").timestamp())
     result = globle_db.get_after_time(BriefNews, timestamp=ts)
     print(result)

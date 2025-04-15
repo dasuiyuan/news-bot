@@ -1,5 +1,5 @@
 from util.log_util import logger
-from util.llm_util import chat_qwen, chat_glm
+from util.llm_util import chat_qwen
 
 PROMPT_NEWS_CLASSIFY = """
 你是一个新闻分类器，请根据新闻标题和内容，判断该新闻属于以下哪类：

@@ -2,7 +2,7 @@ import os
 import random
 import image_generate
 from datetime import datetime, timedelta
-from util.llm_util import chat_deepseek
+from util.llm_util import chat_qwen
 from spider.po.news_po import BriefNews
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
@@ -81,17 +81,17 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
 
 
 def news_summarize(brief_news: BriefNews):
-    response = chat_deepseek().complete(
+    response = chat_qwen().complete(
         prompt.PROMPT_NEWS_SUMMARIZE.format(length=39, title=brief_news.title, content=brief_news.content))
     return response.text
 
 
 if __name__ == '__main__':
-    # 定时每天7:30执行brief_news_synthesis
-    scheduler = BlockingScheduler()
-    scheduler.add_jobstore(jobstores['default'])
-    scheduler.add_job(brief_news_synthesis, CronTrigger(hour=7, minute=30), id='brief_news_synthesis',
-                      replace_existing=True)
-    scheduler.start()
+    # # 定时每天7:30执行brief_news_synthesis
+    # scheduler = BlockingScheduler()
+    # scheduler.add_jobstore(jobstores['default'])
+    # scheduler.add_job(brief_news_synthesis, CronTrigger(hour=7, minute=30), id='brief_news_synthesis',
+    #                   replace_existing=True)
+    # scheduler.start()
 
-    # brief_news_synthesis()
+    brief_news_synthesis()
