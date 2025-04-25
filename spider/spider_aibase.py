@@ -68,13 +68,13 @@ def get_latest_news() -> list[BriefNews]:
             sim_title_elem = single_news_root.find('div', class_='flex items-center flex-wrap text-sm text-surface-500')
             sim_title_spans = sim_title_elem.find_all('span')
             time = sim_title_spans[-1].text
-            timestamp = int(datetime.strptime(time, "%Y年%m月%d号 %H:%M").timestamp())
+            timestamp = int(datetime.strptime(time, '%b %d, %Y').timestamp())
             # 获取新闻热度
-            pop_elem = single_news_root.find('div', attrs={"aria-label": "views"})
+            pop_elem = single_news_root.find('div', attrs={"aria-label": "Views"})
             pop = int(pop_elem.find('span').text)
             # 获取新闻内容
             content_elem = single_news_root.find('div',
-                                                 class_='leading-8 text-[#242424] post-content mt-12 text-lg space-y-7')
+                                                 class_='leading-8 text-[#242424] post-content md:mt-12 mt-8 text-lg space-y-7 text-wrap break-words overflow-hidden')
             p_list = content_elem.find_all('p')
             content = ''
             img_blob = None
@@ -94,7 +94,7 @@ def get_latest_news() -> list[BriefNews]:
                 continue
 
             brief_news = BriefNews(title=title, content=content, time=timestamp, popularity=pop,
-                                   type=classify(title, content), image=img_blob,
+                                   type=news_type, image=img_blob,
                                    web_site=WEB_SITE, url=url, create_time=int(datetime.now().timestamp()))
 
             all_news.append(brief_news)

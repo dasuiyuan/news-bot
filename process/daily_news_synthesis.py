@@ -2,7 +2,7 @@ import os
 import random
 import image_generate
 from datetime import datetime, timedelta
-from util.llm_util import chat_deepseek
+from util.llm_util import chat_qwen
 from spider.po.news_po import BriefNews
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
@@ -21,7 +21,7 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     # 1、提取最新新闻
     # 从t_brief_news中获取所有create_time大于昨天9:10分的brief_news
     yesterday_9_10 = datetime.now() - timedelta(days=1)
-    yesterday_9_10 = yesterday_9_10.replace(hour=9, minute=10, second=0, microsecond=0)
+    yesterday_9_10 = yesterday_9_10.replace(hour=9, minute=35, second=0, microsecond=0)
     type_filter = type_filter if type_filter else ['AI技术类', 'AI产品类', 'AI商业类']
     brief_news_list: list[BriefNews] = globle_db.get_after_time(BriefNews, int(yesterday_9_10.timestamp()), type_filter)
 
@@ -81,7 +81,7 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
 
 
 def news_summarize(brief_news: BriefNews):
-    response = chat_deepseek().complete(
+    response = chat_qwen().complete(
         prompt.PROMPT_NEWS_SUMMARIZE.format(length=39, title=brief_news.title, content=brief_news.content))
     return response.text
 
