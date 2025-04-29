@@ -1,5 +1,6 @@
 *.xml
 *.iml
+*.db
 tmp
 image
 logs
