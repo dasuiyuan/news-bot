@@ -91,6 +91,8 @@ class SQLiteDB:
         with self.get_session() as session:
             return session.query(model).all()
 
+
+
     def update(self, model: Type[Base], obj_id: int, updates: Dict[str, Any]) -> Optional[Base]:
         """
         更新一条记录

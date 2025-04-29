@@ -49,6 +49,7 @@ def get_news_flashes() -> list[BriefNews]:
             href = title_elem['href']
             title = title_elem.text.strip()
             if _has_same_news(title):
+                logger.info(f"{title}已存在，跳过")
                 continue
             news_url = ROOT_URL + href
             content = item.find('div', class_='item-desc').find('span').text.strip()

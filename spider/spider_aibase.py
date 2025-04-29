@@ -14,7 +14,7 @@ from spider.constant import NEWS_TYPE_SKIPPED
 # URL to scrape
 ROOT_URL = "https://www.aibase.com/zh/news"
 
-SINGLE_ROOT_URL = "https://www.aibase.com"
+SINGLE_ROOT_URL = "https://www.aibase.com/zh"
 
 WEB_SITE = "aibase"
 
@@ -71,7 +71,12 @@ def get_latest_news() -> list[BriefNews]:
             timestamp = int(datetime.strptime(time, '%b %d, %Y').timestamp())
             # 获取新闻热度
             pop_elem = single_news_root.find('div', attrs={"aria-label": "Views"})
-            pop = int(pop_elem.find('span').text)
+            if pop_elem is None:
+                pop_elem = single_news_root.find('div', attrs={"aria-label": "阅读"})
+            if pop_elem.find('span').text == '17.6k':
+                pop = 100
+            else:
+                pop = int(pop_elem.find('span').text)
             # 获取新闻内容
             content_elem = single_news_root.find('div',
                                                  class_='leading-8 text-[#242424] post-content md:mt-12 mt-8 text-lg space-y-7 text-wrap break-words overflow-hidden')
@@ -103,6 +108,7 @@ def get_latest_news() -> list[BriefNews]:
         logger.info(f"已爬取到{len(all_news)}条新闻")
     except Exception as e:
         logger.warning(f"访问{WEB_SITE}失败: {e}")
+        logger.exception(e)
     return all_news
 
 
