@@ -1,4 +1,7 @@
-from util.llm_util import chat_deepseek, chat_qwen, chat_glm, chat_ali_bailian
+from util import init_env
+
+init_env()
+from util.llm_util import chat_deepseek, chat_qwen, chat_glm
 from process import prompt
 from util.storage.sqlite_sqlalchemy import globle_db, SQLiteDB
 from spider.po.news_po import BriefNews
@@ -15,13 +18,14 @@ def weekly_integrate():
     yesterday_9_10 = datetime.now() - timedelta(days=6)
     yesterday_9_10 = yesterday_9_10.replace(hour=9, minute=10, second=0, microsecond=0)
     type_filter = ['AI技术类', 'AI产品类', 'AI商业类', '其他科技类']
+
     # 从aibase中安popular倒序取出10篇，再从其他来源中分别取出10篇
     with db.get_session() as session:
         aibase_news_list: list[BriefNews] = session.query(BriefNews).filter(BriefNews.web_site == 'aibase',
                                                                             BriefNews.create_time >= int(
                                                                                 yesterday_9_10.timestamp()),
                                                                             BriefNews.type.in_(type_filter)).order_by(
-            BriefNews.popularity.desc()).limit(10).all()
+            BriefNews.popularity.desc()).limit(20).all()
 
         latepost_news_list: list[BriefNews] = session.query(BriefNews).filter(BriefNews.web_site == 'latepost',
                                                                               BriefNews.create_time >= int(
@@ -40,7 +44,7 @@ def weekly_integrate():
     for idx, news in enumerate(weekly_news):
         news_str += f"新闻{idx + 1}：{news.title}\n{news.content}\n"
 
-    response = chat_ali_bailian().complete(
+    response = chat_qwen().complete(
         prompt.PROMPT_WEEKLY_INTEGRATE.format(news=news_str))
 
     return response.text
@@ -57,6 +61,7 @@ def generate_weekly_news():
 
     # 本周关键词
     keywords_file, keywords_text = image_generate.generate_keywords_weekly(weekly_news["hot-words"], img_path)
+
     # 本周最热
     # 根据公司名称获取新闻
     with globle_db.get_session() as session:

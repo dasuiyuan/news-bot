@@ -1,6 +1,7 @@
 import os
 import random
 import image_generate
+from process.po.history_po import HistoryNews
 from datetime import datetime, timedelta
 from util.llm_util import chat_qwen
 from spider.po.news_po import BriefNews
@@ -21,7 +22,7 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
     # 1、提取最新新闻
     # 从t_brief_news中获取所有create_time大于昨天9:10分的brief_news
     yesterday_9_10 = datetime.now() - timedelta(days=1)
-    yesterday_9_10 = yesterday_9_10.replace(hour=10, minute=30, second=0, microsecond=0)
+    yesterday_9_10 = yesterday_9_10.replace(hour=11, minute=00, second=0, microsecond=0)
     type_filter = type_filter if type_filter else ['AI技术类', 'AI产品类', 'AI商业类']
     brief_news_list: list[BriefNews] = globle_db.get_after_time(BriefNews, int(yesterday_9_10.timestamp()), type_filter)
 
@@ -69,6 +70,10 @@ def brief_news_synthesis(count: int = 5, type_filter: list = None):
                              "<br>", "\n")))
             continue
 
+    # 加入历史
+    for n in final_list:
+        add_history(n)
+
     # 生成新闻标题
     img_title_file = image_generate.generate_news_title(final_list, img_folder)
 
@@ -84,6 +89,18 @@ def news_summarize(brief_news: BriefNews):
     response = chat_qwen().complete(
         prompt.PROMPT_NEWS_SUMMARIZE.format(length=39, title=brief_news.title, content=brief_news.content))
     return response.text
+
+
+def add_history(brief_news: BriefNews):
+    his_news: HistoryNews = HistoryNews(title=brief_news.title, type='daily', pub_time='', content='')
+    globle_db.add(his_news)
+
+
+def is_published(brief_news: BriefNews):
+    with globle_db.get_session() as session:
+        his_news: HistoryNews = session.query(HistoryNews).filter(HistoryNews.type == 'daily',
+                                                                  BriefNews.title == brief_news.title).limit(1).first()
+        return his_news is not None
 
 
 if __name__ == '__main__':

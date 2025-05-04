@@ -73,8 +73,8 @@ def get_latest_news() -> list[BriefNews]:
             pop_elem = single_news_root.find('div', attrs={"aria-label": "Views"})
             if pop_elem is None:
                 pop_elem = single_news_root.find('div', attrs={"aria-label": "阅读"})
-            if pop_elem.find('span').text == '17.6k':
-                pop = 100
+            if 'k' in pop_elem.find('span').text:
+                pop = float(pop_elem.find('span').text.replace('k', '')) * 1000
             else:
                 pop = int(pop_elem.find('span').text)
             # 获取新闻内容
